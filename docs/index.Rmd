@@ -29,6 +29,7 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 Una desigualdad es una inecuación, es decir, es una ecuación que se resuelve de igual manera que una ecuación de primer y con valor absoluto, con la diferencia de que en lugar de considerar el signo de igualdas se utilizan cualesquiera de los siguientes s\'imbolos: $>,<,\geq,\leq$. Más adelante se abordarán las desigualdades de segundo orden.
 
 Se tienen los siguientes tipos de desigualdades tanto de primer orden como de valor absoluto:
+
 1. Desigualdades de primer grado
 
 
