@@ -768,6 +768,118 @@ $\blacksquare$
 
 15. $|\frac{1}{4}x+\frac{1}{2}|\geq 1$
 
+### Ejercicios adicionales
+
+1. Resuelve los ejercicios siguientes, encuentra el intervalo solución y proporciona su gráfica
+
+    i. $|-\frac{1}{3}x+\frac{2}{5}| \leq \frac{4}{5}$
+    ii. $|-\frac{2}{7}x-\frac{3}{4}| \leq \frac{2}{3}$
+    iii. $|\frac{5}{8}x-\frac{1}{6}| \leq \frac{7}{8}$
+    iv. $|\frac{3}{10}x+\frac{2}{9}| \leq \frac{1}{2}$
+    v. $|-\frac{4}{11}x+\frac{5}{7}| \leq \frac{3}{4}$
+    vi. $|-\frac{2}{5}x-\frac{1}{3}| \leq \frac{2}{5}$
+    vii. $|\frac{1}{6}x+\frac{7}{9}| \leq \frac{1}{3}$
+    viii. $|\frac{7}{9}x-\frac{4}{11}| \leq \frac{5}{6}$
+    ix. $|-\frac{5}{8}x+\frac{3}{10}| \leq \frac{2}{7}$
+    x. $|-\frac{1}{4}x-\frac{1}{8}| \leq \frac{3}{4}$
+    xi. $|\frac{3}{7}x+\frac{5}{6}| \leq \frac{1}{5}$
+    xii. $|-\frac{4}{9}x+\frac{2}{11}| \leq \frac{4}{9}$
+    xiii. $|-\frac{2}{5}x-\frac{7}{8}| \leq \frac{2}{3}$
+    xiv. $|\frac{5}{11}x+\frac{1}{7}| \leq \frac{5}{11}$
+    xv. $|\frac{3}{8}x-\frac{2}{9}| \leq \frac{3}{4}$
+
+2. Realiza lo mismo para los siguientes ejercicios
+
+    i. $|-\frac{2}{5}x+\frac{3}{4}| \leq \frac{1}{2}$
+    ii. $|\frac{3}{7}x+\frac{1}{8}| \leq \frac{2}{7}$
+    iii. $|-{\frac{5}{6}x-\frac{4}{9}}| \leq \frac{5}{6}$
+    iv. $|-\frac{4}{9}x+\frac{2}{11}| \leq \frac{3}{4}$
+    v. $|-\frac{1}{3}x-\frac{2}{7}| \leq \frac{3}{5}$
+    vi. $|\frac{3}{8}x-\frac{1}{6}| \leq \frac{2}{5}$
+    vii. $|-{\frac{2}{7}x+\frac{5}{8}}| \leq \frac{3}{7}$
+    viii. $|\frac{5}{11}x+\frac{1}{3}| \leq \frac{4}{11}$
+    ix. $|-\frac{4}{5}x-\frac{3}{10}| \leq \frac{1}{4}$
+    x. $|-\frac{1}{4}x+\frac{7}{9}| \leq \frac{5}{8}$
+    xi. $|-{\frac{2}{9}x-\frac{1}{5}}| \leq \frac{2}{9}$
+    xii. $|-\frac{3}{10}x+\frac{2}{7}| \leq \frac{4}{9}$
+    xiii. $|\frac{5}{8}x-\frac{1}{3}| \leq \frac{3}{8}$
+    xiv. $|\frac{4}{11}x+\frac{5}{6}| \leq \frac{2}{5}$
+    xv. $|-\frac{2}{5}x-\frac{3}{8}| \leq \frac{5}{6}$
+    xvi. $|\frac{1}{6}x-\frac{2}{9}| \leq \frac{1}{4}$
+    xvii. $|-{\frac{5}{9}x+\frac{4}{11}}| \leq \frac{2}{3}$
+    xviii. $|-\frac{3}{8}x+\frac{1}{5}| \leq \frac{3}{8}$
+    xix. $|-\frac{4}{7}x-\frac{3}{10}| \leq \frac{1}{7}$
+    xx. $|-\frac{2}{11}x+\frac{5}{8}| \leq \frac{3}{10}$
+  
+
+3. Finalmente realiza lo mismo para la siguiente lista:
+
+    i. $|{-\frac{4}{9}x+\frac{5}{8}}| \geq \frac{1}{3}$
+    ii. $|{-\frac{1}{6}x-\frac{2}{7}}| > \frac{2}{5}$
+    iii. $|{\frac{7}{11}x+\frac{1}{8}}| \leq \frac{3}{7}$
+    iv. $|{-\frac{3}{8}x+\frac{4}{9}}| < \frac{5}{8}$
+    v. $|{-\frac{5}{6}x+\frac{3}{10}}| \geq \frac{2}{3}$
+    vi. $|{-\frac{2}{7}x-\frac{1}{4}}| \leq \frac{5}{6}$
+    vii. $|{-\frac{1}{3}x+\frac{5}{9}}| > \frac{2}{7}$
+    viii. $|{\frac{4}{11}x-\frac{3}{8}}| \leq \frac{1}{5}$
+    ix. $|{-\frac{2}{9}x+\frac{1}{7}}| \geq \frac{3}{4}$
+    x. $|{-\frac{5}{8}x+\frac{2}{11}}| < \frac{4}{9}$
+    xi. $|{\frac{1}{4}x+\frac{7}{9}}| \leq \frac{2}{7}$
+    xii. $|{-\frac{3}{10}x-\frac{5}{6}}| > \frac{1}{3}$
+    xiii. $|{-\frac{4}{5}x+\frac{1}{6}}| \geq \frac{2}{5}$
+    xiv. $|{-\frac{3}{7}x+\frac{4}{9}}| < \frac{3}{7}$
+    xv. $|{\frac{5}{11}x-\frac{2}{8}}| \leq \frac{4}{11}$
+    xvi. $|{-\frac{2}{11}x-\frac{3}{8}}| > \frac{1}{6}$
+    xvii. $|{-\frac{5}{9}x+\frac{2}{7}}| \geq \frac{3}{4}$
+    xviii. $|{-\frac{3}{8}x-\frac{1}{6}}| < \frac{5}{11}$
+    xix. $|{\frac{4}{7}x+\frac{1}{5}}| \leq \frac{3}{10}$
+    xx. $|{-\frac{1}{5}x+\frac{6}{11}}| > \frac{2}{9}$
+
+4. Un poco más de ejercicios finales
+
+    i. $|\frac{3x+2}{5}| \geq \frac{1}{4}$
+    ii. $|-\frac{6x-1}{2}| \leq \frac{3}{5}$
+    iii. $|\frac{-2x+9}{7}| > \frac{4}{9}$
+    iv. $|-\frac{-5x-3}{4}| \geq \frac{2}{7}$
+    v. $|\frac{4x+7}{3}| < \frac{5}{6}$
+    vi. $|-\frac{9x-2}{8}| \leq \frac{7}{10}$
+    vii. $|\frac{-8x+3}{6}| > \frac{1}{5}$
+    viii. $|\frac{-7x-5}{9}| \geq \frac{2}{11}$
+    ix. $|-\frac{12x+4}{11}| < \frac{3}{8}$
+    x. $|\frac{11x-6}{10}| \leq \frac{5}{9}$
+    xi. $|\frac{-15x+2}{13}| > \frac{4}{11}$
+    xii. $|-\frac{-14x-7}{8}| \geq \frac{3}{7}$
+    xiii. $|\frac{17x+1}{9}| < \frac{2}{5}$
+    xiv. $|-\frac{18x-9}{5}| \leq \frac{7}{12}$
+    xv. $|\frac{-21x+5}{4}| > \frac{1}{3}$
+    xvi. $|-\frac{-23x-2}{7}| \geq \frac{4}{9}$
+    xvii. $|\frac{25x+8}{6}| < \frac{2}{7}$
+    xviii. $|-\frac{27x-3}{10}| \leq \frac{5}{11}$
+    xix. $|\frac{-29x+6}{11}| > \frac{3}{8}$
+    xx. $|-\frac{-31x-4}{9}| \geq \frac{1}{5}$
+
+5. Ejercicios finales
+
+    i. $|\frac{2x+3}{4}-\frac{5}{6}| \geq \frac{7}{8}$
+    ii. $|-\frac{3x-1}{2}+\frac{4}{5}| \leq \frac{6}{7}$
+    iii. $|\frac{-7x+11}{9}-\frac{13}{14}| > \frac{15}{16}$
+    iv. $|\frac{-4x-9}{5}+\frac{2}{3}| \geq \frac{8}{9}$
+    v. $|-\frac{5x+7}{8}-\frac{10}{11}| < \frac{12}{13}$
+    vi. $|\frac{6x-5}{4}+\frac{8}{7}| \leq \frac{9}{10}$
+    vii. $|\frac{-9x+2}{11}-\frac{13}{15}| > \frac{17}{18}$
+    viii. $|-\frac{-2x-1}{10}+\frac{14}{13}| \geq \frac{16}{17}$
+    ix. $|-\frac{8x+3}{6}-\frac{7}{9}| < \frac{5}{8}$
+    x. $|\frac{11x-4}{7}+\frac{9}{12}| \leq \frac{13}{14}$
+    xi. $|-\frac{-14x+5}{15}-\frac{17}{18}| > \frac{19}{20}$
+    xii. $|\frac{-10x-7}{13}+\frac{12}{11}| \geq \frac{16}{15}$
+    xiii. $|\frac{13x+9}{8}-\frac{14}{15}| < \frac{7}{9}$
+    xiv. $|-\frac{15x-2}{11}+\frac{10}{9}| \leq \frac{4}{5}$
+    xv. $|\frac{-17x+6}{5}-\frac{8}{7}| > \frac{3}{4}$
+    xvi. $|-\frac{-19x-8}{4}+\frac{12}{11}| \geq \frac{5}{6}$
+    xvii. $|\frac{21x+4}{3}-\frac{10}{9}| < \frac{13}{14}$
+    xviii. $|-\frac{23x-5}{2}+\frac{14}{15}| \leq \frac{16}{17}$
+    xix. $|\frac{-16x+7}{9}-\frac{11}{10}| > \frac{8}{9}$
+    xx. $|-\frac{-18x-3}{7}+\frac{9}{6}| \geq \frac{14}{13}$
 
 
 
