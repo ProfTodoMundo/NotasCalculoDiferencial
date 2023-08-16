@@ -8,7 +8,10 @@ output:
     toc_float: true
     toc_depth: 3
     code_folding: show
+    css: estilos.css
 ---
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -24,7 +27,6 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 
 # Enlace para descargar el archivo PDF
 Puedes descargar el archivo PDF de los apuntes [aquí](https://github.com/ProfTodoMundo/NotasCalculoDiferencial/blob/PrincipalCD/docs/ApuntesCalculo.pdf).
-
 
 # Desigualdades
 
