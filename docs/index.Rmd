@@ -11,10 +11,6 @@ output:
     toc_float: true
     toc_depth: 3
     code_folding: show
-header-includes:
-  - \usepackage[spanish]{babel}
-  - \renewcommand{\chaptername}{Capítulo}
-
 ---
 
 ```{r setup, include=FALSE}
