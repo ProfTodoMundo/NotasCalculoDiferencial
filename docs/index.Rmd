@@ -29,31 +29,26 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 Una desigualdad es una inecuación, es decir, es una ecuación que se resuelve de igual manera que una ecuación de primer y con valor absoluto, con la diferencia de que en lugar de considerar el signo de igualdas se utilizan cualesquiera de los siguientes s\'imbolos: $>,<,\geq,\leq$. Más adelante se abordarán las desigualdades de segundo orden.
 
 Se tienen los siguientes tipos de desigualdades tanto de primer orden como de valor absoluto:
-\begin{itemize}
-\item Desigualdades de primer grado
-
-\begin{itemize}
-\item $ax+b>c$
-\item $ax+b\geq c$
-\item $ax+b<c$
-\item $ax+b\leq c$
-\item $c<ax+b< d$
-\item $c<ax+b\leq d$
-\item $c\leq ax+b< d$
-\item $c\leq ax+b\leq d$
-\end{itemize}
+1. Desigualdades de primer grado
 
 
-\item Desigualdades de segundo grado
+a. $ax+b>c$
+b. $ax+b\geq c$
+c. $ax+b<c$
+d. $ax+b\leq c$
+e. $c<ax+b< d$
+f. $c<ax+b\leq d$
+g. $c\leq ax+b< d$
+h. $c\leq ax+b\leq d$
 
-\begin{itemize}
-\item $|ax+b|>c$
-\item $|ax+b|\geq c$
-\item $|ax+b|<c$
-\item $|ax+b|\leq c$
-\end{itemize}
+2. Desigualdades de valor absoluto
 
-\end{itemize}
+
+a. $|ax+b|>c$
+b. $|ax+b|\geq c$
+c. $|ax+b|<c$
+d. $|ax+b|\leq c$
+
 
 Para resolver las desigualdades de primer orden se procede de la siguiente manera:
 
