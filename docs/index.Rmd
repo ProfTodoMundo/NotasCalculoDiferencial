@@ -22,6 +22,10 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 ## Información personal y redes sociales
 - [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
 
+# Enlace para descargar el archivo PDF
+Puedes descargar el archivo PDF de los apuntes [aquí](https://github.com/ProfTodoMundo/NotasCalculoDiferencial/blob/PrincipalCD/docs/ApuntesCalculo.pdf).
+
+
 # Desigualdades
 
 \subsection{Elementos b\'asicos}
