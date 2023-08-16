@@ -1,6 +1,9 @@
 ---
 title: "Apuntes para el curso de Cálculo Diferencial"
-author: "Carlos Ernesto Martinez"
+author:
+  - name: "Carlos E. Martinez-Rodríguez"
+    affiliation: "Universidad Autónoma de la Ciudad de México (UACM)"
+    email: "carlos.martinez@uacm.edu.mx"
 date: "2023-08-12"
 output:
   html_document:
@@ -17,6 +20,15 @@ header-includes:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+
+# Presentación
+
+En esta página encontrarás ejercicios adicionales a los vistos en clase
+
+## Información personal y redes sociales
+- [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
+
 
 
 # Desigualdades
