@@ -1,0 +1,919 @@
+---
+title: "Apuntes para el curso de Cálculo Diferencial"
+author: "Carlos Ernesto Martinez"
+date: "2023-08-12"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    code_folding: show
+header-includes:
+  - \usepackage[spanish]{babel}
+  - \renewcommand{\chaptername}{Capítulo}
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Desigualdades
+
+\subsection{Elementos b\'asicos}
+
+Una desigualdad es una inecuación, es decir, es una ecuación que se resuelve de igual manera que una ecuación de primer y con valor absoluto, con la diferencia de que en lugar de considerar el signo de igualdas se utilizan cualesquiera de los siguientes s\'imbolos: $>,<,\geq,\leq$. Más adelante se abordarán las desigualdades de segundo orden.
+
+Se tienen los siguientes tipos de desigualdades tanto de primer orden como de valor absoluto:
+\begin{itemize}
+\item Desigualdades de primer grado
+
+\begin{itemize}
+\item $ax+b>c$
+\item $ax+b\geq c$
+\item $ax+b<c$
+\item $ax+b\leq c$
+\item $c<ax+b< d$
+\item $c<ax+b\leq d$
+\item $c\leq ax+b< d$
+\item $c\leq ax+b\leq d$
+\end{itemize}
+
+
+\item Desigualdades de segundo grado
+
+\begin{itemize}
+\item $|ax+b|>c$
+\item $|ax+b|\geq c$
+\item $|ax+b|<c$
+\item $|ax+b|\leq c$
+\end{itemize}
+
+\end{itemize}
+
+Para resolver las desigualdades de primer orden se procede de la siguiente manera:
+
+\begin{Ejem}
+Supongamos se tiene la desigualdad $ax+b>0$, con $a\neq0$: 
+
+\begin{eqnarray*}
+ax+b&>&c\\
+ax+b-b&>&c-b\\
+ax&>&c-b\\
+\left(\frac{1}{a}\right)ax&>&\left(\frac{1}{a}\right)\left(c-b\right)\\
+\left(\frac{1}{a}\times a\right)x&>&\frac{c-b}{a}\\
+\left(\frac{a}{a}\right)x&>&\frac{c-b}{a}\\
+\left(1\right)x&>&\frac{c-b}{a}\\
+x&>&\frac{c-b}{a}
+\end{eqnarray*}
+
+\begin{flushright}
+$\blacksquare$
+\end{flushright}
+
+\end{Ejem}
+
+![Desigualdad $ax+b>c$](Desigualdad1.png){width=300}
+
+
+\begin{Ejem}
+Supongamos se tiene la desigualdad $ax+b\leq c$, con $a\neq0$: 
+
+\begin{eqnarray*}
+ax+b&\leq&c\\
+ax+b-b&\leq&c-b\\
+ax&\leq&c-b\\
+\left(\frac{1}{a}\right)ax&\leq&\left(\frac{1}{a}\right)\left(c-b\right)\\
+\left(\frac{1}{a}\times a\right)x&\leq&\frac{c-b}{a}\\
+\left(\frac{a}{a}\right)x&\leq&\frac{c-b}{a}\\
+\left(1\right)x&\leq&\frac{c-b}{a}\\
+x&\leq&\frac{c-b}{a}
+\end{eqnarray*}
+\begin{flushright}
+$\blacksquare$
+\end{flushright}
+
+\end{Ejem}
+
+![Desigualdad $ax+b\leq c$](Desigualdad2.png){width=300}
+
+\begin{Ejem}
+Supongamos se tiene la desigualdad $c\leq ax+b\leq d$, con $a\neq0$: 
+
+\begin{eqnarray*}
+c&\leq& ax+b<d\\
+c-b&\leq& ax+b-b<d-b\\
+c-b&\leq& ax+0<d-b\\
+c-b&\leq& ax<d-b\\
+\left(\frac{1}{a}\right)c-b&\leq& \left(\frac{1}{a}\right)ax<\left(\frac{1}{a}\right)d-b\\
+\left(\frac{c-b}{a}\right)&\leq& \left(\frac{a}{a}\right)x<\left(\frac{d-b}{a}\right)\\
+\left(\frac{c-b}{a}\right)&\leq& x<\left(\frac{d-b}{a}\right)\\
+\end{eqnarray*}
+\begin{flushright}
+$\blacksquare$
+\end{flushright}
+
+\end{Ejem}
+
+![Desigualdad $c\leq ax+b\leq d$, con $a\neq0$](Desigualdad3.png){width=300}
+
+
+
+\begin{Ejem}
+Supongamos se tiene la desigualdad $|ax+b|\leq c$, con $a\neq0$, recordemos que $|a|=b$, sí y sólo si $a=b$ o $a=-b$, entonces
+
+\begin{eqnarray*}
+|ax+b|&\leq& c\\
+-c&\leq& ax+b \leq c\\
+-c-b&\leq& ax+b-b \leq c-b\\
+-c-b&\leq& ax+0<c-b\\
+-c-b&\leq& ax<c-b\\
+\left(\frac{1}{a}\right)c-b&\leq& \left(\frac{1}{a}\right)ax<\left(\frac{1}{a}\right)c-b\\
+\left(\frac{-c-b}{a}\right)&\leq& \left(\frac{a}{a}\right)x<\left(\frac{c-b}{a}\right)\\
+\left(\frac{-c-b}{a}\right)&\leq& x<\left(\frac{c-b}{a}\right)\\
+-\left(\frac{c+b}{a}\right)&\leq& x<\left(\frac{c-b}{a}\right)\\
+\end{eqnarray*}
+\begin{flushright}
+$\blacksquare$
+\end{flushright}
+
+\end{Ejem}
+
+![Desigualdad $|ax+b|\leq c$, con $a\neq0$](Desigualdad4.png){width=300}
+
+
+\begin{Ejem}
+Supongamos se tiene la desigualdad $|ax+b|\geq c$, con $a\neq0$, recordemos que $|a|\geq b$ sí y sólo sí, $a\geq b$ o $a\leq -b$, entonces tenemos dos casos
+
+\begin{itemize}
+\item[Caso 1:]
+\begin{eqnarray*}
+ax+b&\geq& c\\
+ax+b-b&\geq& c-b\\
+ax+0&\geq& c-b\\
+ax&\geq& c-b\\
+\left(\frac{1}{a}\right)ax&\geq&\left(\frac{1}{a}\right)c-b\\
+\left(\frac{a}{a}\right)ax&\geq&\left(\frac{1}{a}\right)c-b\\
+\left(1\right)x&\geq&\left(\frac{c-b}{a}\right)\\
+x&\geq&\left(\frac{c-b}{a}\right)
+\end{eqnarray*}
+
+
+\item[Caso 2:]
+\begin{eqnarray*}
+ax+b&\leq& -c\\
+ax+b-b&\leq& -c-b\\
+ax+0&\leq& -c-b\\
+ax&\leq& -c-b\\
+\left(\frac{1}{a}\right)ax&\leq&\left(\frac{1}{a}\right)\left(-c-b\right)\\
+\left(\frac{a}{a}\right)ax&\leq&\left(\frac{1}{a}\right)\left(-c-b\right)\\
+\left(1\right)x&\leq&-\left(\frac{c+b}{a}\right)\\
+x&\leq&-\left(\frac{c+b}{a}\right)\\
+\end{eqnarray*}
+
+\end{itemize}
+
+\begin{flushright}
+$\blacksquare$
+\end{flushright}
+
+\end{Ejem}
+
+![Desigualdad $|ax+b|\leq c$, con $a\neq0$](Desigualdad5.png){width=300}
+
+
+## Solución de desigualdades de primer grado
+
+
+### Solución de desigualdades del tipo: $ax+b>c$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $2x+3>7$
+
+2. $-5x+2>9$
+
+3. $4x-1>3$
+
+4. $-3x+5>8$
+
+5. $2x+1>3x-2$
+
+6. $3x-2>2x+4$
+
+7. $4x+1>2x+5$
+
+8. $-2x-3>4x-7$
+
+9. $5x-2>3x+4$
+
+10. $2x+4>6x-8$
+
+11. $-4x+3>5x-2$
+
+12. $3x-1>4x-3$
+
+13. $2x-5>x-3$
+
+14. $3x+2>2x-5$
+
+15. $-2x+1>5x-8$
+
+
+### Solución de desigualdades del tipo: $ax+b>c$, con coeficientes fraccionarios
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $\frac{1}{2}x+\frac{3}{4}>1$
+
+2. $-\frac{2}{3}x+\frac{4}{5}>3$
+
+3. $\frac{3}{4}x-\frac{1}{2}>\frac{5}{6}$
+
+4. $-\frac{2}{5}x+\frac{1}{3}>-\frac{1}{15}$
+
+5. $\frac{2}{3}x+\frac{1}{4}>\frac{5}{6}x-\frac{1}{2}$
+
+6. $\frac{1}{2}x-\frac{1}{3}>-\frac{2}{5}x+\frac{7}{15}$
+
+7. $-\frac{3}{4}x+\frac{1}{2}>\frac{2}{3}x-\frac{1}{4}$
+
+8. $\frac{1}{3}x-\frac{2}{5}>\frac{2}{7}x-\frac{1}{7}$
+
+9. $\frac{2}{5}x+\frac{1}{6}\geq\frac{1}{3}x+\frac{5}{6}$
+
+10. $\frac{3}{4}x+\frac{1}{5}>\frac{1}{2}x+\frac{3}{10}$
+
+11. $-\frac{1}{2}x+\frac{1}{3}>-\frac{3}{4}x-\frac{1}{6}$
+
+12. $\frac{1}{4}x-\frac{1}{2}>\frac{2}{3}x-\frac{4}{6}$
+
+13. $\frac{2}{3}x-\frac{1}{4}>\frac{3}{4}x-\frac{2}{3}$
+
+14. $-\frac{1}{2}x+\frac{3}{4}>\frac{3}{5}x+\frac{1}{10}$
+
+15. $\frac{2}{5}x-\frac{1}{4}>-\frac{1}{2}x+\frac{3}{8}$
+
+
+### Solución de desigualdades del tipo: $ax+b<c$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $2x+3<7$
+
+2. $-5x+2<-9$
+
+3. $4x-1<3$
+
+4. $-3x+5<8$
+
+5. $2x+1<3x-2$
+
+6. $3x-2<2x+4$
+
+7. $4x+1<2x+5$
+
+8. $-2x-3<4x-7$
+
+9. $5x-2<3x+4$
+
+10. $2x+4<6x-8$
+
+11. $-4x+3<5x-2$
+
+12. $3x-1<4x-3$
+
+13. $2x-5<x-3$
+
+14. $3x+2<2x-5$
+
+15. $-2x+1<5x-8$
+
+
+### Solución de desigualdades del tipo: $ax+b<c$ con coeficientes fraccionarios
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $\frac{1}{2}x+\frac{3}{4}<\frac{5}{8}$
+
+2. $-\frac{2}{3}x+\frac{4}{5}<\frac{1}{2}$
+
+3. $\frac{3}{4}x-\frac{1}{2}<\frac{5}{6}$
+
+4. $-\frac{2}{5}x+\frac{1}{3}<-\frac{1}{15}$
+
+5. $\frac{2}{3}x+\frac{1}{4}<\frac{5}{6}x-\frac{1}{2}$
+
+6. $\frac{1}{2}x-\frac{1}{3}<\frac{2}{5}x-\frac{7}{15}$
+
+7. $-\frac{3}{4}x+\frac{1}{2}<\frac{2}{3}x-\frac{1}{4}$
+
+8. $\frac{1}{3}x-\frac{2}{5}<\frac{2}{7}x-\frac{1}{7}$
+
+9. $\frac{2}{5}x+\frac{1}{6}<\frac{1}{3}x+\frac{5}{6}$
+
+10. $\frac{3}{4}x+\frac{1}{5}<\frac{1}{2}x+\frac{3}{10}$
+
+11. $-\frac{1}{2}x+\frac{1}{3}<-\frac{3}{4}x-\frac{1}{6}$
+
+12. $\frac{1}{4}x-\frac{1}{2}<\frac{2}{3}x-\frac{4}{6}$
+
+13. $\frac{2}{3}x-\frac{1}{4}<\frac{3}{4}x-\frac{2}{3}$
+
+14. $-\frac{1}{2}x+\frac{3}{4}<\frac{3}{5}x+\frac{1}{10}$
+
+15. $\frac{2}{5}x-\frac{1}{4}<-\frac{1}{2}x+\frac{3}{8}$
+
+
+### Solución de desigualdades del tipo: $ax+b \geq c$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $2x + 3 \geq 5$
+
+2. $-4x + 2 \geq -10$
+
+3. $5x - 4 \geq 6$
+
+4. $-3x + 7 \geq 4$
+
+5. $2x - 3 \geq x + 2$
+
+6. $3x + 2 \geq 2x - 1$
+
+7. $4x - 1 \geq x + 5$
+
+8. $-2x - 3 \geq -6x - 1$
+
+9. $5x - 2 \geq 2x + 8$
+
+10. $2x + 4 \geq 4x - 2$
+
+11. $-4x + 3 \geq 3x - 2$
+
+12. $3x - 1 \geq 2x + 1$
+
+13. $2x - 5 \geq x - 1$
+
+14. $3x + 2 \geq 2x - 4$
+
+15. $-2x + 1 \geq -5x + 4$
+
+
+### Solución de desigualdades del tipo: $ax+b \geq c$, con coeficientes fraccionarios
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $\frac{1}{2}x + \frac{3}{4} \geq \frac{5}{8}$
+
+2. $-\frac{2}{3}x + \frac{4}{5} \geq \frac{1}{2}$
+
+3. $\frac{3}{4}x - \frac{1}{2} \geq \frac{5}{6}$
+
+4. $-\frac{2}{5}x + \frac{1}{3} \geq -\frac{1}{15}$
+
+5. $\frac{2}{3}x + \frac{1}{4} \geq \frac{5}{6}x - \frac{1}{2}$
+
+6. $\frac{1}{2}x - \frac{1}{3} \geq \frac{2}{5}x - \frac{7}{15}$
+
+7. $-\frac{3}{4}x + \frac{1}{2} \geq \frac{2}{3}x - \frac{1}{4}$
+
+8. $\frac{1}{3}x - \frac{2}{5} \geq \frac{2}{7}x - \frac{1}{7}$
+
+9. $\frac{2}{5}x + \frac{1}{6} \geq \frac{1}{3}x + \frac{5}{6}$
+
+10. $\frac{3}{4}x + \frac{1}{5} \geq \frac{1}{2}x + \frac{3}{10}$
+
+11. $-\frac{1}{2}x + \frac{1}{3} \geq -\frac{3}{4}x - \frac{1}{6}$
+
+12. $\frac{1}{4}x - \frac{1}{2} \geq \frac{2}{3}x - \frac{4}{6}$
+
+13. $\frac{2}{3}x - \frac{1}{4} \geq \frac{3}{4}x - \frac{2}{3}$
+
+14. $-\frac{1}{2}x + \frac{3}{4} \geq \frac{3}{5}x + \frac{1}{10}$
+
+15. $\frac{2}{5}x - \frac{1}{4} \geq -\frac{1}{2}x + \frac{3}{8}$
+
+
+### Solución de desigualdades del tipo: $ax+b \leq c$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $2x + 3 \leq 7$
+
+2. $-3x + 4 \leq 5$
+
+3. $4x - 2 \leq 6$
+
+4. $-5x + 3 \leq 2$
+
+5. $2x + 1 \leq 5x - 2$
+
+6. $3x - 1 \leq 5x + 2$
+
+7. $-4x + 2 \leq 3x + 1$
+
+8. $3x - 5 \leq 7x - 2$
+
+9. $5x + 1 \leq 3x + 4$
+
+10. $4x + 1 \leq 6x - 3$
+
+11. $-2x + 3 \leq -4x - 1$
+
+12. $x - 2 \leq 2x + 1$
+
+13. $3x - 4 \leq 4x - 2$
+
+14. $-2x + 4 \leq 5x + 1$
+
+15. $2x - 1 \leq -3x + 4$
+
+
+### Solución de desigualdades del tipo: $ax+b \leq c$ con coeficientes fraccionarios.
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $\frac{1}{2}x + \frac{3}{4} \leq \frac{5}{8}$
+
+2. $-\frac{2}{3}x + \frac{4}{5} \leq \frac{1}{2}$
+
+3. $\frac{3}{4}x - \frac{1}{2} \leq \frac{5}{6}$
+
+4. $-\frac{2}{5}x + \frac{1}{3} \leq -\frac{1}{15}$
+
+5. $\frac{2}{3}x + \frac{1}{4} \leq \frac{5}{6}x - \frac{1}{2}$
+
+6. $\frac{1}{2}x - \frac{1}{3} \leq \frac{2}{5}x - \frac{7}{15}$
+
+7. $-\frac{3}{4}x + \frac{1}{2} \leq \frac{2}{3}x - \frac{1}{4}$
+
+8. $\frac{1}{3}x - \frac{2}{5} \leq \frac{2}{7}x - \frac{1}{7}$
+
+9. $\frac{2}{5}x + \frac{1}{6} \leq \frac{1}{3}x + \frac{5}{6}$
+
+10. $\frac{3}{4}x + \frac{1}{5} \leq \frac{1}{2}x + \frac{3}{10}$
+
+11. $-\frac{1}{2}x + \frac{1}{3} \leq -\frac{3}{4}x - \frac{1}{6}$
+
+12. $\frac{1}{4}x - \frac{1}{2} \leq \frac{2}{3}x - \frac{4}{6}$
+
+13. $\frac{2}{3}x - \frac{1}{4} \leq \frac{3}{4}x - \frac{2}{3}$
+
+14. $-\frac{1}{2}x + \frac{3}{4} \leq \frac{3}{5}x + \frac{1}{10}$
+
+15. $\frac{2}{5}x - \frac{1}{4} \leq -\frac{1}{2}x + \frac{3}{8}$
+
+
+## Solución de desigualdades con doble desigualdad.
+
+### Solución de desigualdades del tipo: $c< ax+b <d$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $2<x+3<5$
+
+2. $-1<2x-1<1$
+
+3. $-\frac{1}{2}<\frac{3}{4}x+\frac{1}{2}<\frac{1}{2}$
+
+4. $-3< 2x+7<-1$
+
+5. $1<\frac{1}{2}x-\frac{1}{4}<2$
+
+6. $-5<-\frac{1}{3}x+\frac{5}{6}<1$
+
+7. $-5<5x-1<8$
+
+8. $-2< \frac{2}{3}x+1<12$
+
+9. $2<-\frac{1}{2}x+\frac{3}{4}<3$
+
+10. $-3< \frac{1}{2}x-\frac{1}{3}<18$
+
+11. $-4< -3x+5<3$
+
+12. $1<\frac{1}{2}x+\frac{1}{3}<2$
+
+13. $-2< 4x-1<2$
+
+14. $-\frac{3}{4}<\frac{1}{2}x-\frac{1}{4}<\frac{3}{4}$
+
+15. $-1<s\frac{3}{2}x+1<2$
+
+
+
+
+### Solución de desigualdades del tipo: $c< ax+b \leq d$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $-2<3x+1\leq 5$
+
+2. $-\frac{4}{5}< \frac{1}{2}x-\frac{3}{4}\leq2$
+
+3. $-1<2x-1\leq 1$
+
+4. $-3< \frac{1}{2}x+\frac{1}{3}\leq \frac{8}{5}$
+
+5. $-\frac{3}{4}<\frac{1}{2}x+\frac{1}{4}\leq \frac{3}{4}$
+
+6. $-2<\frac{3}{2}x-1\leq 1$
+
+7. $-1<\frac{2}{3}x+1\leq \frac{8}{3}$
+
+8. $1<\frac{1}{2}x+\frac{1}{3}\leq 2$
+
+9. $-3< -2x+5\leq 3$
+
+10. $-\frac{1}{2}<\frac{3}{4}x+\frac{1}{2}\leq \frac{1}{2}$
+
+11. $-5<5x-1\leq 9$
+
+12. $1<\frac{1}{2}x-\frac{1}{4}\leq 2$
+
+13. $-3< 2x+7\leq -1$
+
+14. $-1< -\frac{1}{2}x+\frac{1}{4}\leq 2$
+
+15. $2<-\frac{1}{2}x+\frac{3}{4}\leq 3$
+
+
+### Solución de desigualdades del tipo: $c\leq ax+b <d$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $-2\leq 3x+1<5$
+
+2. $-\frac{4}{5}\leq \frac{1}{2}x-\frac{3}{4}<2$
+
+3. $-1\leq 2x-1<1$
+
+4. $-3\leq \frac{1}{2}x+\frac{1}{3}<\frac{7}{9}$
+
+5. $-\frac{3}{4}\leq \frac{1}{2}x+\frac{1}{4}<\frac{3}{4}$
+
+6. $-2\leq \frac{3}{2}x-1<1$
+
+7. $-1\leq \frac{2}{3}x+1<\frac{9}{4}$
+
+8. $1\leq \frac{1}{2}x+\frac{1}{3}<2$
+
+9. $-\frac{4}{3}\leq -2x+5<3$
+
+10. $-\frac{1}{2}\leq \frac{3}{4}x+\frac{1}{2}<\frac{1}{2}$
+
+11. $-5\leq 5x-1<\frac{15}{6}$
+
+12. $1\leq \frac{1}{2}x-\frac{1}{4}<2$
+
+13. $-3\leq 2x+7<-1$
+
+14. $-1\leq -\frac{1}{2}x+\frac{1}{4}<2$
+
+15. $2\leq -\frac{1}{2}x+\frac{3}{4}<3$
+
+
+### Solución de desigualdades del tipo: $c\leq ax+b \leq d$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $-1\leq x\leq 2$
+
+2. $-\frac{3}{4}\leq \frac{1}{2}x+\frac{1}{4}\leq \frac{5}{8}$
+
+3. $2\leq 3x-1\leq 7$
+
+4. $-\frac{1}{3}\leq \frac{1}{6}x+\frac{1}{2}\leq \frac{1}{2}$
+
+5. $-1\leq -x+3\leq 2$
+
+6. $-2\leq \frac{1}{2}x+1\leq 3$
+
+7. $2\leq \frac{3}{2}x+1\leq 5$
+
+8. $-\frac{3}{4}\leq -\frac{1}{2}x+\frac{1}{4}\leq \frac{1}{4}$
+
+9. $-4\leq 2x+1\leq 7$
+
+10. $-\frac{1}{2}\leq -\frac{3}{4}x+\frac{1}{2}\leq 1$
+
+11. $-\frac{5}{2}\leq \frac{1}{4}x+1\leq 1$
+
+12. $1\leq -\frac{1}{2}x+\frac{3}{4}\leq 3$
+
+13. $-\frac{5}{6}\leq \frac{1}{3}x+\frac{1}{2}\leq \frac{1}{2}$
+
+14. $-1\leq \frac{1}{2}x-\frac{1}{4}\leq 3$
+
+15. $-2\leq \frac{1}{4}x+\frac{1}{2}\leq 3$
+
+
+## Solución de desigualdades con valor absoluto
+
+### Solución de desigualdades del tipo: $|ax+b| <d$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $|2x+1|<5$
+
+2. $|\frac{1}{2}x-\frac{1}{4}|<2$
+
+3. $|3x-1|<7$
+
+4. $|\frac{1}{3}x+\frac{1}{2}|<1$
+
+5. $|x-2|<4$
+
+6. $|\frac{1}{2}x+1|<3$
+
+7. $|\frac{3}{2}x+1|<5$
+
+8. $|\frac{1}{2}x-\frac{1}{4}|<\frac{3}{4}$
+
+9. $|2x+1|<6$
+
+10. $|\frac{3}{4}x-\frac{1}{2}|<1$
+
+11. $|\frac{1}{4}x+1|<\frac{7}{2}$
+
+12. $|-\frac{1}{2}x+\frac{3}{4}|<2$
+
+13. $|\frac{1}{3}x+\frac{1}{2}|<\frac{5}{6}$
+
+14. $|\frac{1}{2}x-\frac{1}{4}|<3$
+
+15. $|\frac{1}{4}x+\frac{1}{2}|<\frac{7}{4}$
+
+
+### Solución de desigualdades del tipo: $|ax+b| \leq d$
+
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $|3x-1|\leq 6$
+
+2. $|\frac{1}{2}x-\frac{1}{4}|\leq 1$
+
+3. $|2x+1|\leq 5$
+
+4. $|\frac{1}{3}x+\frac{1}{2}|\leq \frac{4}{3}$
+
+5. $|x-2|\leq 3$
+
+6. $|\frac{1}{2}x+1|\leq 4$
+
+7. $|\frac{3}{2}x+1|\leq 5$
+
+8. $|\frac{1}{2}x-\frac{1}{4}|\leq \frac{5}{4}$
+
+9. $|2x+1|\leq 7$
+
+10. $|\frac{3}{4}x-\frac{1}{2}|\leq 2$
+
+11. $|\frac{1}{4}x+1|\leq 3$
+
+12. $|-\frac{1}{2}x+\frac{3}{4}|\leq 2$
+
+13. $|\frac{1}{3}x+\frac{1}{2}|\leq 1$
+
+14, $|\frac{1}{2}x-\frac{1}{4}|\leq 2$
+
+15. $|\frac{1}{4}x+\frac{1}{2}|\leq \frac{5}{4}$
+
+### Solución de desigualdades del tipo: $|ax+b| >d$
+
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $|3x-1|>4$
+
+2. $|\frac{1}{2}x-\frac{1}{4}|>\frac{1}{2}$
+
+3. $|2x+1|>3$
+
+4. $|\frac{1}{3}x+\frac{1}{2}|>\frac{5}{6}$
+
+5. $|x-2|>1$
+
+6. $|\frac{1}{2}x+1|>\frac{3}{4}$
+
+7. $|\frac{3}{2}x+1|>\frac{7}{2}$
+
+8. $|\frac{1}{2}x-\frac{1}{4}|>\frac{3}{4}$
+
+9. $|2x+1|>\frac{9}{2}$
+
+10. $|\frac{3}{4}x-\frac{1}{2}|>\frac{5}{4}$
+
+11. $|\frac{1}{4}x+1|>1$
+
+12. $|-\frac{1}{2}x+\frac{3}{4}|>\frac{1}{2}$
+
+13. $|\frac{1}{3}x+\frac{1}{2}|>\frac{2}{3}$
+
+14. $|\frac{1}{2}x-\frac{1}{4}|>\frac{5}{4}$
+
+15. $|\frac{1}{4}x+\frac{1}{2}|>1$
+
+
+### Solución de desigualdades del tipo: $|ax+b| \geq d$
+
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $|3x-1|\geq 4$
+
+2. $|\frac{1}{2}x-\frac{1}{4}|\geq\frac{1}{2}$
+
+3. $|2x+1|\geq 3$
+
+4. $|\frac{1}{3}x+\frac{1}{2}|\geq\frac{5}{6}$
+
+5. $|x-2|\geq 1$
+
+6. $|\frac{1}{2}x+1|\geq\frac{3}{4}$
+
+7. $|\frac{3}{2}x+1|\geq\frac{7}{2}$
+
+8. $|\frac{1}{2}x-\frac{1}{4}|\geq\frac{3}{4}$
+
+9. $|2x+1|\geq\frac{9}{2}$
+
+10. $|\frac{3}{4}x-\frac{1}{2}|\geq\frac{5}{4}$
+
+11. $|\frac{1}{4}x+1|\geq 1$
+
+12. $|-\frac{1}{2}x+\frac{3}{4}|\geq\frac{1}{2}$
+
+13. $|\frac{1}{3}x+\frac{1}{2}|\geq\frac{2}{3}$
+
+14. $|\frac{1}{2}x-\frac{1}{4}|\geq\frac{5}{4}$
+
+15. $|\frac{1}{4}x+\frac{1}{2}|\geq 1$
+
+
+
+
+## Solución de desigualdades de segundo grado
+
+### Solución de desigualdades del tipo $ax^2+bx+c>0$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+1. $x^2-3x+2>0$
+
+2. $2x^2-5x+2>0$
+
+3. $3x^2+2x-1>0$
+
+4. $x^2-\frac{3}{2}x+\frac{1}{2}>0$
+
+5. $\frac{1}{2}x^2-2x+2>0$
+
+6. $x^2+2x+1>0$
+
+7. $\frac{1}{4}x^2-\frac{1}{2}x+1>0$
+
+8. $\frac{1}{3}x^2-\frac{4}{3}x+1>0$
+
+9. $4x^2-12x+9>0$
+
+10. $\frac{3}{2}x^2-5x+2>0$
+
+11. $2x^2-7x+6>0$
+
+12. $\frac{1}{2}x^2+\frac{1}{2}x-1>0$
+
+13. $\frac{1}{5}x^2-\frac{2}{5}x+\frac{1}{2}>0$
+
+14. $x^2+\frac{1}{2}x-\frac{1}{2}>0$
+
+15. $3x^2-10x+6>0$
+
+
+### Solución de desigualdades del tipo $ax^2+bx+c\geq 0$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $x^2-4x+3\geq 0$
+
+2. $2x^2-6x+4\geq 0$
+
+3. $3x^2+2x+1\geq 0$
+
+4. $x^2-\frac{3}{2}x+\frac{1}{2}\geq 0$
+
+5. $\frac{1}{2}x^2-2x+2\geq 0$
+
+6. $x^2+2x+1\geq 0$
+
+7. $\frac{1}{4}x^2-\frac{1}{2}x+1\geq 0$
+
+8. $\frac{1}{3}x^2-\frac{4}{3}x+1\geq 0$
+
+9. $4x^2-12x+9\geq 0$
+
+10. $\frac{3}{2}x^2-5x+2\geq 0$
+
+11. $2x^2-7x+6\geq 0$
+
+12. $\frac{1}{2}x^2+\frac{1}{2}x-1\geq 0$
+
+13. $\frac{1}{5}x^2-\frac{2}{5}x+\frac{1}{2}\geq 0$
+
+14. $x^2+\frac{1}{2}x-\frac{1}{2}\geq 0$
+
+15. $3x^2-10x+6\geq 0$
+
+
+### Solución de desigualdades del tipo $ax^2+bx+c<0$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $x^2-4x+3<0$
+
+2. $2x^2-5x-3<0$
+
+3. $\frac{1}{2}x^2-\frac{5}{2}x+1<0$
+
+4. $3x^2-7x+2<0$
+
+5. $-x^2+6x-9<0$
+
+6. $\frac{1}{3}x^2+\frac{5}{3}x+1<0$
+
+7. $2x^2+5x+2<0$
+
+8. $-4x^2+16x-12<0$
+
+9. $\frac{1}{4}x^2-\frac{5}{2}x+4<0$
+
+10. $x^2-9<0$
+
+11. $4x^2-12x+8<0$
+
+12. $-2x^2+3x+1<0$
+
+13. $3x^2-2x-1<0$
+
+14. $-x^2+x+12<0$
+
+15. $\frac{3}{2}x^2-\frac{5}{2}x-1<0$
+
+
+### Solución de desigualdades del tipo $ax^2+bx+c\leq 0$
+
+**Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+1. $x^2-2x+1\leq0$
+
+2. $-3x^2+4x+1\leq0$
+
+3. $\frac{1}{2}x^2-2x+2\leq0$
+
+4. $2x^2-7x+3\leq0$
+
+5. $-x^2+4x-4\leq0$
+
+6. $\frac{1}{4}x^2+\frac{5}{2}x+5\leq0$
+
+7. $3x^2+4x+1\leq0$
+
+8. $-4x^2+4x+4\leq0$
+
+9. $\frac{1}{3}x^2+\frac{5}{3}x+2\leq0$
+
+10. $x^2-16\leq0$
+
+11. $2x^2-8x+8\leq0$
+
+12. $-x^2+3x+6\leq0$
+
+13. $3x^2-2x-2\leq0$
+
+14. $-2x^2+3x+3\leq0$
+
+15. $\frac{1}{2}x^2-\frac{5}{2}x+2\leq0$
+
+
