@@ -51,7 +51,9 @@ knitr::opts_chunk$set(echo = TRUE)
 \section*{Sobre el curso de Cálculo Diferencial}
 
 \subsection*{Información personal y redes sociales}
-- [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
+- [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) 
+- [<code>Twitter</code>](https://twitter.com/carlosmroder) 
+- [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
 
 \newpage
 \thispagestyle{empty}
