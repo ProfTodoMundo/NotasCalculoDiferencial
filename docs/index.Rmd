@@ -15,6 +15,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(png)
 ```
 
 
@@ -29,6 +30,7 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 
 Puedes descargar el archivo PDF de los apuntes [aquí](https://github.com/ProfTodoMundo/NotasCalculoDiferencial/blob/PrincipalCD/docs/ApuntesCalculo.pdf).
 
+![Acceder al documento](codigo_qr.png){width=300px}
 # Pre-requisitos
 
 ## Ecuaciones de la forma $ax+b=cx+d$
