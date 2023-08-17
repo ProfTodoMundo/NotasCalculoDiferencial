@@ -55,6 +55,9 @@ knitr::opts_chunk$set(echo = TRUE)
 - [<code>Twitter</code>](https://twitter.com/carlosmroder) 
 - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
 
+
+![Acceder al documento](codigo_qr.png){width=300px}
+
 \newpage
 \thispagestyle{empty}
 
@@ -62,6 +65,164 @@ knitr::opts_chunk$set(echo = TRUE)
 \printindex
 
 \newpage
+
+
+\chapter*{Programa de Estudios de Cálculo Diferencial}
+
+
+\section*{Propósitos generales: Al terminar el curso, el alumno:}
+ 
+1.	Podrá plantear funciones, reales de variable real, a partir de modelos sencillos provenientes de otras disciplinas científicas o ingenieriles. Podrá decidir si son continuas o diferenciables, manejando con soltura los conceptos de continuidad, límites y derivada. 
+ 
+2.	Conocerá y usará con soltura los métodos del cálculo diferencial, pudiendo derivar, con la definición al principio y luego con técnicas adecuadas, varios tipos de funciones: polinomiales, racionales, radicales, trigonométricas y composiciones de ellas. 
+ 
+3.	Podrá graficar con precisión varios tipos de funciones, indicando puntos importantes en la gráfica incluyendo intervalos donde la función es monótona o tiene cierta concavidad. 
+ 
+4.	Conocerá los conceptos de máximo y mínimo (local y global) de funciones definidas en intervalos de reales y podrá usar los criterios de la primera y segunda derivada para decidir si un punto dado es  máximo, mínimo o punto de inflexión de una función. 
+ 
+5.	Podrá plantear y resolver problemas de optimización (máximos y mínimos) o razón de cambio partiendo de situaciones geométricas o de modelos provenientes de otras disciplinas. 
+ 
+6.	Podrá usar algún tipo de programa de cómputo adecuado para graficar algunas funciones y visualizar aspectos geométricos de las mismas.  
+ 
+7.	Podrá aproximar valores de funciones usando diferenciales y sabrá usar la regla de L’Hôpital para calcular límites indeterminados. 
+ 
+ 
+ 
+\subsection*{Seriación: NO 	Asignaturas 	Previas: }
+ 
+- Paralela: Álgebra y Geometría Analítica 
+
+- Posteriores: Álgebra Lineal, Cálculo Integral, 
+Cálculo Vectorial, Ecuaciones Diferenciales 
+Ordinarias, Ecuaciones Diferenciales 
+Parciales, Métodos Numéricos, Estadística  y Probabilidad. 
+ 
+
+\subsection*{Requerimientos para cursar la asignatura }
+
+**Conocimientos:** Dominio de factorización, operaciones y simplificación de expresiones algebráicas, Teorema de Pitágoras, resolución de sistemas de ecuaciones lineales de 2x2, resolución de ecuaciones lineales y cuadráticas, proporciones. 
+
+**Habilidades:** abstracción (poder pasar de español al lenguaje simbólico y viceversa) y poder resolver problemas sencillos de álgebra utilizando los conocimientos arriba mencionados. 
+ 
+**Perfil deseable del profesor:** Licenciatura o posgrado en Matemáticas o carreras afines (Matemáticas aplicadas, Física, Actuaría, Ingeniería). Que esté dispuesto a trabajar en la educación centrada en el aprendizaje de los alumnos. Que tenga experiencia docente y habilidad para conducir los procesos de aprendizaje. 
+ 
+ 
+**Academia responsable del programa:** Matemáticas. 
+
+**Elaborado por: ** Manuel Fernández Villanueva y José Juan Hernández. 
+ 
+ 
+
+\section*{Temario de asignatura }
+
+ 
+ 
+Nombre de la asignatura: Cálculo Diferencial. 
+ 
+ 
+\subsection*{Objetivo(s) general(es) de la asignatura:}
+ 
+Al terminar el curso, el alumno:  
+ 
+1.	Podrá plantear funciones, reales de variable real, a partir de modelos sencillos provenientes de otras disciplinas científicas o ingenieriles. Podrá decidir si son continuas o diferenciables, manejando con soltura los conceptos de continuidad, límites y derivada. 
+ 
+2.	Conocerá y usará con soltura los métodos del cálculo diferencial, pudiendo derivar, con la definición al principio y luego con técnicas adecuadas, varios tipos de funciones: polinomiales, racionales, radicales, trigonométricas y composiciones de ellas. 
+ 
+3.	Podrá graficar con precisión varios tipos de funciones, indicando puntos importantes en la gráfica incluyendo intervalos donde la función es monótona o tiene cierta concavidad. 
+ 
+4.	Conocerá los conceptos de máximo y mínimo (local y global) de funciones definidas en intervalos de reales y podrá usar los criterios de la primera y segunda derivada para decidir si un punto dado es  máximo, mínimo o punto de inflexión de una función. 
+ 
+5.	Podrá plantear y resolver problemas de optimización (máximos y mínimos) o razón de cambio partiendo de situaciones geométricas o de modelos provenientes de otras disciplinas. 
+ 
+6.	Podrá usar algún tipo de programa de cómputo adecuado para graficar algunas funciones y visualizar aspectos geométricos de las mismas.  
+ 
+7.	Podrá aproximar valores de funciones usando diferenciales y sabrá usar la regla de L’Hôpital para calcular límites indeterminados. 
+ 
+\section*{Temas y subtemas: }
+ 
+\subsection*{1.	Funciones. }
+ 
+1.1	La noción de función a partir de modelos sencillos tomados de varias disciplinas (Física, Biología, Química, Ingenierías, Economía). Ejemplos de funciones obtenidas como fórmulas al plantear problemas. 
+
+1.2	Breve introducción a R. Desigualdades, intervalos, valor absoluto. 
+
+1.3	Dominio e imagen. Gráfica de una función. Operaciones con funciones (suma, resta,        producto y cociente). 
+
+1.4	Algunos tipos especiales de funciones: lineales, cuadráticas, polinomios y          racionales.  Funciones que se definen con radicales. Funciones definidas por partes. 
+       Funciones exponenciales, logarítmicas y trigonométricas. 
+
+1.5	Composición de funciones. 
+
+1.6	Funciones inyectivas, suprayectivas y biyectivas. Funciones inversas. 
+ 
+\subsection*{2.	Límites y continuidad. }
+ 
+2.1	Movimiento rectilíneo. La gráfica posición-tiempo. La noción de velocidad media.  La velocidad instantánea como motivación para el concepto de límite. 
+
+2.2	Idea intuitiva y definición de límite. 
+
+2.3	Operaciones con límites. Cálculo de límites. 
+
+2.4	Límites laterales. 
+
+2.5	Límites infinitos. 
+
+2.6	Límites cuando la variable independiente tiende a infinito. 
+
+2.7	Continuidad. 
+ 
+\subsection*{3.	Derivadas. }
+ 
+3.1	Razón de cambio. La velocidad como una razón de cambio. La velocidad        instantánea como motivación para el concepto de derivada. 
+
+3.2	Definición de derivada. Interpretación geométrica. Definición de tangente a        una curva en un punto. 
+
+3.3	Derivadas de las funciones elementales. 
+
+3.4	Derivadas de sumas, restas, productos y cocientes. 
+
+3.5	Aproximaciones lineales. Diferencial. 
+
+3.5	Regla de la cadena. Derivada de las funciones inversas. Derivación implícita. 
+
+3.6	La aceleración como razón de cambio de la velocidad. Derivadas de orden superior. 
+ 
+\subsection*{4.	Aplicaciones de la derivada. }
+ 
+4.1	La derivada y el crecimiento o decrecimiento de una función. 
+4.2	Máximos y mínimos locales y globales. El criterio de la primera derivada. 
+4.3	Concavidad, puntos de inflexión y el criterio de la segunda derivada. 
+4.4	Problemas de optimizacion. 
+4.5	Razones de cambio relacionadas. Aplicaciones 
+4.6	Graficación. 4.7 La regla de L’Hôpital.  
+ 
+ 
+\section*{Metodología de la enseñanza}
+
+Los conceptos y métodos deberán motivarse ampliamente, de ser posible usando ejemplos sencillos provenientes de otras disciplinas, en particular de la mecánica del movimiento rectilíneo. Los teoremas que sean necesarios se discutirán ampliamente, bosquejando su demostración enfatizando las ideas involucradas (de ser posible, con gráficas o ejemplos de la Física manejados en forma intuitiva). Cuando el profesor lo considere adecuado, podrá auxiliarse de algún programa de cómputo para graficar funciones complicadas o para visualizar algunos conceptos (por ejemplo, la derivada como pendiente de la recta tangente a la gráfica de una función). El curso consiste de tres sesiones semanales en salón conducidas por el profesor y una sesión de laboratorio donde se formarán equipos de alumnos para discutir problemas o ejercicios de los temas vistos en las clases previas. Ocasionalmente el laboratorio podrá ser un laboratorio de cómputo. 
+ 
+ 
+\section*{Modalidades de evaluación de la asignatura: }
+
+Diagnóstica, formativa y para la certificación. 
+ 
+ 
+\section*{Bibliografía: }
+
+- Larson, Hostetler, Edwards, Cálculo I, Pirámide, 2002, 7ª . 
+
+- Hughes-Hallett, Gleason et al., Cálculo aplicado, CECSA, 2003, 1ª.   
+- Leithold, El cálculo, Oxford, 2003, 7ª. 
+
+- Thomas, Finney, Cálculo. Una variable, Adison Wesley Longman, 1999, 9ª.
+
+- Stewart, Cálculo. Trascendentes tempranas, Thomson, 2002,  4ª. 
+
+- Swokowski, Cálculo  con Geometría Analítica, Iberoamérica, 1989, 2ª. 
+ 
+ 
+
+
 
 # Pre-requisitos
 
@@ -236,6 +397,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
     xv. $\frac{\frac{8}{9}x-\frac{10}{11}}{-\frac{12}{13}}-\frac{6}{7}=\frac{\frac{16}{17}x-\frac{18}{19}}{20}$
 \end{multicols}
+
 
 # Desigualdades
 
