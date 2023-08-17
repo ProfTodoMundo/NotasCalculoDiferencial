@@ -1460,6 +1460,10 @@ $\blacksquare$
 
 **A partir de los ejercicios anteriores se extraen varios para generar la primera tarea, de la cuál se tomarán varios ejercicios para la primera evaluación parcial.**
 
+Puedes descargar el archivo PDF de la tarea [aquí](https://github.com/ProfTodoMundo/NotasCalculoDiferencial/blob/PrincipalCD/docs/Tarea1.pdf).
+
+![Acceder al documento](codigo_qr_tarea.png){width=300px}
+
 1. Resuelve las siguientes ecuaciones
 
     i. $2x + 3 = 4x - 1$
