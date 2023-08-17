@@ -61,7 +61,179 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \newpage
 
+# Pre-requisitos
 
+## Ecuaciones de la forma $ax+b=cx+d$
+
+1. Resuelve las siguientes ecuaciones
+
+\begin{multicols}{2}
+    i. $2x + 3 = 4x - 1$
+    
+    ii. $-5x - 2 = 3x + 7$
+
+    iii. $8x + 6 = -2x - 4$
+
+    iv. $-4x + 9 = 2x + 1$
+
+    v. $6x - 5 = -3x + 2$
+
+    vi. $-7x + 10 = 5x - 8$
+
+    vii. $9x - 12 = -6x + 15$
+
+    viii. $-3x + 4 = 7x + 2$
+
+    ix. $11x + 13 = -9x - 15$
+
+    x. $-2x - 1 = 4x + 6$
+
+    xi. $12x - 8 = -10x + 14$
+
+    xii.  $-6x + 7 = 8x - 9$
+
+    xiii. $5x - 3 = -7x + 11$
+
+    xiv. $-13x + 16 = 15x - 18$
+
+    xv. $14x + 20 = -16x - 22$
+\end{multicols}
+
+2. Resuelve las siguientes ecuaciones de la forma $\frac{a}{b}x+\frac{c}{d}=\frac{e}{f}$
+
+\begin{multicols}{2}
+    i. $\frac{2}{3}x - \frac{5}{4} = \frac{7}{6}$
+
+    ii. $-\frac{1}{2}x + \frac{3}{5} = -\frac{4}{7}$
+
+    iii. $\frac{7}{8}x + \frac{9}{10} = -\frac{11}{12}$
+
+    iv. $-\frac{3}{4}x - \frac{6}{7} = \frac{9}{10}$
+
+    v. $\frac{4}{5}x - \frac{2}{3} = -\frac{1}{6}$
+
+    vi. $-\frac{5}{6}x + \frac{8}{9} = \frac{11}{12}$
+
+    vii. $\frac{6}{7}x + \frac{1}{2} = -\frac{4}{9}$
+
+    viii. $-\frac{9}{10}x - \frac{7}{8} = \frac{5}{6}$
+
+    ix. $\frac{11}{12}x + \frac{10}{11} = -\frac{9}{10}$
+
+    x. $-\frac{2}{3}x - \frac{5}{6} = \frac{7}{8}$
+
+    xi. $\frac{3}{4}x - \frac{4}{5} = -\frac{1}{2}$
+
+    xii. $-\frac{5}{6}x + \frac{7}{8} = \frac{9}{10}$
+  
+    xiii. $\frac{6}{7}x + \frac{8}{9} = -\frac{10}{11}$
+
+    xiv. $-\frac{4}{5}x - \frac{3}{4} = \frac{1}{2}$
+
+    xv. $\frac{9}{10}x + \frac{1}{3} = -\frac{5}{6}$
+\end{multicols}
+
+3. Resuelve las siguientes ecuaciones de la forma $\frac{a}{b}x+\frac{c}{d}=\frac{e}{f}x+\frac{g}{h}$
+
+\begin{multicols}{2}
+    i. $\frac{3}{5}x - \frac{4}{7} = \frac{8}{9}x + \frac{2}{3}$
+    
+    ii. $-\frac{7}{8}x + \frac{6}{11} = -\frac{5}{6}x - \frac{3}{4}$
+
+    iii. $\frac{9}{10}x + \frac{7}{12} = -\frac{4}{5}x + \frac{1}{3}$
+
+    iv. $-\frac{5}{6}x - \frac{2}{3} = \frac{3}{4}x - \frac{1}{2}$
+
+    v. $\frac{4}{7}x - \frac{5}{8} = -\frac{6}{9}x + \frac{7}{10}$
+
+    vi. $-\frac{11}{12}x + \frac{8}{9} = \frac{7}{10}x - \frac{6}{7}$
+
+    vii. $\frac{2}{3}x + \frac{9}{11} = -\frac{1}{2}x + \frac{4}{5}$
+
+    viii. $-\frac{7}{8}x - \frac{6}{7} = \frac{5}{6}x - \frac{3}{5}$
+
+    ix. $\frac{5}{6}x + \frac{4}{5} = -\frac{3}{4}x + \frac{2}{3}$
+
+    x. $-\frac{1}{2}x - \frac{3}{4} = \frac{5}{6}x - \frac{7}{8}$
+
+    xi. $\frac{9}{10}x - \frac{8}{9} = -\frac{7}{8}x + \frac{6}{7}$
+
+    xii. $-\frac{4}{5}x + \frac{3}{4} = \frac{2}{3}x - \frac{1}{2}$
+
+    xiii. $\frac{1}{3}x + \frac{5}{7} = -\frac{9}{10}x + \frac{8}{9}$
+
+    xiv. $-\frac{6}{7}x - \frac{4}{5} = \frac{2}{3}x - \frac{1}{2}$
+
+    xv. $\frac{7}{8}x + \frac{6}{11} = -\frac{5}{6}x + \frac{3}{4}$
+\end{multicols}
+
+4. Resuelve las siguientes ecuaciones de la forma $\frac{a}{b}+\left\{\frac{c}{d}[\frac{e}{f}(\frac{i}{j}+\frac{k}{l})+\frac{g}{h}(\frac{m}{n}+\frac{o}{p})+\frac{q}{r}] \right\}=\frac{s}{t}(\frac{u}{v}+\frac{w}{x})+\frac{y}{z}$
+
+
+    i. $\frac{3}{4}+\left\{\frac{2}{5}[\frac{5}{6}(\frac{2}{3}x+\frac{4}{5})+\frac{7}{8}(\frac{3}{4}x+\frac{5}{6})+\frac{1}{2}]\right\}=\frac{9}{10}(\frac{4}{5}x+\frac{6}{7})+\frac{1}{3}+\frac{4}{5}x$
+    
+    ii. $\frac{5}{6}-\left\{-\frac{3}{4}[-\frac{4}{5}(-\frac{2}{3}x-\frac{5}{6})-\frac{6}{7}(-\frac{3}{4}x+\frac{7}{8})-\frac{1}{2}]\right\}=-\frac{8}{9}(-\frac{4}{5}x+\frac{9}{10})-\frac{1}{4}-\frac{5}{6}x$
+  
+    iii. $-\frac{4}{5}+\left\{\frac{7}{8}[\frac{2}{3}(\frac{5}{6}x-\frac{3}{4})+\frac{4}{5}(\frac{6}{7}x+\frac{8}{9})-\frac{1}{2}]\right\}=\frac{3}{4}(\frac{4}{5}x+\frac{7}{8})-\frac{5}{6}-\frac{2}{3}x$
+    
+    iv. $\frac{3}{4}-\left\{\frac{6}{7}[\frac{5}{6}(\frac{3}{4}x-\frac{4}{5})+\frac{7}{8}(\frac{2}{3}x-\frac{5}{6})-\frac{1}{2}]\right\}=\frac{9}{10}(\frac{4}{5}x+\frac{6}{7})-\frac{1}{3}+\frac{4}{5}x$
+    
+    v. $-\frac{6}{7}+\left\{\frac{2}{3}[-\frac{4}{5}(\frac{5}{6}x+\frac{6}{7})-\frac{7}{8}(\frac{3}{4}x+\frac{4}{5})-\frac{1}{2}]\right\}=-\frac{8}{9}(\frac{2}{3}x-\frac{6}{7})-\frac{1}{4}-\frac{3}{5}x$
+    
+    vi. $\frac{7}{8}-\left\{\frac{5}{6}[\frac{3}{4}(\frac{2}{3}x-\frac{5}{6})-\frac{6}{7}(-\frac{5}{6}x+\frac{3}{4})-\frac{1}{2}]\right\}=-\frac{4}{5}(\frac{3}{4}x+\frac{8}{9})-\frac{2}{3}+\frac{7}{8}x$
+    
+    vii. $-\frac{4}{5}+\left\{\frac{7}{8}[\frac{5}{6}(\frac{3}{4}x-\frac{2}{3})+\frac{4}{5}(\frac{6}{7}x-\frac{5}{6})-\frac{1}{2}]\right\}=\frac{3}{4}(\frac{2}{3}x+\frac{7}{8})-\frac{1}{6}-\frac{2}{5}x$
+    
+    viii. $\frac{3}{4}-\left\{\frac{2}{3}[\frac{5}{6}(\frac{4}{5}x-\frac{7}{8})+\frac{7}{8}(\frac{5}{6}x+\frac{4}{5})-\frac{1}{2}]\right\}=\frac{9}{10}(\frac{5}{6}x+\frac{6}{7})+\frac{1}{4}-\frac{4}{5}x$
+    
+    ix. $-\frac{6}{7}+\left\{\frac{4}{5}[\frac{2}{3}(\frac{5}{6}x+\frac{7}{8})+\frac{7}{8}(\frac{4}{5}x-\frac{2}{3})-\frac{1}{2}]\right\}=\frac{8}{9}(\frac{3}{4}x-\frac{6}{7})-\frac{1}{5}-\frac{5}{6}x$
+    
+    x. $\frac{7}{8}+\left\{-\frac{5}{6}[\frac{3}{4}(\frac{4}{5}x-\frac{6}{7})+\frac{6}{7}(\frac{5}{6}x+\frac{3}{4})-\frac{1}{2}]\right\}=-\frac{4}{5}(\frac{4}{5}x+\frac{5}{6})-\frac{2}{3}+\frac{7}{8}x$
+
+    xi. $-\frac{4}{5}-\left\{\frac{7}{8}[\frac{2}{3}(-\frac{5}{6}x-\frac{7}{8})+\frac{4}{5}(\frac{6}{7}x-\frac{5}{6})-\frac{1}{2}]\right\}=-\frac{3}{4}(\frac{5}{6}x-\frac{7}{8})-\frac{1}{7}-\frac{6}{7}x$
+
+    xii. $-\frac{3}{4}+\left\{-\frac{2}{3}[\frac{5}{6}(\frac{4}{5}x+\frac{7}{8})+\frac{7}{8}(\frac{5}{6}x-\frac{4}{5})-\frac{1}{2}]\right\}=\frac{9}{10}(-\frac{5}{6}x+\frac{4}{5})-\frac{1}{8}+\frac{7}{8}x$
+
+    xiii. $-\frac{6}{7}-\left\{\frac{4}{5}[\frac{2}{3}(\frac{5}{6}x-\frac{2}{3})+\frac{7}{8}(\frac{4}{5}x+\frac{7}{8})-\frac{1}{2}]\right\}=-\frac{8}{9}(\frac{6}{7}x+\frac{4}{5})-\frac{1}{9}-\frac{8}{9}x$
+
+    xiv. $-\frac{7}{8}+\left\{\frac{5}{6}[\frac{3}{4}(-\frac{4}{5}x-\frac{6}{7})-\frac{6}{7}(\frac{5}{6}x+\frac{4}{5})-\frac{1}{2}]\right\}=-\frac{4}{5}(\frac{4}{5}x+\frac{6}{7})+\frac{2}{3}-\frac{7}{8}x$
+
+    xv. $-\frac{4}{5}+\left\{\frac{7}{8}[-\frac{2}{3}(\frac{5}{6}x-\frac{7}{8})-\frac{4}{5}(\frac{6}{7}x+\frac{2}{3})-\frac{1}{2}]\right\}=-\frac{3}{4}(\frac{5}{6}x+\frac{7}{8})-\frac{1}{10}-\frac{2}{3}x$
+
+
+5. Resuelve los ejercicios de la forma $\frac{\frac{a}{b}x+\frac{c}{d}}{\frac{e}{f}}+\frac{g}{h}=\frac{\frac{i}{j}x+\frac{k}{l}}{m}$
+
+ \begin{multicols}{2}
+    i. $\frac{-\frac{3}{4}x+\frac{5}{6}}{-\frac{7}{8}}+\frac{1}{2}=-\frac{\frac{9}{10}x+\frac{11}{12}}{13}$
+
+    ii. $-\frac{-\frac{2}{3}x+\frac{4}{5}}{-\frac{6}{7}}+\frac{1}{2}=-\frac{\frac{8}{9}x+\frac{10}{11}}{12}$
+
+    iii. $\frac{\frac{5}{6}x-\frac{7}{8}}{\frac{9}{10}}-\frac{3}{4}=-\frac{\frac{11}{12}x+\frac{13}{14}}{15}$
+
+    iv. $\frac{\frac{7}{8}x+\frac{9}{10}}{\frac{11}{12}}+\frac{5}{6}=-\frac{\frac{15}{16}x+\frac{17}{18}}{19}$
+
+    v. $\frac{\frac{4}{5}x+\frac{6}{7}}{\frac{8}{9}}+\frac{2}{3}=\frac{\frac{10}{11}x+\frac{12}{13}}{14}$
+
+    vi. $\frac{\frac{6}{7}x-\frac{8}{9}}{\frac{10}{11}}+\frac{3}{4}=\frac{\frac{14}{15}x+\frac{16}{17}}{18}$
+
+    vii. $-\frac{\frac{1}{2}x+\frac{3}{4}}{\frac{5}{6}}-\frac{4}{5}=-\frac{\frac{7}{8}x-\frac{9}{10}}{11}$
+
+    viii. $\frac{-\frac{8}{9}x-\frac{10}{11}}{-\frac{12}{13}}+\frac{6}{7}=\frac{\frac{16}{17}x+\frac{18}{19}}{20}$
+
+    ix. $\frac{-\frac{2}{3}x+\frac{4}{5}}{\frac{6}{7}}-\frac{1}{2}=-\frac{\frac{8}{9}x+\frac{10}{11}}{12}$
+
+    x. $-\frac{\frac{5}{6}x-\frac{7}{8}}{\frac{9}{10}}+\frac{3}{4}=-\frac{\frac{11}{12}x-\frac{13}{14}}{15}$
+
+    xi. $\frac{\frac{3}{4}x+\frac{5}{6}}{\frac{7}{8}}-\frac{2}{3}=-\frac{\frac{9}{10}x+\frac{11}{12}}{13}$
+
+    xii. $-\frac{-\frac{6}{7}x+\frac{8}{9}}{\frac{10}{11}}+\frac{4}{5}=-\frac{\frac{14}{15}x-\frac{16}{17}}{18}$
+
+    xiii. $\frac{\frac{4}{5}x+\frac{6}{7}}{-\frac{8}{9}}-\frac{3}{4}=\frac{\frac{10}{11}x-\frac{12}{13}}{14}$
+
+    xiv. $\frac{-\frac{1}{2}x-\frac{3}{4}}{\frac{5}{6}}+\frac{5}{6}=\frac{\frac{7}{8}x+\frac{9}{10}}{11}$
+
+    xv. $\frac{\frac{8}{9}x-\frac{10}{11}}{-\frac{12}{13}}-\frac{6}{7}=\frac{\frac{16}{17}x-\frac{18}{19}}{20}$
+\end{multicols}
 
 # Desigualdades
 
