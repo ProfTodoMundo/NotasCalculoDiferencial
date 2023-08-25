@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.3)  25 AUG 2023 08:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.3)  25 AUG 2023 10:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -902,17 +902,17 @@ LaTeX Info: Redefining \% on input line 2711.
 ]
 Cap\'{\i }tulo 4.
 [29]
-LaTeX Info: Redefining \. on input line 2847.
-LaTeX Info: Redefining \% on input line 2847.
+LaTeX Info: Redefining \. on input line 2911.
+LaTeX Info: Redefining \% on input line 2911.
 [30]
 Cap\'{\i }tulo 5.
 [31
 
 ]
-LaTeX Info: Redefining \. on input line 2964.
-LaTeX Info: Redefining \% on input line 2964.
-LaTeX Info: Redefining \. on input line 2964.
-LaTeX Info: Redefining \% on input line 2964.
+LaTeX Info: Redefining \. on input line 3028.
+LaTeX Info: Redefining \% on input line 3028.
+LaTeX Info: Redefining \. on input line 3028.
+LaTeX Info: Redefining \% on input line 3028.
 [32] (./ApuntesCalculo.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
@@ -942,7 +942,7 @@ m/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 l/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/
 2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ApuntesCalculo.pdf (36 pages, 500832 bytes).
+Output written on ApuntesCalculo.pdf (36 pages, 502291 bytes).
 PDF statistics:
  544 PDF objects out of 1000 (max. 8388607)
  446 compressed objects within 5 object streams
