@@ -2213,3 +2213,82 @@ La ecuación canónica \(y - k = 4p(x - h)^2\) describe una parábola con vérti
 
 
 
+## B. Ecuación de general de la Recta 
+
+Deduciremos la ecuación de la recta que pasa a través de dos puntos \(P_1(x_1, y_1)\) y \(P_2(x_2, y_2)\).
+
+  - Cálculo de la Pendiente
+    
+    La pendiente \(m\) se calcula como:
+    
+  \[m = \frac{y_2 - y_1}{x_2 - x_1}\]
+  
+  - Ecuación Punto-Pendiente
+  
+    La ecuación punto-pendiente es:
+  
+  \[y - y_1 = m(x - x_1)\]
+  
+  - Eliminación del Denominador
+  
+    Multiplicamos ambos lados de la ecuación por \(x_2 - x_1\):
+  
+  \[(x_2 - x_1)(y - y_1) = (y_2 - y_1)(x - x_1)\]
+  
+  - Distribución de Términos
+  
+  \[x_2(y - y_1) - x_1(y - y_1) = y_2(x - x_1) - y_1(x - x_1)\]
+  
+  - Resolución de Multiplicaciones
+  
+  \[x_2y - x_2y_1 - x_1y + x_1y_1 = y_2x - x_1y_2 - y_1x + x_1y_1\]
+  
+  - Reorganización de Términos
+  
+  \[x_2y - x_1y - y_2x + y_1x = x_2y_1 - x_1y_2 + x_1y_1 - x_2y_1\]
+  
+  - Factorización de \(y\) y \(x\)
+  
+  \[y(x_2 - x_1) - x(y_2 - y_1) = x_1y_1 - x_1y_2\]
+  
+  - División por \(x_2 - x_1\)
+  
+  \[y - \frac{y_2 - y_1}{x_2 - x_1}x = \frac{x_1y_1 - x_1y_2}{x_2 - x_1}\]
+  
+  - Reemplazo de \(m\)
+  
+  \[y - mx = \frac{x_1y_1 - x_1y_2}{x_2 - x_1}\]
+  
+  - Eliminación del Denominador
+  
+  \[(x_2 - x_1)y - m(x_2 - x_1)x = x_1y_1 - x_1y_2\]
+  
+  - Distribución de Términos
+  
+  \[x_2y - x_1y - mx_2x + mx_1x = x_1y_1 - x_1y_2\]
+  
+  - Reorganización de Términos
+  
+  \[x_2y - x_1y = mx_2x - mx_1x + x_1y_1 - x_1y_2\]
+  
+  - Factorización de \(y\) y \(x\)
+  
+  \[y(x_2 - x_1) = x(mx_2 - mx_1) + x_1(y_1 - y_2)\]
+  
+  - División por \(x_2 - x_1\)
+  
+  \[y = \frac{mx_2 - mx_1}{x_2 - x_1}x + \frac{x_1(y_1 - y_2)}{x_2 - x_1}\]
+  
+  - Simplificación de Fracciones
+  
+  \[y = mx + \frac{x_1y_1 - x_1y_2}{x_2 - x_1}\]
+  
+  - Reemplazo de \(m\)
+  
+  \[y = \frac{y_2 - y_1}{x_2 - x_1}x + y_1 - \frac{y_2 - y_1}{x_2 - x_1}x_1\]
+  
+  - Simplificación Final
+  
+  \[y = \frac{y_2 - y_1}{x_2 - x_1}x + \frac{x_1y_2 - x_1y_1}{x_2 - x_1}\]
+
+Esta es la ecuación de la recta que pasa por los puntos \(P_1(x_1, y_1)\) y \(P_2(x_2, y_2)\).
