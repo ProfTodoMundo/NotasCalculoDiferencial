@@ -1989,7 +1989,7 @@ Puedes descargar el archivo PDF de la tarea [aquí](https://github.com/ProfTodoM
 
   18. $f(x) = \frac{x - 1}{x + 2}$
 
-  19. $f(x) = 3x - 2 $
+  19. $f(x) = 3x - 2$
 
   20. $f(x) = -x^2 + 4x + 1$
 
@@ -2025,36 +2025,60 @@ Puedes descargar el archivo PDF de la tarea [aquí](https://github.com/ProfTodoM
   
 **Para las siguientes funciones determina su dominio, imagen y función**
 
-
-¡Por supuesto! Aquí tienes ejemplos de funciones de los tipos que mencionaste en tres niveles de complejidad, junto con una función fraccional:
-
   1. $f(x) = \sqrt{x + 3}$
+ 
   2. $f(x) = \sqrt{2x + 5}$
+ 
   3. $f(x) = \sqrt{3x - 1}$
+ 
   4. $f(x) = \sqrt{4x^2 + 3x + 2}$
-  5.$f(x) = \sqrt{0.5x + 1}$
+ 
+  5. $f(x) = \sqrt{0.5x + 1}$
+ 
   6. $f(x) = \sqrt{-2x + 7}$
-  7. $f(x) = \sqrt{e^x + 2}$
-  8. $f(x) = \sqrt{\sin(x) + \cos(x)}$
+ 
+  7. $f(x) = \sqrt{-4x + 2}$
+ 
+  8. $f(x) = \sqrt{\frac{2}{3}x+1}$
+ 
   9. $f(x) = \sqrt{3x^2 + 2x + 1}$
+ 
   10. $f(x) = \sqrt{x^2 + 4x + 3}$
+ 
   11. $f(x) = \sqrt{2x^2 + 6x + 5}$
+ 
   12. $f(x) = \sqrt{x^2 - 9}$
+ 
   13. $f(x) = \sqrt{3x^2 + 2x + 1}$
+ 
   14. $f(x) = \sqrt{-x^2 + 5x - 6}$
+ 
   15. $f(x) = \sqrt{4x^2 - 4}$
-  16. $f(x) = \sqrt{e^{2x} + 2x + 1}$
-  17. $f(x) = \sqrt{\sin(x^2) + \cos(2x)}$
+ 
+  16. $f(x) = \sqrt{6x^{2} + 2x + 1}$
+ 
+  17. $f(x) = \sqrt{\frac{x^2 - 4}{x + 2}}$
+ 
   18. $f(x) = \sqrt{2x^2 + 3x + 4}$
+ 
   19. $f(x) = \frac{2x^2 + 4x + 2}{x + 1}$
+ 
   20. $f(x) = \frac{3x^2 + 6x + 3}{2x + 2}$
+ 
   21. $f(x) = \frac{x^2 - 4}{x - 2}$
+ 
   22. $f(x) = \frac{4x^2 + 6x + 2}{3x + 9}$
+ 
   23. $f(x) = \frac{2x^2 + 5x + 3}{x + 3}$
+ 
   24. $f(x) = \frac{x^2 - 1}{2x - 2}$
-  25. $f(x) = \frac{e^{2x} + 2x + 1}{x + 1}$
-  26. $f(x) = \frac{\sin(x^2) + \cos(x)}{x}$
+ 
+  25. $f(x) = \frac{2x^2 - x - 1}{x - 1}$
+ 
+  26. $f(x) = \frac{x^2-9}{3x - 9}$
+ 
   27. $f(x) = \frac{2x^2 + 4x + 2}{3x + 3}$
+
 
 # Tema Adicionales
 
