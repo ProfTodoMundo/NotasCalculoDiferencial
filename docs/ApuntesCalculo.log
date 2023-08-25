@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.3)  25 AUG 2023 08:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.3)  25 AUG 2023 08:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -881,57 +881,50 @@ Underfull \hbox (badness 6461) in paragraph at lines 2098--2099
 LaTeX Info: Redefining \. on input line 2212.
 LaTeX Info: Redefining \% on input line 2212.
 [24]
-LaTeX Info: Redefining \. on input line 2317.
-LaTeX Info: Redefining \% on input line 2317.
+LaTeX Info: Redefining \. on input line 2393.
+LaTeX Info: Redefining \% on input line 2393.
 [25]
-LaTeX Info: Redefining \. on input line 2419.
-LaTeX Info: Redefining \% on input line 2419.
+Overfull \vbox (0.84102pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (0.84102pt too high) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 2567.
+LaTeX Info: Redefining \% on input line 2567.
 [26]
-LaTeX Info: Redefining \. on input line 2515.
-LaTeX Info: Redefining \% on input line 2515.
+LaTeX Info: Redefining \. on input line 2711.
+LaTeX Info: Redefining \% on input line 2711.
 [27]
-LaTeX Info: Redefining \. on input line 2618.
-LaTeX Info: Redefining \% on input line 2618.
-[28]
-LaTeX Info: Redefining \. on input line 2638.
-LaTeX Info: Redefining \% on input line 2638.
-[29]
-LaTeX Info: Redefining \. on input line 2638.
-LaTeX Info: Redefining \% on input line 2638.
-[30
+LaTeX Info: Redefining \. on input line 2711.
+LaTeX Info: Redefining \% on input line 2711.
+[28
 
 ]
 Cap\'{\i }tulo 4.
-[31]
-LaTeX Info: Redefining \. on input line 2774.
-LaTeX Info: Redefining \% on input line 2774.
-[32]
-LaTeX Info: Redefining \. on input line 2778.
-LaTeX Info: Redefining \% on input line 2778.
-[33]
-LaTeX Info: Redefining \. on input line 2778.
-LaTeX Info: Redefining \% on input line 2778.
-[34
+[29]
+LaTeX Info: Redefining \. on input line 2847.
+LaTeX Info: Redefining \% on input line 2847.
+[30]
+Cap\'{\i }tulo 5.
+[31
 
 ]
-Cap\'{\i }tulo 5.
-[35]
-LaTeX Info: Redefining \. on input line 2895.
-LaTeX Info: Redefining \% on input line 2895.
-LaTeX Info: Redefining \. on input line 2895.
-LaTeX Info: Redefining \% on input line 2895.
-[36] (./ApuntesCalculo.aux
+LaTeX Info: Redefining \. on input line 2964.
+LaTeX Info: Redefining \% on input line 2964.
+LaTeX Info: Redefining \. on input line 2964.
+LaTeX Info: Redefining \% on input line 2964.
+[32] (./ApuntesCalculo.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 ) ) 
 Here is how much of TeX's memory you used:
- 16315 strings out of 476025
- 258989 string characters out of 5790018
+ 16123 strings out of 476025
+ 257480 string characters out of 5790018
  1926388 words of memory out of 5000000
  35960 multiletter control sequences out of 15000+600000
  592363 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,12n,81p,1203b,707s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,12n,81p,1203b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/l
 ocal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/t
@@ -949,10 +942,10 @@ m/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 l/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/
 2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ApuntesCalculo.pdf (40 pages, 507436 bytes).
+Output written on ApuntesCalculo.pdf (36 pages, 500832 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 688 compressed objects within 7 object streams
- 396 named destinations out of 1000 (max. 500000)
+ 544 PDF objects out of 1000 (max. 8388607)
+ 446 compressed objects within 5 object streams
+ 204 named destinations out of 1000 (max. 500000)
  45180 words of extra memory for PDF output out of 51595 (max. 10000000)
 
