@@ -2022,3 +2022,108 @@ Puedes descargar el archivo PDF de la tarea [aquí](https://github.com/ProfTodoM
   34. $f(x) = |6x - 5|$
 
   35. $f(x) = \frac{x^2 - 9}{x - 3}$
+  
+**Para las siguientes funciones determina su dominio, imagen y función**
+
+
+¡Por supuesto! Aquí tienes ejemplos de funciones de los tipos que mencionaste en tres niveles de complejidad, junto con una función fraccional:
+
+  1. $f(x) = \sqrt{x + 3}$
+  2. $f(x) = \sqrt{2x + 5}$
+  3. $f(x) = \sqrt{3x - 1}$
+  4. $f(x) = \sqrt{4x^2 + 3x + 2}$
+  5.$f(x) = \sqrt{0.5x + 1}$
+  6. $f(x) = \sqrt{-2x + 7}$
+  7. $f(x) = \sqrt{e^x + 2}$
+  8. $f(x) = \sqrt{\sin(x) + \cos(x)}$
+  9. $f(x) = \sqrt{3x^2 + 2x + 1}$
+  10. $f(x) = \sqrt{x^2 + 4x + 3}$
+  11. $f(x) = \sqrt{2x^2 + 6x + 5}$
+  12. $f(x) = \sqrt{x^2 - 9}$
+  13. $f(x) = \sqrt{3x^2 + 2x + 1}$
+  14. $f(x) = \sqrt{-x^2 + 5x - 6}$
+  15. $f(x) = \sqrt{4x^2 - 4}$
+  16. $f(x) = \sqrt{e^{2x} + 2x + 1}$
+  17. $f(x) = \sqrt{\sin(x^2) + \cos(2x)}$
+  18. $f(x) = \sqrt{2x^2 + 3x + 4}$
+  19. $f(x) = \frac{2x^2 + 4x + 2}{x + 1}$
+  20. $f(x) = \frac{3x^2 + 6x + 3}{2x + 2}$
+  21. $f(x) = \frac{x^2 - 4}{x - 2}$
+  22. $f(x) = \frac{4x^2 + 6x + 2}{3x + 9}$
+  23. $f(x) = \frac{2x^2 + 5x + 3}{x + 3}$
+  24. $f(x) = \frac{x^2 - 1}{2x - 2}$
+  25. $f(x) = \frac{e^{2x} + 2x + 1}{x + 1}$
+  26. $f(x) = \frac{\sin(x^2) + \cos(x)}{x}$
+  27. $f(x) = \frac{2x^2 + 4x + 2}{3x + 3}$
+
+# Tema Adicionales
+
+## A. Parábola en Forma Canónica
+
+### Deducción de la Ecuación Canónica de la Parábola
+
+Dada la ecuación general de la parábola: \(y = ax^2 + bx + c\)
+
+1. **Completar el Cuadrado:**
+   Completamos el cuadrado añadiendo y restando \(\frac{b^2}{4a^2}\) en el lado derecho de la ecuación:
+   
+   \[y = ax^2 + bx + \frac{b^2}{4a^2} - \frac{b^2}{4a^2} + c\]
+
+2. **Trinomio Cuadrado Perfecto:**
+   Factorizamos el trinomio cuadrado perfecto \(ax^2 + bx + \frac{b^2}{4a^2}\) como \(\left(x + \frac{b}{2a}\right)^2\):
+   
+   \[y = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a^2} + c\]
+
+3. **Simplificación y Agrupación:**
+   Simplificamos la expresión en el paréntesis y combinamos los términos constantes:
+   
+   \[y = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a^2}\]
+
+4. **Identificación del Vértice:**
+   Observamos que el término entre paréntesis se asemeja a \((x - h)^2\), donde \(h = -\frac{b}{2a}\).
+
+5. **Factorización del Término Constante:**
+   Factorizamos el término constante en el lado derecho como \(4p\), donde \(p = \frac{b^2 - 4ac}{4a^2}\):
+   
+   \[y = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \frac{b^2 - 4ac}{4a^2}\]
+
+6. **Ecuación Canónica:**
+   Reorganizamos la ecuación para que tenga la forma canónica \(y - k = 4p(x - h)^2\):
+   
+   \[y - \left(\frac{b^2 - 4ac}{4a^2}\right) = 4p\left(x + \frac{b}{2a}\right)^2\]
+
+Comparando esta ecuación con la forma canónica \(y - k = 4p(x - h)^2\), identificamos que \(k = \frac{b^2 - 4ac}{4a^2}\) y \(h = -\frac{b}{2a}\), lo cual es coherente con el proceso de completar el cuadrado.
+
+Por lo tanto, hemos deducido la ecuación canónica de la parábola \(y - k = 4p(x - h)^2\) a partir de la ecuación general \(y = ax^2 + bx + c\).
+
+La ecuación canónica de una parábola tiene la forma \(y - k = 4p(x - h)^2\), donde \((h, k)\) es el vértice de la parábola y \(p\) es la distancia entre el vértice y el foco o entre el vértice y la directriz, dependiendo de la orientación de la parábola.
+
+### Ecuación Canónica
+
+La ecuación canónica de la parábola es \(y - k = 4p(x - h)^2\), donde:
+
+- \((h, k)\) es el vértice de la parábola.
+- \(p\) es la distancia entre el vértice y el foco o la distancia entre el vértice y la directriz.
+
+### Orientación de la Parábola
+
+La orientación de la parábola (vertical u horizontal) depende de la posición del eje de simetría.
+
+- Si la parábola se abre hacia arriba o hacia abajo, es vertical.
+- Si la parábola se abre hacia la derecha o hacia la izquierda, es horizontal.
+
+### Foco y Directriz
+
+La ubicación del foco y la ecuación de la directriz están determinadas por la orientación de la parábola:
+
+- **Parábola Vertical:** El foco está en \((h, k + p)\) y la directriz tiene la ecuación \(y = k - p\).
+- **Parábola Horizontal:** El foco está en \((h + p, k)\) y la directriz tiene la ecuación \(x = h - p\).
+
+### Longitud Focal
+
+La longitud focal de una parábola vertical es \(|4p|\) y la longitud focal de una parábola horizontal es \(|4p|\).
+
+La ecuación canónica \(y - k = 4p(x - h)^2\) describe una parábola con vértice \((h, k)\), orientación determinada por el eje de simetría, foco y directriz dependiendo de la orientación, y una longitud focal de \(|4p|\).
+
+
+
