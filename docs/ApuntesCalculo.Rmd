@@ -1684,8 +1684,710 @@ $\blacksquare$
 14. $-\frac{4}{9}x^2 + \frac{2}{7}x - \frac{3}{5} \leq 0$
 
 15. $\frac{5}{6}x^2 - \frac{1}{3}x + \frac{4}{9} \geq 0$
-
 \end{multicols}
+
+
+
+
+# Tarea 1
+
+**A partir de los ejercicios anteriores se extraen varios para generar la primera tarea, de la cuál se tomarán varios ejercicios para la primera evaluación parcial.**
+
+Puedes descargar el archivo PDF de la tarea [aquí](https://github.com/ProfTodoMundo/NotasCalculoDiferencial/blob/PrincipalCD/docs/Tarea1.pdf).
+
+![Acceder al documento](codigo_qr_tarea.png){width=300px}
+
+\begin{multicols}{2}
+1. Resuelve las siguientes ecuaciones
+
+    i. $2x + 3 = 4x - 1$
+
+    iii. $8x + 6 = -2x - 4$
+
+    v. $6x - 5 = -3x + 2$
+
+    viii. $-3x + 4 = 7x + 2$
+
+    xi. $12x - 8 = -10x + 14$
+
+    xii.  $-6x + 7 = 8x - 9$
+
+    xiv. $-13x + 16 = 15x - 18$
+
+    xv. $14x + 20 = -16x - 22$
+\end{multicols}
+
+2. Resuelve las siguientes ecuaciones de la forma
+\begin{multicols}{2}
+    i. $\frac{2}{3}x - \frac{5}{4} = \frac{7}{6}$
+    
+    v. $\frac{4}{5}x - \frac{2}{3} = -\frac{1}{6}$
+
+    ix. $\frac{11}{12}x + \frac{10}{11} = -\frac{9}{10}$
+
+    xi. $\frac{3}{4}x - \frac{4}{5} = -\frac{1}{2}$
+
+    xiii. $\frac{6}{7}x + \frac{8}{9} = -\frac{10}{11}$
+
+    xv. $\frac{9}{10}x + \frac{1}{3} = -\frac{5}{6}$
+\end{multicols}
+
+3. Resuelve las siguientes ecuaciones de la forma
+
+\begin{multicols}{2}
+    iii. $\frac{9}{10}x + \frac{7}{12} = -\frac{4}{5}x + \frac{1}{3}$
+
+    vi. $-\frac{11}{12}x + \frac{8}{9} = \frac{7}{10}x - \frac{6}{7}$
+
+    viii. $-\frac{7}{8}x - \frac{6}{7} = \frac{5}{6}x - \frac{3}{5}$
+
+    ix. $\frac{5}{6}x + \frac{4}{5} = -\frac{3}{4}x + \frac{2}{3}$
+
+    xii. $-\frac{4}{5}x + \frac{3}{4} = \frac{2}{3}x - \frac{1}{2}$
+
+    xiii. $\frac{1}{3}x + \frac{5}{7} = -\frac{9}{10}x + \frac{8}{9}$
+\end{multicols}
+
+
+4. Resuelve las siguientes ecuaciones de la forma
+\begin{multicols}{2}
+    i. $\frac{3}{4}+\left\{\frac{2}{5}[\frac{5}{6}(\frac{2}{3}x+\frac{4}{5})+\frac{7}{8}(\frac{3}{4}x+\frac{5}{6})+\frac{1}{2}]\right\}=\frac{9}{10}(\frac{4}{5}x+\frac{6}{7})+\frac{1}{3}+\frac{4}{5}x$
+    
+    iv. $\frac{3}{4}-\left\{\frac{6}{7}[\frac{5}{6}(\frac{3}{4}x-\frac{4}{5})+\frac{7}{8}(\frac{2}{3}x-\frac{5}{6})-\frac{1}{2}]\right\}=\frac{9}{10}(\frac{4}{5}x+\frac{6}{7})-\frac{1}{3}+\frac{4}{5}x$
+    
+    vii. $-\frac{4}{5}+\left\{\frac{7}{8}[\frac{5}{6}(\frac{3}{4}x-\frac{2}{3})+\frac{4}{5}(\frac{6}{7}x-\frac{5}{6})-\frac{1}{2}]\right\}=\frac{3}{4}(\frac{2}{3}x+\frac{7}{8})-\frac{1}{6}-\frac{2}{5}x$
+
+    x. $\frac{7}{8}+\left\{-\frac{5}{6}[\frac{3}{4}(\frac{4}{5}x-\frac{6}{7})+\frac{6}{7}(\frac{5}{6}x+\frac{3}{4})-\frac{1}{2}]\right\}=-\frac{4}{5}(\frac{4}{5}x+\frac{5}{6})-\frac{2}{3}+\frac{7}{8}x$
+
+    xiii. $-\frac{6}{7}-\left\{\frac{4}{5}[\frac{2}{3}(\frac{5}{6}x-\frac{2}{3})+\frac{7}{8}(\frac{4}{5}x+\frac{7}{8})-\frac{1}{2}]\right\}=-\frac{8}{9}(\frac{6}{7}x+\frac{4}{5})-\frac{1}{9}-\frac{8}{9}x$
+
+    xv. $-\frac{4}{5}+\left\{\frac{7}{8}[-\frac{2}{3}(\frac{5}{6}x-\frac{7}{8})-\frac{4}{5}(\frac{6}{7}x+\frac{2}{3})-\frac{1}{2}]\right\}=-\frac{3}{4}(\frac{5}{6}x+\frac{7}{8})-\frac{1}{10}-\frac{2}{3}x$
+\end{multicols}
+
+5. Resuelve los ejercicios de la forma 
+
+\begin{multicols}{2}
+    iii. $\frac{\frac{5}{6}x-\frac{7}{8}}{\frac{9}{10}}-\frac{3}{4}=-\frac{\frac{11}{12}x+\frac{13}{14}}{15}$
+
+    vi. $\frac{\frac{6}{7}x-\frac{8}{9}}{\frac{10}{11}}+\frac{3}{4}=\frac{\frac{14}{15}x+\frac{16}{17}}{18}$
+
+    ix. $\frac{-\frac{2}{3}x+\frac{4}{5}}{\frac{6}{7}}-\frac{1}{2}=-\frac{\frac{8}{9}x+\frac{10}{11}}{12}$
+
+    xii. $-\frac{-\frac{6}{7}x+\frac{8}{9}}{\frac{10}{11}}+\frac{4}{5}=-\frac{\frac{14}{15}x-\frac{16}{17}}{18}$
+
+    xv. $\frac{\frac{8}{9}x-\frac{10}{11}}{-\frac{12}{13}}-\frac{6}{7}=\frac{\frac{16}{17}x-\frac{18}{19}}{20}$
+\end{multicols}
+
+
+6. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+\begin{multicols}{2}
+1. $2x+3>7$
+
+6. $3x-2>2x+4$
+
+9. $5x-2>3x+4$
+
+12. $3x-1>4x-3$
+
+14. $3x+2>2x-5$
+
+15. $-2x+1>5x-8$
+\end{multicols}
+
+7. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+\begin{multicols}{2}    
+1. $\frac{1}{2}x+\frac{3}{4}>1$
+
+5. $\frac{2}{3}x+\frac{1}{4}>\frac{5}{6}x-
+\frac{1}{2}$
+
+8. $\frac{1}{3}x-\frac{2}{5}>\frac{2}{7}x-
+\frac{1}{7}$
+
+11. $-\frac{1}{2}x+\frac{1}{3}>-\frac{3}{4}x-\frac{1}{6}$
+
+14. $-\frac{1}{2}x+\frac{3}{4}>\frac{3}{5}x+\frac{1}{10}$
+
+15. $\frac{2}{5}x-\frac{1}{4}>-\frac{1}{2}x+\frac{3}{8}$
+\end{multicols}
+
+8. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+\begin{multicols}{2}
+1. $2x+3<7$
+
+5. $2x+1<3x-2$
+
+9. $5x-2<3x+4$
+
+10. $2x+4<6x-8$
+
+13. $2x-5<x-3$
+
+15. $-2x+1<5x-8$
+\end{multicols}
+
+9. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+\begin{multicols}{2}
+1. $\frac{1}{2}x+\frac{3}{4}<\frac{5}{8}$
+
+2. $-\frac{2}{3}x+\frac{4}{5}<\frac{1}{2}$
+
+4. $-\frac{2}{5}x+\frac{1}{3}<-\frac{1}{15}$
+
+8. $\frac{1}{3}x-\frac{2}{5}<\frac{2}{7}x-\frac{1}{7}$
+
+14. $-\frac{1}{2}x+\frac{3}{4}<\frac{3}{5}x+\frac{1}{10}$
+
+15. $\frac{2}{5}x-\frac{1}{4}<-\frac{1}{2}x+\frac{3}{8}$
+\end{multicols}
+
+10. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $2x + 3 \geq 5$
+
+    5. $2x - 3 \geq x + 2$
+
+    7. $4x - 1 \geq x + 5$
+
+    10. $2x + 4 \geq 4x - 2$
+
+    13. $2x - 5 \geq x - 1$
+
+    15. $-2x + 1 \geq -5x + 4$
+
+
+11. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $\frac{1}{2}x + \frac{3}{4} \geq \frac{5}{8}$
+
+    5. $\frac{2}{3}x + \frac{1}{4} \geq \frac{5}{6}x - \frac{1}{2}$
+
+    8. $\frac{1}{3}x - \frac{2}{5} \geq \frac{2}{7}x - \frac{1}{7}$
+
+    11. $-\frac{1}{2}x + \frac{1}{3} \geq -\frac{3}{4}x - \frac{1}{6}$
+
+    12. $\frac{1}{4}x - \frac{1}{2} \geq \frac{2}{3}x - \frac{4}{6}$
+
+    15. $\frac{2}{5}x - \frac{1}{4} \geq -\frac{1}{2}x + \frac{3}{8}$
+
+
+12. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    2. $-3x + 4 \leq 5$
+
+    4. $-5x + 3 \leq 2$
+
+    5. $2x + 1 \leq 5x - 2$
+
+    6. $3x - 1 \leq 5x + 2$
+
+    11. $-2x + 3 \leq -4x - 1$
+
+    14. $-2x + 4 \leq 5x + 1$
+
+
+
+13. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $\frac{1}{2}x + \frac{3}{4} \leq \frac{5}{8}$
+
+    4. $-\frac{2}{5}x + \frac{1}{3} \leq -\frac{1}{15}$
+
+    6. $\frac{1}{2}x - \frac{1}{3} \leq \frac{2}{5}x - \frac{7}{15}$
+
+    7. $-\frac{3}{4}x + \frac{1}{2} \leq \frac{2}{3}x - \frac{1}{4}$
+
+    14. $-\frac{1}{2}x + \frac{3}{4} \leq \frac{3}{5}x + \frac{1}{10}$
+
+    15. $\frac{2}{5}x - \frac{1}{4} \leq -\frac{1}{2}x + \frac{3}{8}$
+
+
+14. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $2<x+3<5$
+
+    2. $-1<2x-1<1$
+
+    3. $-\frac{1}{2}<\frac{3}{4}x+\frac{1}{2}<\frac{1}{2}$
+
+    11. $-4< -3x+5<3$
+
+    12. $1<\frac{1}{2}x+\frac{1}{3}<2$
+
+    14. $-\frac{3}{4}<\frac{1}{2}x-\frac{1}{4}<\frac{3}{4}$
+
+
+15. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $-2<3x+1\leq 5$
+
+    2. $-\frac{4}{5}< \frac{1}{2}x-\frac{3}{4}\leq2$
+
+    8. $1<\frac{1}{2}x+\frac{1}{3}\leq 2$
+
+    9. $-3< -2x+5\leq 3$
+
+    12. $1<\frac{1}{2}x-\frac{1}{4}\leq 2$
+
+    15. $2<-\frac{1}{2}x+\frac{3}{4}\leq 3$
+
+
+16. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+
+    2. $-\frac{4}{5}\leq \frac{1}{2}x-\frac{3}{4}<2$
+
+    6. $-2\leq \frac{3}{2}x-1<1$
+
+    10. $-\frac{1}{2}\leq \frac{3}{4}x+\frac{1}{2}<\frac{1}{2}$
+
+    12. $1\leq \frac{1}{2}x-\frac{1}{4}<2$
+
+    13. $-3\leq 2x+7<-1$
+
+    15. $2\leq -\frac{1}{2}x+\frac{3}{4}<3$
+
+
+17. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $-1\leq x\leq 2$
+
+    4. $-\frac{1}{3}\leq \frac{1}{6}x+\frac{1}{2}\leq \frac{1}{2}$
+
+    8. $-\frac{3}{4}\leq -\frac{1}{2}x+\frac{1}{4}\leq \frac{1}{4}$
+
+    12. $1\leq -\frac{1}{2}x+\frac{3}{4}\leq 3$
+
+    14. $-1\leq \frac{1}{2}x-\frac{1}{4}\leq 3$
+
+    15. $-2\leq \frac{1}{4}x+\frac{1}{2}\leq 3$
+
+
+18. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+
+    3. $|3x-1|<7$
+
+    5. $|x-2|<4$
+
+    7. $|\frac{3}{2}x+1|<5$
+
+    9. $|2x+1|<6$
+
+    11. $|\frac{1}{4}x+1|<\frac{7}{2}$
+
+    13. $|\frac{1}{3}x+\frac{1}{2}|<\frac{5}{6}$
+
+
+19. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+
+    4. $|\frac{1}{3}x+\frac{1}{2}|\leq \frac{4}{3}$
+
+    8. $|\frac{1}{2}x-\frac{1}{4}|\leq \frac{5}{4}$
+
+    9. $|2x+1|\leq 7$
+
+    12. $|-\frac{1}{2}x+\frac{3}{4}|\leq 2$
+
+    13. $|\frac{1}{3}x+\frac{1}{2}|\leq 1$
+
+    15. $|\frac{1}{4}x+\frac{1}{2}|\leq \frac{5}{4}$
+
+
+20. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+    1. $|3x-1|>4$
+
+    2. $|\frac{1}{2}x-\frac{1}{4}|>\frac{1}{2}$
+
+    6. $|\frac{1}{2}x+1|>\frac{3}{4}$
+
+    7. $|\frac{3}{2}x+1|>\frac{7}{2}$
+
+    11. $|\frac{1}{4}x+1|>1$
+
+    12. $|-\frac{1}{2}x+\frac{3}{4}|>\frac{1}{2}$
+
+
+
+21. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma**
+
+
+    1. $|3x-1|\geq 4$
+
+    2. $|\frac{1}{2}x-\frac{1}{4}|\geq\frac{1}{2}$
+
+    5. $|x-2|\geq 1$
+
+    6. $|\frac{1}{2}x+1|\geq\frac{3}{4}$
+
+    11. $|\frac{1}{4}x+1|\geq 1$
+
+    15. $|\frac{1}{4}x+\frac{1}{2}|\geq 1$
+
+
+22. Resuelve los ejercicios siguientes, encuentra el intervalo solución y proporciona su gráfica
+
+
+    i. $|-\frac{1}{3}x+\frac{2}{5}| \leq \frac{4}{5}$
+    
+    vi. $|-\frac{2}{5}x-\frac{1}{3}| \leq \frac{2}{5}$
+
+    x. $|-\frac{1}{4}x-\frac{1}{8}| \leq \frac{3}{4}$
+    
+    xiii. $|-\frac{2}{5}x-\frac{7}{8}| \leq \frac{2}{3}$
+    
+    xiv. $|\frac{5}{11}x+\frac{1}{7}| \leq \frac{5}{11}$
+    
+    xv. $|\frac{3}{8}x-\frac{2}{9}| \leq \frac{3}{4}$
+
+
+23. Realiza lo mismo para los siguientes ejercicios
+
+
+    i. $|-\frac{2}{5}x+\frac{3}{4}| \leq \frac{1}{2}$
+  
+    vi. $|\frac{3}{8}x-\frac{1}{6}| \leq \frac{2}{5}$
+    
+    x. $|-\frac{1}{4}x+\frac{7}{9}| \leq \frac{5}{8}$
+    
+    xiii. $|\frac{5}{8}x-\frac{1}{3}| \leq \frac{3}{8}$
+    
+    xvi. $|\frac{1}{6}x-\frac{2}{9}| \leq \frac{1}{4}$
+    
+    xix. $|-\frac{4}{7}x-\frac{3}{10}| \leq \frac{1}{7}$
+    
+
+
+24. Finalmente realiza lo mismo para la siguiente lista:
+
+
+    i. $|{-\frac{4}{9}x+\frac{5}{8}}| \geq \frac{1}{3}$
+    
+    v. $|{-\frac{5}{6}x+\frac{3}{10}}| \geq \frac{2}{3}$
+
+    viii. $|{\frac{4}{11}x-\frac{3}{8}}| \leq \frac{1}{5}$
+    
+    xi. $|{\frac{1}{4}x+\frac{7}{9}}| \leq \frac{2}{7}$
+    
+    xv. $|{\frac{5}{11}x-\frac{2}{8}}| \leq \frac{4}{11}$
+    
+    xx. $|{-\frac{1}{5}x+\frac{6}{11}}| > \frac{2}{9}$
+
+
+25. Un poco más de ejercicios finales
+
+
+    iii. $|\frac{-2x+9}{7}| > \frac{4}{9}$
+ 
+    vii. $|\frac{-8x+3}{6}| > \frac{1}{5}$
+    
+    x. $|\frac{11x-6}{10}| \leq \frac{5}{9}$
+    
+    xiv. $|-\frac{18x-9}{5}| \leq \frac{7}{12}$
+ 
+    xvii. $|\frac{25x+8}{6}| < \frac{2}{7}$
+ 
+    xx. $|-\frac{-31x-4}{9}| \geq \frac{1}{5}$
+
+
+26. Ejercicios finales
+
+
+    iv. $|\frac{-4x-9}{5}+\frac{2}{3}| \geq \frac{8}{9}$
+    
+    viii. $|-\frac{-2x-1}{10}+\frac{14}{13}| \geq \frac{16}{17}$
+
+    xii. $|\frac{-10x-7}{13}+\frac{12}{11}| \geq \frac{16}{15}$
+    
+    xv. $|\frac{-17x+6}{5}-\frac{8}{7}| > \frac{3}{4}$
+    
+    xviii. $|-\frac{23x-5}{2}+\frac{14}{15}| \leq \frac{16}{17}$
+    
+    xix. $|\frac{-16x+7}{9}-\frac{11}{10}| > \frac{8}{9}$
+    
+
+
+
+27. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $x^2-3x+2>0$
+
+    6. $x^2+2x+1>0$
+
+    11. $2x^2-7x+6>0$
+
+    13. $\frac{1}{5}x^2-\frac{2}{5}x+\frac{1}{2}>0$
+
+    14. $x^2+\frac{1}{2}x-\frac{1}{2}>0$
+
+    15. $3x^2-10x+6>0$
+
+
+28. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $x^2-4x+3\geq 0$
+
+    6. $x^2+2x+1\geq 0$
+
+    9. $4x^2-12x+9\geq 0$
+
+    12. $\frac{1}{2}x^2+\frac{1}{2}x-1\geq 0$
+
+    14. $x^2+\frac{1}{2}x-\frac{1}{2}\geq 0$
+
+    15. $3x^2-10x+6\geq 0$
+
+
+29. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $x^2-4x+3<0$
+
+    2. $2x^2-5x-3<0$
+
+    5. $-x^2+6x-9<0$
+
+    8. $-4x^2+16x-12<0$
+
+    14. $-x^2+x+12<0$
+
+    15. $\frac{3}{2}x^2-\frac{5}{2}x-1<0$
+
+
+30. Resuelve las siguientes desigualdades, proporcionando el conjunto solución, el intervalo solución así como la representación gráfica de la misma
+
+
+    1. $x^2-2x+1\leq0$
+
+    5. $-x^2+4x-4\leq0$
+
+    9. $\frac{1}{3}x^2+\frac{5}{3}x+2\leq0$
+
+    12. $-x^2+3x+6\leq0$
+
+    13. $3x^2-2x-2\leq0$
+
+    15. $\frac{1}{2}x^2-\frac{5}{2}x+2\leq0$
+
+# Dominio e Imagen de Funciones
+
+**Para las siguientes funciones determina su dominio e imagen**
+
+  1. $f(x) = 2x + 3$
+
+  2. $f(x) = x^2 - 4x + 5$
+
+  3. $f(x) = \frac{1}{x - 1}$
+
+  4. $f(x) = |2x - 5|$
+
+  5. $f(x) = -0.5x + 2$
+
+  6. $f(x) = 3x^2 + 6x + 2$
+ 
+  7. $f(x) = \frac{2x}{x^2 + 1}$
+ 
+  8. $f(x) = |x + 3|$
+ 
+  9. $f(x) = 0.7x - 4$
+ 
+  10. $f(x) = -x^2 + 3x - 1$
+ 
+  11. $f(x) = \frac{3}{x + 2}$
+
+  12. $f(x) = |4x - 7|$
+
+  13. $f(x) = -x + 1$
+
+  14. $f(x) = 2x^2 - 8x + 7$
+
+  15. $f(x) = \frac{x - 4}{x + 4}$
+  
+  16. $f(x) = 2x - 3$
+
+  17. $f(x) = x^2 + 4x + 4$
+
+  18. $f(x) = \frac{x - 1}{x + 2}$
+
+  19. $f(x) = 3x - 2$
+
+  20. $f(x) = -x^2 + 4x + 1$
+
+  21. $f(x) = \frac{2}{x - 3}$
+
+  22. $f(x) = |5x - 3|$
+
+  23. $f(x) = 0.5x + 4$
+
+  24. $f(x) = 2x^2 - 6x + 3$
+
+  25. $f(x) = \frac{x^2 - 4}{x + 2}$
+
+  26. $f(x) = |x - 1|$
+
+  27. $f(x) = -0.3x + 5$
+
+  28. $f(x) = -3x^2 + 2x - 4$
+
+  29. $f(x) = \frac{x^3 - 1}{x - 1}$
+
+  30. $f(x) = |3x + 2|$
+
+  31. $f(x) = 2x - 7$
+
+  32. $f(x) = x^2 + 2x - 3$
+
+  33. $f(x) = \frac{x^2 + 1}{x - 2}$
+
+  34. $f(x) = |6x - 5|$
+
+  35. $f(x) = \frac{x^2 - 9}{x - 3}$
+  
+**Para las siguientes funciones determina su dominio, imagen y función**
+
+  1. $f(x) = \sqrt{x + 3}$
+ 
+  2. $f(x) = \sqrt{2x + 5}$
+ 
+  3. $f(x) = \sqrt{3x - 1}$
+ 
+  4. $f(x) = \sqrt{4x^2 + 3x + 2}$
+ 
+  5. $f(x) = \sqrt{0.5x + 1}$
+ 
+  6. $f(x) = \sqrt{-2x + 7}$
+ 
+  7. $f(x) = \sqrt{-4x + 2}$
+ 
+  8. $f(x) = \sqrt{\frac{2}{3}x+1}$
+ 
+  9. $f(x) = \sqrt{3x^2 + 2x + 1}$
+ 
+  10. $f(x) = \sqrt{x^2 + 4x + 3}$
+ 
+  11. $f(x) = \sqrt{2x^2 + 6x + 5}$
+ 
+  12. $f(x) = \sqrt{x^2 - 9}$
+ 
+  13. $f(x) = \sqrt{3x^2 + 2x + 1}$
+ 
+  14. $f(x) = \sqrt{-x^2 + 5x - 6}$
+ 
+  15. $f(x) = \sqrt{4x^2 - 4}$
+ 
+  16. $f(x) = \sqrt{6x^{2} + 2x + 1}$
+ 
+  17. $f(x) = \sqrt{\frac{x^2 - 4}{x + 2}}$
+ 
+  18. $f(x) = \sqrt{2x^2 + 3x + 4}$
+ 
+  19. $f(x) = \frac{2x^2 + 4x + 2}{x + 1}$
+ 
+  20. $f(x) = \frac{3x^2 + 6x + 3}{2x + 2}$
+ 
+  21. $f(x) = \frac{x^2 - 4}{x - 2}$
+ 
+  22. $f(x) = \frac{4x^2 + 6x + 2}{3x + 9}$
+ 
+  23. $f(x) = \frac{2x^2 + 5x + 3}{x + 3}$
+ 
+  24. $f(x) = \frac{x^2 - 1}{2x - 2}$
+ 
+  25. $f(x) = \frac{2x^2 - x - 1}{x - 1}$
+ 
+  26. $f(x) = \frac{x^2-9}{3x - 9}$
+ 
+  27. $f(x) = \frac{2x^2 + 4x + 2}{3x + 3}$
+
+
+# Tema Adicionales
+
+## A. Parábola en Forma Canónica
+
+### Deducción de la Ecuación Canónica de la Parábola
+
+Dada la ecuación general de la parábola: \(y = ax^2 + bx + c\)
+
+1. **Completar el Cuadrado:**
+   Completamos el cuadrado añadiendo y restando \(\frac{b^2}{4a^2}\) en el lado derecho de la ecuación:
+   
+   \[y = ax^2 + bx + \frac{b^2}{4a^2} - \frac{b^2}{4a^2} + c\]
+
+2. **Trinomio Cuadrado Perfecto:**
+   Factorizamos el trinomio cuadrado perfecto \(ax^2 + bx + \frac{b^2}{4a^2}\) como \(\left(x + \frac{b}{2a}\right)^2\):
+   
+   \[y = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a^2} + c\]
+
+3. **Simplificación y Agrupación:**
+   Simplificamos la expresión en el paréntesis y combinamos los términos constantes:
+   
+   \[y = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a^2}\]
+
+4. **Identificación del Vértice:**
+   Observamos que el término entre paréntesis se asemeja a \((x - h)^2\), donde \(h = -\frac{b}{2a}\).
+
+5. **Factorización del Término Constante:**
+   Factorizamos el término constante en el lado derecho como \(4p\), donde \(p = \frac{b^2 - 4ac}{4a^2}\):
+   
+   \[y = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \frac{b^2 - 4ac}{4a^2}\]
+
+6. **Ecuación Canónica:**
+   Reorganizamos la ecuación para que tenga la forma canónica \(y - k = 4p(x - h)^2\):
+   
+   \[y - \left(\frac{b^2 - 4ac}{4a^2}\right) = 4p\left(x + \frac{b}{2a}\right)^2\]
+
+Comparando esta ecuación con la forma canónica \(y - k = 4p(x - h)^2\), identificamos que \(k = \frac{b^2 - 4ac}{4a^2}\) y \(h = -\frac{b}{2a}\), lo cual es coherente con el proceso de completar el cuadrado.
+
+Por lo tanto, hemos deducido la ecuación canónica de la parábola \(y - k = 4p(x - h)^2\) a partir de la ecuación general \(y = ax^2 + bx + c\).
+
+La ecuación canónica de una parábola tiene la forma \(y - k = 4p(x - h)^2\), donde \((h, k)\) es el vértice de la parábola y \(p\) es la distancia entre el vértice y el foco o entre el vértice y la directriz, dependiendo de la orientación de la parábola.
+
+### Ecuación Canónica
+
+La ecuación canónica de la parábola es \(y - k = 4p(x - h)^2\), donde:
+
+- \((h, k)\) es el vértice de la parábola.
+- \(p\) es la distancia entre el vértice y el foco o la distancia entre el vértice y la directriz.
+
+### Orientación de la Parábola
+
+La orientación de la parábola (vertical u horizontal) depende de la posición del eje de simetría.
+
+- Si la parábola se abre hacia arriba o hacia abajo, es vertical.
+- Si la parábola se abre hacia la derecha o hacia la izquierda, es horizontal.
+
+### Foco y Directriz
+
+La ubicación del foco y la ecuación de la directriz están determinadas por la orientación de la parábola:
+
+- **Parábola Vertical:** El foco está en \((h, k + p)\) y la directriz tiene la ecuación \(y = k - p\).
+- **Parábola Horizontal:** El foco está en \((h + p, k)\) y la directriz tiene la ecuación \(x = h - p\).
+
+### Longitud Focal
+
+La longitud focal de una parábola vertical es \(|4p|\) y la longitud focal de una parábola horizontal es \(|4p|\).
+
+La ecuación canónica \(y - k = 4p(x - h)^2\) describe una parábola con vértice \((h, k)\), orientación determinada por el eje de simetría, foco y directriz dependiendo de la orientación, y una longitud focal de \(|4p|\).
+
 
 
 
