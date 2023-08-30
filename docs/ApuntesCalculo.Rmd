@@ -2391,7 +2391,7 @@ Para las siguientes funciones además de determinar su dominio, imagen y gráfic
 
 
 1. Funciones Lineales:
-
+\begin{multicols}{2}
     a. $f_1(x) = 2x + 3$
     
     b. $f_1(x) = -0.5x + 1$
@@ -2405,9 +2405,11 @@ Para las siguientes funciones además de determinar su dominio, imagen y gráfic
     f. $f_1(x) = 2.5x - 1$
     
     g. $f_1(x) = -3x - 4$
+\end{multicols}
 
 2. Funciones Cuadráticas:
 
+\begin{multicols}{2}
     a. $f_2(x) = x^2 + 2x + 1$
     
     b. $f_2(x) = -2x^2 + 3x - 5$
@@ -2421,9 +2423,11 @@ Para las siguientes funciones además de determinar su dominio, imagen y gráfic
     f. $f_2(x) = 3x^2 - 2x + 6$
     
     g. $f_2(x) = -0.8x^2 + 2x - 1$
+\end{multicols}
 
 3. Funciones Racionales ($f_3$):
 
+\begin{multicols}{2}
     a. $f_3(x) = \frac{2x^2 + 3x + 1}{x + 2}$
     
     b. $f_3(x) = \frac{-x^2 + 5x - 3}{2x + 1}$
@@ -2437,9 +2441,11 @@ Para las siguientes funciones además de determinar su dominio, imagen y gráfic
     f. $f_3(x) = \frac{3x^2 - 2x + 6}{0.5x + 1}$
     
     g. $f_3(x) = \frac{-0.8x^2 + 2x - 1}{-1.5x + 2}$
+\end{multicols}
 
 4. Funciones Radicales:
 
+\begin{multicols}{2}
     a. $f_4(x) = \sqrt{2x + 3}$
     
     b. $f_4(x) = \sqrt{-0.5x + 1}$
@@ -2453,9 +2459,11 @@ Para las siguientes funciones además de determinar su dominio, imagen y gráfic
     f. $f_4(x) = \sqrt{2.5x - 1}$
     
     g. $f_4(x) = \sqrt{-3x - 4}$
+\end{multicols}
 
 5. Funciones Radicales de Cuadráticos:
-  
+
+\begin{multicols}{2}  
     a. $f_5(x) = \sqrt{2x^2 + 3x + 1}$
     
     b. $f_5(x) = \sqrt{-2x^2 + 3x - 5}$
@@ -2469,9 +2477,11 @@ Para las siguientes funciones además de determinar su dominio, imagen y gráfic
     f. $f_5(x) = \sqrt{3x^2 - 2x + 6}$
     
     g. $f_5(x) = \sqrt{-0.8x^2 + 2x - 1}$
+\end{multicols}
 
 6. Funciones Radicales Racionales:
-  
+
+\begin{multicols}{2}  
     a. $f_6(x) = \sqrt{\frac{2x^2 + 3x + 1}{x + 2}}$
     
     b. $f_6(x) = \sqrt{\frac{-x^2 + 5x - 3}{2x + 1}}$
@@ -2485,9 +2495,11 @@ Para las siguientes funciones además de determinar su dominio, imagen y gráfic
     f. $f_6(x) = \sqrt{\frac{3x^2 - 2x + 6}{0.5x + 1}}$
     
     g. $f_6(x) = \sqrt{\frac{-0.8x^2 + 2x - 1}{-1.5x + 2}}$
+\end{multicols}
   
 7. Funciones Valor Absoluto ($f_7$):
-  
+
+\begin{multicols}{2}
     a. $f_7(x) = |2x + 3|$
     
     b. $f_7(x) = |-0.5x + 1|$
@@ -2501,16 +2513,231 @@ Para las siguientes funciones además de determinar su dominio, imagen y gráfic
     f. $f_7(x) = |2.5x - 1|$
     
     g. $f_7(x) = |-3x - 4|$
+\end{multicols}
 
 8. Realizar las operaciones siguentes: 
     
-    a. $f_1(x)+f_3(x)$, $f_4(x)+f_5(x)$, $f_6(x)+f_7(x)$, $f_2(x)+f_1(x)$, $f_3(x)+f_4(x)$, $f_1(x)+f_3(x)$, $f_5(x)+f_6(x)$, $f_7(x)+f_2(x)$, $f_1(x)+f_5(x)$,$f_3(x)+f_6(x)$ y $f_4(x)+f_7(x)$
+  a. Resolver
+\begin{multicols}{2}      
+      i. $f_1(x)+f_3(x)$, 
+    
+      ii. $f_4(x)+f_5(x)$, 
+    
+      iii. $f_6(x)+f_7(x)$, 
+    
+      iv. $f_2(x)+f_1(x)$, 
+    
+      v. $f_3(x)+f_4(x)$, 
+    
+      vi. $f_1(x)+f_3(x)$, 
+    
+      vii. $f_5(x)+f_6(x)$, 
+    
+      viii. $f_7(x)+f_2(x)$, 
+    
+      ix. $f_1(x)+f_5(x)$,
+    
+      x. $f_3(x)+f_6(x)$ y
+    
+      xi. $f_4(x)+f_7(x)$
+\end{multicols}
 
-  b. $f_1(x)-f_2(x)$, $f_4(x)-f_7(x)$, $f_6(x)-f_3(x)$, $f_2(x)-f_5(x)$, $f_3(x)-f_1(x)$, $f_1(x)-f_6(x)$, $f_5(x)-f_7(x)$, $f_7(x)-f_4(x)$, $f_1(x)-f_7(x)$, $f_3(x)-f_4(x)$ y $f_4(x)-f_1(x)$
+  b. Resolver
+\begin{multicols}{2}      
 
-  c. $f_4(x)\cdot f_2(x)$, $f_4(x)\cdot f_3(x)$, $f_6(x)\cdot f_1(x)$, $f_2(x)\cdot f_7(x)$, $f_3(x)\cdot f_6(x)$, $f_1(x)\cdot f_5(x)$, $f_5(x)\cdot f_4(x)$, $f_7(x)\cdot f_3(x)$, $f_1(x)\cdot f_2(x)$,$f_3(x)\cdot f_4(x)$ y $f_4(x)\cdot f_1(x)$
+      i. $f_1(x)-f_2(x)$,
 
-  c. $f_4(x)/f_1(x)$, $f_4(x)/ f_2(x)$, $f_6(x)/f_3(x)$, $f_2(x)/f_4(x)$, $f_3(x)/f_5(x)$, $f_1(x)/f_6(x)$, $f_5(x)/f_7(x)$, $f_7(x)/f_6(x)$, $f_1(x)/f_5(x)$,$f_3(x)/f_4(x)$ y $f_4(x)/f_3(x)$
+      ii. $f_4(x)-f_7(x)$, 
+
+      iii. $f_6(x)-f_3(x)$, 
+
+      iv. $f_2(x)-f_5(x)$, 
+
+      v. $f_3(x)-f_1(x)$, 
+
+      vi. $f_1(x)-f_6(x)$, 
+
+      vii. $f_5(x)-f_7(x)$,
+
+      viii. $f_7(x)-f_4(x)$, 
+
+      ix. $f_1(x)-f_7(x)$,
+
+      x. $f_3(x)-f_4(x)$ y
+
+      xi. $f_4(x)-f_1(x)$
+\end{multicols}
+
+  c. Resolver
+  
+\begin{multicols}{2}
+
+    i. $f_4(x)\cdot f_2(x)$, 
+    
+    ii. $f_4(x)\cdot f_3(x)$,
+    
+    iii. $f_6(x)\cdot f_1(x)$, 
+    
+    iv. $f_2(x)\cdot f_7(x)$, 
+    
+    v. $f_3(x)\cdot f_6(x)$, 
+    
+    vi. $f_1(x)\cdot f_5(x)$, 
+    
+    vii. $f_5(x)\cdot f_4(x)$, 
+    
+    viii. $f_7(x)\cdot f_3(x)$, 
+    
+    ix. $f_1(x)\cdot f_2(x)$,
+    
+    x. $f_3(x)\cdot f_4(x)$ y 
+    
+    xi. $f_4(x)\cdot f_1(x)$
+\end{multicols}
+  c. Resolver
+\begin{multicols}{2}
+
+    i. $f_4(x)/f_1(x)$,
+
+    ii. $f_4(x)/ f_2(x)$, 
+
+    iii. $f_6(x)/f_3(x)$, 
+
+    iv. $f_2(x)/f_4(x)$,
+
+    v. $f_3(x)/f_5(x)$,
+
+    vi. $f_1(x)/f_6(x)$, 
+
+    vii. $f_5(x)/f_7(x)$, 
+
+    viii. $f_7(x)/f_6(x)$,
+
+    ix. $f_1(x)/f_5(x)$,
+
+    x. $f_3(x)/f_4(x)$ y 
+    xi. $f_4(x)/f_3(x)$
+\end{multicols}
+
+## Composición de funciones
+
+Considera las siguientes funciones
+
+\begin{multicols}{2}
+    1. $f_1(x) = 2x + 3$
+
+    2. $f_2(x) = -5x^2 + 4x + 1$
+
+    3. $f_3(x) = \frac{3x^2 + 2x + 7}{4x + 2}$
+
+    4. $f_4(x) = \sqrt{5x + 2}$
+
+    5. $f_5(x) = \sqrt{2x^2 + 3x + 1}$
+
+    6. $f_6(x) = \sqrt{\frac{6x^2 + 4x + 9}{2x + 1}}$
+
+    7. $f_7(x) = |3x - 1|$
+
+    8. $f_1(x) = -4x + 5$
+
+    9. $f_2(x) = 2x^2 - 3x - 2$
+
+    10. $f_3(x) = \frac{7x^2 - 6x + 9}{8x + 3}$
+
+    11. $f_4(x) = \sqrt{2x + 8}$
+
+    12. $f_5(x) = \sqrt{3x^2 + 2x + 5}$
+
+    13. $f_6(x) = \sqrt{\frac{4x^2 + 7x + 1}{3x + 2}}$
+
+    14. $f_7(x) = |6x + 2|$
+
+    15. $f_1(x) = 9x - 7$
+
+    16. $f_2(x) = -x^2 + 2x + 3$
+
+    17. $f_3(x) = \frac{5x^2 + 3x - 4}{2x + 5}$
+
+    18. $f_4(x) = \sqrt{7x + 1}$
+
+    19. $f_5(x) = \sqrt{4x^2 + 6x + 2}$
+
+    20. $f_6(x) = \sqrt{\frac{8x^2 + 5x + 3}{4x + 2}}$
+
+    21. $f_7(x) = |2x - 6|$
+
+    22. $f_1(x) = -3x + 2$
+
+    23. $f_2(x) = x^2 - x - 7$
+
+    24. $f_3(x) = \frac{6x^2 - 2x + 8}{5x + 1}$
+
+    25. $f_4(x) = \sqrt{3x + 5}$
+    
+\end{multicols}
+
+### Ejercicios de Composición de Funciones:
+
+Realiza las siguientes composiciones
+
+\begin{multicols}{3}
+    1. $f_1(f_2(x))$
+
+    2. $f_3(f_4(x))$
+
+    3. $f_5(f_1(x))$
+
+    4. $f_2(f_3(x))$
+
+    5. $f_6(f_7(x))$
+
+    6. $f_7(f_5(x))$
+
+    7. $f_4(f_6(x))$
+
+    8. $f_1(f_1(x))$
+
+    9. $f_2(f_2(x))$
+
+    10. $f_3(f_3(x))$
+
+    11. $f_4(f_4(x))$
+
+    12. $f_5(f_5(x))$
+
+    13. $f_6(f_6(x))$
+
+    14. $f_7(f_7(x))$
+
+    15. $f_1(f_6(x))$
+
+    16. $f_2(f_7(x))$
+
+    17. $f_3(f_5(x))$
+
+    18. $f_4(f_1(x))$
+
+    19. $f_5(f_3(x))$
+
+    20. $f_6(f_2(x))$
+
+    21. $f_7(f_4(x))$
+
+    22. $f_1(f_4(x))$
+
+    23. $f_2(f_6(x))$
+
+    24. $f_3(f_7(x))$
+
+    25. $f_5(f_2(x))$
+    
+\end{multicols}
+
+
+
+
+
+
 
 # Tema Adicionales
 
@@ -2518,15 +2745,15 @@ Para las siguientes funciones además de determinar su dominio, imagen y gráfic
 
 ### Deducción de la Ecuación Canónica de la Parábola
 
-Dada la ecuación general de la parábola: \(y = ax^2 + bx + c\)
+Dada la ecuación general de la parábola: $y = ax^2 + bx + c$
 
 1. **Completar el Cuadrado:**
-   Completamos el cuadrado añadiendo y restando \(\frac{b^2}{4a^2}\) en el lado derecho de la ecuación:
+   Completamos el cuadrado añadiendo y restando $\frac{b^2}{4a^2}$ en el lado derecho de la ecuación:
    
    \[y = ax^2 + bx + \frac{b^2}{4a^2} - \frac{b^2}{4a^2} + c\]
 
 2. **Trinomio Cuadrado Perfecto:**
-   Factorizamos el trinomio cuadrado perfecto \(ax^2 + bx + \frac{b^2}{4a^2}\) como \(\left(x + \frac{b}{2a}\right)^2\):
+   Factorizamos el trinomio cuadrado perfecto $ax^2 + bx + \frac{b^2}{4a^2}$ como $\left(x + \frac{b}{2a}\right)^2$:
    
    \[y = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2}{4a^2} + c\]
 
@@ -2536,30 +2763,30 @@ Dada la ecuación general de la parábola: \(y = ax^2 + bx + c\)
    \[y = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a^2}\]
 
 4. **Identificación del Vértice:**
-   Observamos que el término entre paréntesis se asemeja a \((x - h)^2\), donde \(h = -\frac{b}{2a}\).
+   Observamos que el término entre paréntesis se asemeja a $(x - h)^2$, donde $h = -\frac{b}{2a}$.
 
 5. **Factorización del Término Constante:**
-   Factorizamos el término constante en el lado derecho como \(4p\), donde \(p = \frac{b^2 - 4ac}{4a^2}\):
+   Factorizamos el término constante en el lado derecho como $4p$, donde $p = \frac{b^2 - 4ac}{4a^2}$:
    
    \[y = a\left(x - \left(-\frac{b}{2a}\right)\right)^2 + \frac{b^2 - 4ac}{4a^2}\]
 
 6. **Ecuación Canónica:**
-   Reorganizamos la ecuación para que tenga la forma canónica \(y - k = 4p(x - h)^2\):
+   Reorganizamos la ecuación para que tenga la forma canónica $y - k = 4p(x - h)^2$:
    
    \[y - \left(\frac{b^2 - 4ac}{4a^2}\right) = 4p\left(x + \frac{b}{2a}\right)^2\]
 
-Comparando esta ecuación con la forma canónica \(y - k = 4p(x - h)^2\), identificamos que \(k = \frac{b^2 - 4ac}{4a^2}\) y \(h = -\frac{b}{2a}\), lo cual es coherente con el proceso de completar el cuadrado.
+Comparando esta ecuación con la forma canónica $y - k = 4p(x - h)^2$, identificamos que $k = \frac{b^2 - 4ac}{4a^2}$ y $h = -\frac{b}{2a}$, lo cual es coherente con el proceso de completar el cuadrado.
 
-Por lo tanto, hemos deducido la ecuación canónica de la parábola \(y - k = 4p(x - h)^2\) a partir de la ecuación general \(y = ax^2 + bx + c\).
+Por lo tanto, hemos deducido la ecuación canónica de la parábola $y - k = 4p(x - h)^2$ a partir de la ecuación general $y = ax^2 + bx + c$.
 
-La ecuación canónica de una parábola tiene la forma \(y - k = 4p(x - h)^2\), donde \((h, k)\) es el vértice de la parábola y \(p\) es la distancia entre el vértice y el foco o entre el vértice y la directriz, dependiendo de la orientación de la parábola.
+La ecuación canónica de una parábola tiene la forma $y - k = 4p(x - h)^2$, donde $(h, k)$ es el vértice de la parábola y $p$ es la distancia entre el vértice y el foco o entre el vértice y la directriz, dependiendo de la orientación de la parábola.
 
 ### Ecuación Canónica
 
-La ecuación canónica de la parábola es \(y - k = 4p(x - h)^2\), donde:
+La ecuación canónica de la parábola es $y - k = 4p(x - h)^2$, donde:
 
-- \((h, k)\) es el vértice de la parábola.
-- \(p\) es la distancia entre el vértice y el foco o la distancia entre el vértice y la directriz.
+- $(h, k)$ es el vértice de la parábola.
+- $p$ es la distancia entre el vértice y el foco o la distancia entre el vértice y la directriz.
 
 ### Orientación de la Parábola
 
@@ -2572,14 +2799,14 @@ La orientación de la parábola (vertical u horizontal) depende de la posición 
 
 La ubicación del foco y la ecuación de la directriz están determinadas por la orientación de la parábola:
 
-- **Parábola Vertical:** El foco está en \((h, k + p)\) y la directriz tiene la ecuación \(y = k - p\).
-- **Parábola Horizontal:** El foco está en \((h + p, k)\) y la directriz tiene la ecuación \(x = h - p\).
+- **Parábola Vertical:** El foco está en $(h, k + p)$ y la directriz tiene la ecuación $y = k - p$.
+- **Parábola Horizontal:** El foco está en $(h + p, k)$ y la directriz tiene la ecuación $x = h - p$.
 
 ### Longitud Focal
 
-La longitud focal de una parábola vertical es \(|4p|\) y la longitud focal de una parábola horizontal es \(|4p|\).
+La longitud focal de una parábola vertical es $|4p|$ y la longitud focal de una parábola horizontal es $|4p|$.
 
-La ecuación canónica \(y - k = 4p(x - h)^2\) describe una parábola con vértice \((h, k)\), orientación determinada por el eje de simetría, foco y directriz dependiendo de la orientación, y una longitud focal de \(|4p|\).
+La ecuación canónica $y - k = 4p(x - h)^2$ describe una parábola con vértice $(h, k)$, orientación determinada por el eje de simetría, foco y directriz dependiendo de la orientación, y una longitud focal de $|4p|$.
 
 
 
