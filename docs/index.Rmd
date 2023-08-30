@@ -2327,8 +2327,6 @@ Considera las siguientes funciones
   25. $f_4(x) = \sqrt{3x + 5}$
     
     
-
-
 **Ejercicios de Composición de Funciones:**
 
 Realiza las siguientes composiciones
