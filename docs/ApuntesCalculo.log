@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.3)  25 AUG 2023 10:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.3)  30 AUG 2023 08:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,7 +708,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.80502pt}.
 
 [1] [2]
-<codigo_qr.png, id=64, 200.75pt x 200.75pt>
+<codigo_qr.png, id=66, 200.75pt x 200.75pt>
 File: codigo_qr.png Graphic file (type png)
 <use codigo_qr.png>
 Package pdftex.def Info: codigo_qr.png  used on input line 126.
@@ -776,7 +776,7 @@ LaTeX Info: Redefining \. on input line 564.
 LaTeX Info: Redefining \% on input line 564.
 [10{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 Cap\'{\i }tulo 2.
-<Desigualdad1.png, id=151, 1132.23pt x 347.2975pt>
+<Desigualdad1.png, id=153, 1132.23pt x 347.2975pt>
 File: Desigualdad1.png Graphic file (type png)
 <use Desigualdad1.png>
 Package pdftex.def Info: Desigualdad1.png  used on input line 643.
@@ -784,12 +784,12 @@ Package pdftex.def Info: Desigualdad1.png  used on input line 643.
 [11
 
 ]
-<Desigualdad2.png, id=163, 1132.23pt x 347.2975pt>
+<Desigualdad2.png, id=165, 1132.23pt x 347.2975pt>
 File: Desigualdad2.png Graphic file (type png)
 <use Desigualdad2.png>
 Package pdftex.def Info: Desigualdad2.png  used on input line 668.
 (pdftex.def)             Requested size: 225.83731pt x 69.27278pt.
-<Desigualdad3.png, id=164, 1132.23pt x 347.2975pt>
+<Desigualdad3.png, id=166, 1132.23pt x 347.2975pt>
 File: Desigualdad3.png Graphic file (type png)
 <use Desigualdad3.png>
 Package pdftex.def Info: Desigualdad3.png  used on input line 692.
@@ -797,7 +797,7 @@ Package pdftex.def Info: Desigualdad3.png  used on input line 692.
 LaTeX Info: Redefining \. on input line 709.
 LaTeX Info: Redefining \% on input line 709.
 [12 <./Desigualdad1.png> <./Desigualdad2.png>]
-<Desigualdad4.png, id=175, 1132.23pt x 347.2975pt>
+<Desigualdad4.png, id=177, 1132.23pt x 347.2975pt>
 File: Desigualdad4.png Graphic file (type png)
 <use Desigualdad4.png>
 Package pdftex.def Info: Desigualdad4.png  used on input line 718.
@@ -808,7 +808,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \. on input line 736.
 LaTeX Info: Redefining \% on input line 736.
 [13 <./Desigualdad3.png> <./Desigualdad4.png>]
-<Desigualdad5.png, id=185, 960.58875pt x 279.0425pt>
+<Desigualdad5.png, id=187, 960.58875pt x 279.0425pt>
 File: Desigualdad5.png Graphic file (type png)
 <use Desigualdad5.png>
 Package pdftex.def Info: Desigualdad5.png  used on input line 761.
@@ -859,7 +859,7 @@ LaTeX Info: Redefining \. on input line 2007.
 LaTeX Info: Redefining \% on input line 2007.
 [22]
 Cap\'{\i }tulo 3.
-<codigo_qr_tarea.png, id=283, 200.75pt x 200.75pt>
+<codigo_qr_tarea.png, id=285, 200.75pt x 200.75pt>
 File: codigo_qr_tarea.png Graphic file (type png)
 <use codigo_qr_tarea.png>
 Package pdftex.def Info: codigo_qr_tarea.png  used on input line 2018.
@@ -902,29 +902,41 @@ LaTeX Info: Redefining \% on input line 2711.
 ]
 Cap\'{\i }tulo 4.
 [29]
-LaTeX Info: Redefining \. on input line 2911.
-LaTeX Info: Redefining \% on input line 2911.
+LaTeX Info: Redefining \. on input line 2939.
+LaTeX Info: Redefining \% on input line 2939.
+LaTeX Info: Redefining \. on input line 2939.
+LaTeX Info: Redefining \% on input line 2939.
 [30]
+LaTeX Info: Redefining \. on input line 3032.
+LaTeX Info: Redefining \% on input line 3032.
+LaTeX Info: Redefining \. on input line 3032.
+LaTeX Info: Redefining \% on input line 3032.
+[31]
+LaTeX Info: Redefining \. on input line 3096.
+LaTeX Info: Redefining \% on input line 3096.
+LaTeX Info: Redefining \. on input line 3096.
+LaTeX Info: Redefining \% on input line 3096.
+[32]
 Cap\'{\i }tulo 5.
-[31
+[33
 
 ]
-LaTeX Info: Redefining \. on input line 3028.
-LaTeX Info: Redefining \% on input line 3028.
-LaTeX Info: Redefining \. on input line 3028.
-LaTeX Info: Redefining \% on input line 3028.
-[32] (./ApuntesCalculo.aux
+LaTeX Info: Redefining \. on input line 3213.
+LaTeX Info: Redefining \% on input line 3213.
+LaTeX Info: Redefining \. on input line 3213.
+LaTeX Info: Redefining \% on input line 3213.
+[34] (./ApuntesCalculo.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 ) ) 
 Here is how much of TeX's memory you used:
- 16123 strings out of 476025
- 257480 string characters out of 5790018
+ 16190 strings out of 476025
+ 258026 string characters out of 5790018
  1926388 words of memory out of 5000000
- 35960 multiletter control sequences out of 15000+600000
+ 35962 multiletter control sequences out of 15000+600000
  592363 words of font info for 154 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,12n,81p,1203b,679s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 77i,12n,81p,1203b,701s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/l
 ocal/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texli
 ve/2023/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2023/t
@@ -942,10 +954,10 @@ m/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 l/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/
 2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ApuntesCalculo.pdf (36 pages, 502291 bytes).
+Output written on ApuntesCalculo.pdf (38 pages, 510986 bytes).
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 204 named destinations out of 1000 (max. 500000)
- 45180 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 638 PDF objects out of 1000 (max. 8388607)
+ 537 compressed objects within 6 object streams
+ 269 named destinations out of 1000 (max. 500000)
+ 45188 words of extra memory for PDF output out of 51595 (max. 10000000)
 
