@@ -1,0 +1,93 @@
+---
+title: "Cálculo Diferencial: Simulador Examen"
+author: "Carlos Ernesto Martinez"
+date: "2-Septiembre-2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el curso de Cálculo Diferencial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el curso de Cálculo Diferencial}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+\begin{multicols}{2}
+
+\textbf{Nombre:}
+
+\textbf{Matrícula:}
+
+\textbf{Licenciatura:}
+
+Hora de inicio:
+
+Hora de término:
+\end{multicols}
+
+
+**Resuelve los siguientes ejercicios**
+
+1. Resolver las siguientes ecuaciones de primer grsdo
+
+    a. $\frac{11}{12}x + \frac{10}{11} = -\frac{9}{10}$ \textbf{ 1 pto.}
+    
+    c. $\frac{3}{4}-\left\{\frac{6}{7}[\frac{5}{6}(\frac{3}{4}x-\frac{4}{5})+\frac{7}{8}(\frac{2}{3}x-\frac{5}{6})-\frac{1}{2}]\right\}=\frac{9}{10}(\frac{4}{5}x+\frac{6}{7})-\frac{1}{3}+\frac{4}{5}x$ \textbf{ 2.5 ptos.}
+        
+
+2. Resolver las siguientes desigualdades de primer grado
+    
+    a. $-2x+1>5x-8$ \textbf{ 0.5 pto.}
+    
+    c. $-\frac{1}{2}x+\frac{3}{4}<\frac{3}{5}x+\frac{1}{10}$  \textbf{ 1.5 ptos.}
+    
+
+3. Resolver las siguientes desigualdades dobles
+    
+    a. $1<\frac{1}{2}x+\frac{1}{3}\leq 2$  \textbf{ 1.5 ptos.}
+    
+
+4. Resolver las siguientes desigualdades de valor absoluto
+
+    
+    a. $|2x+1|<6$   \textbf{ 2 ptos.}
+
+    c. $|-\frac{1}{4}x-\frac{1}{8}| \leq \frac{3}{4}$\textbf{ 2 ptos.}
+        
+
+
+5. Resolver las siguentes desigualdades de segundo grado
+
+    a. $2x^2-7x+6>0$ \textbf{ 2 ptos.}
+    
+    c. $-4x^2+16x-12<0$\textbf{ 2 ptos.}
+
+
+**La suma total de puntos a considerar es de 10**
+
+    
+
+
+
+
+
+
+
+
+  
+
+
