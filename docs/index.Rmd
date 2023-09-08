@@ -2007,6 +2007,10 @@ Para resolver el simulador de evaluación descarga [aquí](https://github.com/Pr
 **La suma total de puntos a considerar es de 10**
 
 
+# C. Primer evaluación parcial
+
+- [Primer Evaluación Parcial](PrimerEvaluacionParcial.pdf)
+- [Soluciones Primer Evaluación Parcial](SolucionesPrimerParcial.html)
 
 # 3.  Funciones
 
