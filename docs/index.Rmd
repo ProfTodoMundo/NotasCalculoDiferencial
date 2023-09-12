@@ -1892,6 +1892,7 @@ Realiza las siguientes composiciones
 
 Para descargar la tarea dar [click aquí](Tarea2.pdf)
 
+# 4. Límite de Funciones
 # Anexo 1. Evaluaciones y Tareas
 ## A.  Tarea 1
 
