@@ -2458,6 +2458,9 @@ Para resolver el simulador de evaluación descarga [aquí](https://github.com/Pr
 ## D. Tarea 2
 
 
+Para descargar la tarea [aquí](https://github.com/ProfTodoMundo/NotasCalculoDiferencial/blob/PrincipalCD/docs/Tarea2.pdf).
+
+
 # Anexo 2. Tema Adicionales
 
 ## A. Parábola en Forma Canónica
