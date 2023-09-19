@@ -1,0 +1,428 @@
+---
+title: "Trigonometría"
+author:
+  - name: "Carlos E. Martinez-Rodríguez"
+    affiliation: "Universidad Autónoma de la Ciudad de México (UACM)"
+    email: "carlos.martinez@uacm.edu.mx"
+date: "2023-08-12"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    code_folding: show
+    css: estilos.css
+    theme: united
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+# Seno
+
+## Función $sen(x)$
+
+```{r}
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de sen(x)
+y <- sin(x)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "blue") +   # Eje Y
+  labs(title = "Gráfico de la función sen(x)",
+       x = "x",
+       y = "sen(x)") +
+  theme_minimal()
+```
+
+## Función $sen(hx)$
+
+
+
+```{r}
+
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de sin(hx)
+y <- sin(h * x)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función sin(", h, "x)"),
+       x = "x",
+       y = paste("sin(", h, "x)")) +
+  theme_minimal()
+```
+
+## Función $sen(hx+r)$
+
+```{r}
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+r <- 0  # Ajusta el valor de r según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de sin(hx + r)
+y <- sin(h * x + r)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función sin(", h, "x +", r, ")"),
+       x = "x",
+       y = paste("sin(", h, "x +", r, ")")) +
+  theme_minimal()
+```
+
+## Función $k*sen(hx+r)$
+
+```{r}
+
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+r <- 0  # Ajusta el valor de r según tus necesidades
+k <- 1  # Ajusta el valor de k según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de k*sin(hx + r)
+y <- k * sin(h * x + r)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función", k, "*sin(", h, "x +", r, ")"),
+       x = "x",
+       y = paste(k, "*sin(", h, "x +", r, ")")) +
+  theme_minimal()
+```
+
+## Función $s+k*sen(hx+r)$
+
+```{r}
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+r <- 0  # Ajusta el valor de r según tus necesidades
+k <- 1  # Ajusta el valor de k según tus necesidades
+s <- 0  # Ajusta el valor de s según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de s + k*sin(hx + r)
+y <- s + k * sin(h * x + r)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función", s, "+", k, "*sin(", h, "x +", r, ")"),
+       x = "x",
+       y = paste(s, "+", k, "*sin(", h, "x +", r, ")")) +
+  theme_minimal()
+
+```
+
+
+# Coseno
+
+## Función $cos(x)$
+
+```{r}
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de sen(x)
+y <- cos(x)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "blue") +   # Eje Y
+  labs(title = "Gráfico de la función cos(x)",
+       x = "x",
+       y = "cos(x)") +
+  theme_minimal()
+```
+
+## Función $cos(hx)$
+
+```{r}
+
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de cos(hx)
+y <- cos(h * x)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función cos(", h, "x)"),
+       x = "x",
+       y = paste("cos(", h, "x)")) +
+  theme_minimal()
+```
+
+## Función $cos(hx+r)$
+
+```{r}
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+r <- 0  # Ajusta el valor de r según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de cos(hx + r)
+y <- cos(h * x + r)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función cos(", h, "x +", r, ")"),
+       x = "x",
+       y = paste("cos(", h, "x +", r, ")")) +
+  theme_minimal()
+```
+
+## Función $k*cos(hx+r)$
+
+```{r}
+
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+r <- 0  # Ajusta el valor de r según tus necesidades
+k <- 1  # Ajusta el valor de k según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de k*cos(hx + r)
+y <- k * cos(h * x + r)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función", k, "*cos(", h, "x +", r, ")"),
+       x = "x",
+       y = paste(k, "*cos(", h, "x +", r, ")")) +
+  theme_minimal()
+```
+
+## Función $s+k*cos(hx+r)$
+
+```{r}
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+r <- 0  # Ajusta el valor de r según tus necesidades
+k <- 1  # Ajusta el valor de k según tus necesidades
+s <- 0  # Ajusta el valor de s según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de s + k*cos(hx + r)
+y <- s + k * cos(h * x + r)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función", s, "+", k, "*cos(", h, "x +", r, ")"),
+       x = "x",
+       y = paste(s, "+", k, "*cos(", h, "x +", r, ")")) +
+  theme_minimal()
+```
+
+# Tangente
+
+## Función $tan(x)$
+
+```{r}
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de sen(x)
+y <- tan(x)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "blue") +   # Eje Y
+  labs(title = "Gráfico de la función tan(x)",
+       x = "x",
+       y = "tan(x)") +
+  theme_minimal()
+```
+
+## Función $tan(hx)$
+
+```{r}
+
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de tan(hx)
+y <- tan(h * x)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función tan(", h, "x)"),
+       x = "x",
+       y = paste("tan(", h, "x)")) +
+  theme_minimal()
+```
+
+## Función $tan(hx+r)$
+
+```{r}
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+r <- 0  # Ajusta el valor de r según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de tan(hx + r)
+y <- tan(h * x + r)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función tan(", h, "x +", r, ")"),
+       x = "x",
+       y = paste("tan(", h, "x +", r, ")")) +
+  theme_minimal()
+```
+
+## Función $k*tan(hx+r)$
+
+```{r}
+
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+r <- 0  # Ajusta el valor de r según tus necesidades
+k <- 1  # Ajusta el valor de k según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de k*tan(hx + r)
+y <- k * tan(h * x + r)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función", k, "*tan(", h, "x +", r, ")"),
+       x = "x",
+       y = paste(k, "*tan(", h, "x +", r, ")")) +
+  theme_minimal()
+```
+
+## Función $s+k*tan(hx+r)$
+
+```{r}
+# Define el intervalo y la cantidad de puntos
+t <- 2  # Puedes ajustar este valor según tus necesidades
+h <- 1  # Ajusta el valor de h según tus necesidades
+r <- 0  # Ajusta el valor de r según tus necesidades
+k <- 1  # Ajusta el valor de k según tus necesidades
+s <- 0  # Ajusta el valor de s según tus necesidades
+x <- seq(-2 * pi * t, 2 * pi * t, length.out = 1000)  # Intervalo y cantidad de puntos
+
+# Calcula los valores de s + k*tan(hx + r)
+y <- s + k * tan(h * x + r)
+
+# Crea un dataframe para los datos
+data <- data.frame(x = x, y = y)
+
+# Crea el gráfico usando ggplot2
+ggplot(data, aes(x = x, y = y)) +
+  geom_line() +
+  geom_hline(yintercept = 0, linetype = "dashed", color = "blue") +  # Eje X
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +   # Eje Y
+  labs(title = paste("Gráfico de la función", s, "+", k, "*tan(", h, "x +", r, ")"),
+       x = "x",
+       y = paste(s, "+", k, "*tan(", h, "x +", r, ")")) +
+  theme_minimal()
+```
