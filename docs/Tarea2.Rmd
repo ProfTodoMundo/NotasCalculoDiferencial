@@ -155,12 +155,12 @@ Para las siguientes funciones realiza las operaciones suma, resta, producto y mu
 Realizar las operaciones siguentes operaciones: 
 
 \begin{center}
-\begin{tabular}{c|c|c|c|c}\hline
-      Suma & $f_1(x)+f_3(x)$& $f_4(x)+f_5(x)$& $f_6(x)+f_7(x)$&  $f_3(x)+f_9(x)$\\
-      Resta & $f_1(x)-f_21(x)$ & $f_4(x)-f_{20}(x)$ & $f_6(x)-f_{19}(x)$ & $f_2(x)-f_{18}(x)$\\
-      Producto & $f_4(x)\cdot f_{14}(x)$ & $f_6(x)\cdot f_{15}(x)$ & $f_2(x)\cdot f_{16}(x)$ & $f_3(x)\cdot f_{17}(x)$\\
-      Cociente & $f_6(x)/f_{16}(x)$ & $f_{15}(x)/f_4(x)$ & $f_{14}(x)/f_5(x)$ & $f_{13}(x)/f_6(x)$\\
-      &$f_2(x)+f_8(x)$&$f_3(x)-f_{17}(x)$ &$f_1(x)\cdot f_{18}(x)$ &$f_9(x)/f_4(x)$ \\\hline
+\begin{tabular}{c|c|c|c}\hline
+      Suma & $f_1(x)+f_3(x)$& $f_4(x)+f_5(x)$& $f_6(x)+f_7(x)$\\
+      Resta & $f_1(x)-f_21(x)$ & $f_4(x)-f_{20}(x)$ & $f_6(x)-f_{19}(x)$ \\
+      Producto & $f_4(x)\cdot f_{14}(x)$ & $f_6(x)\cdot f_{15}(x)$ & $f_2(x)\cdot f_{16}(x)$ \\
+      Cociente & $f_6(x)/f_{16}(x)$ & $f_{15}(x)/f_4(x)$ & $f_{14}(x)/f_5(x)$\\
+      &$f_2(x)+f_8(x)$&$f_3(x)-f_{17}(x)$ &$f_1(x)\cdot f_{18}(x)$ \\\hline
 \end{tabular}
 \end{center}
 
@@ -203,12 +203,12 @@ Considera las siguientes funciones
 Realiza las siguientes composiciones
 
 \begin{center}
-\begin{tabular}{c|c|c|c}\hline
-  $f_1(f_{14}(x))$ & $f_{13}(f_4(x))$ & $f_5(f_{12}(x))$ & $f_{11}(f_3(x))$\\
-  $f_6(f_{10}(x))$ & $f_9(f_5(x))$ & $f_4(f_8(x))$ & $f_7(f_1(x))$\\
-  $f_{12}(f_5(x))$ & $f_4(f_{11}(x))$ & $f_{10}(f_3(x))$ & $f_6(f_9(x))$\\
-  $f_8(f_4(x))$ & $f_1(f_7(x))$ & $f_6(f_6(x))$ & $f_3(f_5(x))$\\
-  $f_2(f_6(x))$ & $f_5(f_3(x))$ & $f_4(f_4(x))$ & $f_3(f_5(x))$\\\hline
+\begin{tabular}{c|c|c}\hline
+  $f_1(f_{14}(x))$ & $f_{13}(f_4(x))$ & $f_5(f_{12}(x))$ \\
+  $f_6(f_{10}(x))$ & $f_9(f_5(x))$ & $f_4(f_8(x))$ \\
+  $f_{12}(f_5(x))$ & $f_4(f_{11}(x))$ & $f_{10}(f_3(x))$\\
+  $f_8(f_4(x))$ & $f_1(f_7(x))$ & $f_6(f_6(x))$\\
+  $f_2(f_6(x))$ & $f_5(f_3(x))$ & $f_4(f_4(x))$\\\hline
   \end{tabular}
 \end{center}
 

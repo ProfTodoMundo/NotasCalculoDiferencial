@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.7)  12 SEP 2023 11:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.7)  20 SEP 2023 10:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,7 +624,7 @@ Package rerunfilecheck Info: File `Tarea2.out' has not changed.
 Here is how much of TeX's memory you used:
  13008 strings out of 478287
  208018 string characters out of 5849290
- 553324 words of memory out of 5000000
+ 552324 words of memory out of 5000000
  30921 multiletter control sequences out of 15000+600000
  525838 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -641,7 +641,7 @@ ts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
 re/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsy7.pfb>
-Output written on Tarea2.pdf (2 pages, 216811 bytes).
+Output written on Tarea2.pdf (2 pages, 216636 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
