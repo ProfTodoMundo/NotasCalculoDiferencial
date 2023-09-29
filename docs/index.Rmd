@@ -2640,6 +2640,7 @@ Esta es la ecuación de la recta que pasa por los puntos \(P_1(x_1, y_1)\) y \(P
 
 ## D. Elementos básicos de Trigonometría
 
+<<<<<<< HEAD
 ### Círculo unitario
 
 ```{r}
@@ -2726,6 +2727,8 @@ segments(0, 0, x_multiples, y_multiples, col = "gray", lty = 2)
 segments(0, 0, x_additional, y_additional, col = "gray", lty = 2)
 
 ```
+=======
+>>>>>>> PrincipalCD
 
 ### Función $sen(x)$
 
