@@ -1,0 +1,214 @@
+---
+title: "Cálculo Diferencial: Tarea 2"
+author: "Carlos Ernesto Martinez"
+date: "12-Septiembre-2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el curso de Cálculo Diferencial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el curso de Cálculo Diferencial}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+# Tarea 2: Dominio e Imagen de Funciones
+
+**I. Para las siguientes funciones determina su dominio, imagen y gráfica.**
+
+\begin{multicols}{3}
+  1. $f(x) = 2x + 3$
+  
+  2. $f(x) = 3x - 2$
+  
+  4. $f(x) = x^2 - 4x + 5$
+  
+  4. $f(x) = 3x^2 + 6x + 2$
+  
+  5. $f(x) = x^2 + 4x + 4$
+
+  6. $f(x) = \frac{3}{x + 2}$
+
+  7. $f(x) = \frac{2}{x - 3}$
+
+  8. $f(x) = \frac{x - 4}{x + 4}$
+
+  9. $f(x) = \frac{x - 1}{x + 2}$
+
+  10. $f(x) = \frac{x^2 - 4}{x + 2}$
+
+  11. $f(x) = \frac{x^2 - 9}{x - 3}$
+  
+  12. $f(x) = |x + 3|$
+
+  13. $f(x) = |x - 1|$
+
+  14. $f(x) = |5x - 3|$
+
+  15. $f(x) = |6x - 5|$
+
+\end{multicols}  
+  
+**II. Para las siguientes funciones determina su dominio, imagen y función**
+
+\begin{multicols}{3}
+  1. $f(x) = \sqrt{x + 3}$
+ 
+  2. $f(x) = \sqrt{3x - 1}$
+ 
+  3. $f(x) = \sqrt{-4x + 2}$
+
+  4. $f(x) = \sqrt{x^2 + 4x + 3}$
+ 
+  5. $f(x) = \sqrt{2x^2 + 6x + 5}$
+ 
+  6. $f(x) = \sqrt{x^2 - 9}$
+ 
+  7. $f(x) = \sqrt{4x^2 - 4}$
+ 
+  8. $f(x) = \sqrt{\frac{2}{3}x+1}$
+ 
+  9. $f(x) = \sqrt{\frac{x^2 - 4}{x + 2}}$
+
+  10. $f(x) = \frac{x^2 - 4}{x - 2}$
+ 
+  11. $f(x) = \frac{x^2-9}{3x - 9}$
+ 
+  12. $f(x) = \frac{2x^2 + 4x + 2}{3x + 3}$
+  
+  13. $f(x) =\frac{3x^2 + 2x - 1}{x + 2}$
+  
+  14. $f(x) =\frac{6x^2 - 7x + 3}{4x - 2}$
+  
+  15. $f(x) =\frac{9x^2 + 10x - 6}{7x + 5}$
+
+
+\end{multicols}  
+
+**III. Operaciones entre funciones**
+
+Para las siguientes funciones realiza las operaciones suma, resta, producto y multiplicación de funciones a partir de las siguientes
+
+\begin{multicols}{3}
+
+    a. $f_1(x) = 2x + 3$
+    
+    b. $f_8(x) = 4x - 7$
+    
+    c. $f_{15}(x) = -x + 5$
+
+    d. $f_2(x) = x^2 + 2x + 1$
+    
+    e. $f_9(x) = -2x^2 + 3x - 5$
+    
+    f. $f_{16}(x) = 4x^2 - 6x + 2$
+
+    g. $f_3(x) = \frac{2x^2 + 3x + 1}{x + 2}$
+    
+    h. $f_{10}(x) = \frac{4x^2 - 6x + 2}{3x + 4}$
+    
+    i. $f_{17}(x) = \frac{-x^2 + 4x - 7}{-x + 3}$
+
+    j. $f_4(x) = \sqrt{2x + 3}$
+    
+    k. $f_7(x) = \sqrt{-x + 5}$
+    
+    l. $f_{18}(x) = \sqrt{-3x - 4}$
+
+    m. $f_5(x) = \sqrt{2x^2 + 3x + 1}$
+    
+    n. $f_8(x) = \sqrt{4x^2 - 6x + 2}$
+    
+    o. $f_{19}(x) = \sqrt{3x^2 - 2x + 6}$
+
+    p. $f_6(x) = \sqrt{\frac{2x^2 + 3x + 1}{x + 2}}$
+    
+    q. $f_9(x) = \sqrt{\frac{-x^2 + 5x - 3}{2x + 1}}$
+    
+    r. $f_{20}(x) = \sqrt{\frac{4x^2 - 6x + 2}{3x + 4}}$
+
+    a. $f_7(x) = |2x + 3|$
+
+    b. $f_{10}(x) = |4x - 6|$
+    
+    c. $f_{21}(x) = |-x - 5|$
+    
+\end{multicols}  
+
+
+Realizar las operaciones siguentes operaciones: 
+
+\begin{center}
+\begin{tabular}{c|c|c|c}\hline
+      Suma & $f_1(x)+f_3(x)$& $f_4(x)+f_5(x)$& $f_6(x)+f_7(x)$\\
+      Resta & $f_1(x)-f_21(x)$ & $f_4(x)-f_{20}(x)$ & $f_6(x)-f_{19}(x)$ \\
+      Producto & $f_4(x)\cdot f_{14}(x)$ & $f_6(x)\cdot f_{15}(x)$ & $f_2(x)\cdot f_{16}(x)$ \\
+      Cociente & $f_6(x)/f_{16}(x)$ & $f_{15}(x)/f_4(x)$ & $f_{14}(x)/f_5(x)$\\
+      &$f_2(x)+f_8(x)$&$f_3(x)-f_{17}(x)$ &$f_1(x)\cdot f_{18}(x)$ \\\hline
+\end{tabular}
+\end{center}
+
+
+## IV. Composición de funciones
+
+Considera las siguientes funciones
+\begin{multicols}{3}
+
+  1. $f_1(x) = 2x + 3$
+
+  2. $f_1(x) = 9x - 7$
+
+  3. $f_2(x) = 2x^2 - 3x - 2$
+  
+  4. $f_2(x) = -x^2 + 2x + 3$
+  
+  5. $f_3(x) = \frac{3x^2 + 2x + 7}{4x + 2}$
+  
+  6. $f_3(x) = \frac{6x^2 - 2x + 8}{5x + 1}$
+
+  7. $f_5(x) = \sqrt{2x^2 + 3x + 1}$
+  
+  8. $f_5(x) = \sqrt{3x^2 + 2x + 5}$
+  
+  9. $f_4(x) = \sqrt{2x + 8}$
+  
+  10. $f_4(x) = \sqrt{3x + 5}$
+
+  11. $f_6(x) = \sqrt{\frac{6x^2 + 4x + 9}{2x + 1}}$
+  
+  12. $f_6(x) = \sqrt{\frac{8x^2 + 5x + 3}{4x + 2}}$
+
+  13. $f_7(x) = |3x - 1|$
+
+  14. $f_7(x) = |6x + 2|$
+
+\end{multicols}    
+    
+Realiza las siguientes composiciones
+
+\begin{center}
+\begin{tabular}{c|c|c}\hline
+  $f_1(f_{14}(x))$ & $f_{13}(f_4(x))$ & $f_5(f_{12}(x))$ \\
+  $f_6(f_{10}(x))$ & $f_9(f_5(x))$ & $f_4(f_8(x))$ \\
+  $f_{12}(f_5(x))$ & $f_4(f_{11}(x))$ & $f_{10}(f_3(x))$\\
+  $f_8(f_4(x))$ & $f_1(f_7(x))$ & $f_6(f_6(x))$\\
+  $f_2(f_6(x))$ & $f_5(f_3(x))$ & $f_4(f_4(x))$\\\hline
+  \end{tabular}
+\end{center}
+

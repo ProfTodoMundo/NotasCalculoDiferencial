@@ -1,0 +1,90 @@
+---
+title: "Cálculo Diferencial: PRIMER EVALUACION PARCIAL"
+author: "Carlos Ernesto Martinez"
+date: "5-Septiembre-2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el curso de Cálculo Diferencial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el curso de Cálculo Diferencial}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+\begin{multicols}{2}
+
+Nombre:
+
+
+Matrícula:
+
+
+Licenciatura: 
+
+Hora de inicio:
+
+Hora de término:
+\end{multicols}
+
+
+**Resuelve los siguientes ejercicios**\footnote{En matemáticas, no entiendes las cosas. Simplemente te acostumbras a ellas. - \textbf{John von Neumann}}
+
+1. Resolver las siguientes ecuaciones de primer grsdo
+
+    a. $-\frac{7}{8}x - \frac{6}{7} = \frac{5}{6}x - \frac{3}{5}$ \textbf{ 1 pto.}
+    
+    c. $\frac{3}{4}-\left\{-[\frac{5}{6}(\frac{3}{4}x-\frac{4}{5})+\frac{7}{8}(\frac{2}{3}x-\frac{5}{6})]\right\}=\frac{9}{10}(\frac{4}{5}x+\frac{6}{15})$ \textbf{ 2.5 ptos.}
+        
+
+2. Resolver las siguientes desigualdades de primer grado
+    
+    a. $2x-5<x-3$  \textbf{ 0.5 ptos.}
+    
+    b. $-\frac{1}{2}x + \frac{1}{3} \geq -\frac{3}{4}x - \frac{1}{6}$  \textbf{ 1.5 ptos.}
+  
+  
+3. Resolver las siguientes desigualdades dobles
+    
+    a. $-\frac{3}{4}\leq -\frac{1}{2}x+\frac{1}{4}\leq \frac{1}{4}$  \textbf{ 1.5 ptos.}
+
+4. Resolver las siguientes desigualdades de valor absoluto
+
+    
+    a. $|\frac{1}{2}x-\frac{1}{4}|> \frac{5}{4}$ \textbf{ 2 ptos.}
+
+    b. $|{\frac{1}{4}x+\frac{6}{9}}| \leq \frac{3}{4}$\textbf{ 2 ptos.}
+        
+
+5. Resolver las siguentes desigualdades de segundo grado
+
+    a. $4x^2-12x+9\geq 0$\textbf{ 2 ptos.}
+    
+    b. $\frac{1}{3}x^2+\frac{5}{3}x+2\leq0$\textbf{ 2 ptos.}
+
+**La suma total de puntos a considerar es de 10**
+
+
+
+
+
+
+  
+
+

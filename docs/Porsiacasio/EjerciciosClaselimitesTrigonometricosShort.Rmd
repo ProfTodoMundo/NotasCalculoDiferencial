@@ -1,0 +1,231 @@
+---
+title: "Cálculo Diferencial: Ejercicios funciones trigonométricos"
+author: "Carlos Ernesto Martinez"
+date: "20-Septiembre-2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el curso de Cálculo Diferencial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el curso de Cálculo Diferencial}\fi}
+  - \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+# Limites de funciones trigonométricas
+ 
+Calcula los siguientes límites
+
+\begin{enumerate}
+
+\item 
+
+\begin{multicols}{3}
+
+a. $ \lim_{{x \to 0}} \frac{\sin(3x)}{2x} $
+
+b. $ \lim_{{x \to 0}} \frac{\sin(2x)}{x} $
+
+c. $ \lim_{{x \to 0}} \frac{\sin(5x)}{4x} $
+
+\end{multicols}    
+    
+    
+\item 
+
+\begin{multicols}{3}
+
+a. $ \lim_{{x \to 0}} \frac{\sin(5x)}{\sin(4x)} $
+
+b. $ \lim_{{x \to 0}} \frac{\sin(2x)}{\sin(3x)} $
+
+c. $ \lim_{{x \to 0}} \frac{\sin(6x)}{\sin(2x)} $
+
+\end{multicols}
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{3x^2}{\sin^2 2x}$
+
+b. $\lim_{{x \to 0}} \frac{4x^2}{\sin^2 3x}$
+
+c. $\lim_{{x \to 0}} \frac{2x^2}{\sin^2 4x}$
+
+\end{multicols}
+
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{\sin^3 4x}{3x^2}$
+
+b. $\lim_{{x \to 0}} \frac{\sin^4 3x}{2x^3}$
+
+c. $\lim_{{x \to 0}} \frac{\sin^6 2x}{x^5}$
+\end{multicols}
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{1 - \cos 3x}{2x}$
+
+b. $\lim_{{x \to 0}} \frac{1 - \cos 4x}{3x}$
+
+c. $\lim_{{x \to 0}} \frac{1 - \cos 2x}{x}$
+
+\end{multicols}
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{4x^2}{1-\sin^2 \frac{1}{3}x}$
+
+b. $\lim_{{x \to 0}} \frac{2x^2}{1-\cos^2 2x}$
+
+c. $\lim_{{x \to 0}} \frac{5x^2}{1-\sin^2 \frac{1}{4}x}$
+
+\end{multicols}
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{1-\cos 4x}{\sin 5x}$
+
+b. $\lim_{{x \to 0}} \frac{1-\cos 3x}{\sin 4x}$
+
+c. $\lim_{{x \to 0}} \frac{1-\cos 5x}{\sin 6x}$
+
+\end{multicols}
+
+
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{\tan 3x}{7x}$
+
+b. $\lim_{{x \to 0}} \frac{\tan 4x}{3x}$
+
+c. $\lim_{{x \to 0}} \frac{\tan 5x}{2x}$
+
+\end{multicols}
+
+
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{1-\cos 3x}{1+\sin 4x}$
+
+b. $\lim_{{x \to 0}} \frac{1-\cos 4x}{1+\sin 5x}$
+
+c. $\lim_{{x \to 0}} \frac{1-\cos 5x}{1+\sin 6x}$
+
+
+\end{multicols}
+
+
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{1-\cos^2 4x}{6x^2}$
+
+b. $\lim_{{x \to 0}} \frac{1-\cos^2 3x}{5x^2}$
+
+c. $\lim_{{x \to 0}} \frac{1-\cos^2 6x}{8x^2}$
+
+\end{multicols}
+
+
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{\tan^3 8x}{5x^3}$
+
+b. $\lim_{{x \to 0}} \frac{\tan^5 7x}{4x^5}$
+
+c. $\lim_{{x \to 0}} \frac{\tan^2 6x}{3x^2}$
+
+
+\end{multicols}
+
+
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{4x^2 + 3x}{\sin 6x}$
+
+b. $\lim_{{x \to 0}} \frac{5x^2 + x}{\sin 7x}$
+
+c. $\lim_{{x \to 0}} \frac{2x^2 + 4x}{\sin 4x}$
+
+
+\end{multicols}
+
+
+
+
+\item 
+
+
+\begin{multicols}{3}
+
+a. $\lim_{{x \to 0}} \frac{\sin 3x}{4x^2+7x}$
+
+b. $\lim_{{x \to 0}} \frac{\sin 2x}{3x^2+5x}$
+
+c. $\lim_{{x \to 0}} \frac{\sin 5x}{6x^2+8x}$
+
+
+\end{multicols}
+
+\end{enumerate}

@@ -1,0 +1,121 @@
+---
+title: "Cálculo Diferencial: Ejercicios funciones trigonométricos"
+author: "Carlos Ernesto Martinez"
+date: "29-Septiembre-2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el curso de Cálculo Diferencial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el curso de Cálculo Diferencial}\fi}
+  - \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+# Derivadas
+
+\begin{enumerate}
+
+\item Calcula las siguientes derivadas
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $f(x) = 8x^7$
+
+\item $f(x) = 5x^6$
+
+\item $f(x) =7x^4-2x^3+8x+5$
+
+\item $f(x) =\frac{2x^3-4}{x^2 +1}$
+
+
+\item $f(x) =\frac{3}{x^5}$
+
+\item $f(x) =\frac{1}{x^3}$
+
+\item $f(x) =7x^5-5$
+
+\item $f(x) =\frac{1}{8}x^8-x^4$
+
+
+\item $f(x) =\frac{1}{4}x^4-\frac{1}{2}x^2$
+
+\item $f(x) =\frac{4}{3}\pi x^3$
+
+
+\item $f(x) =x^2+3x+\frac{1}{x^2}$
+
+\item $f(x) =\frac{x^3}{3}+\frac{3}{x^3}$
+
+
+\item $f(x) =\frac{3}{x^2}+\frac{5}{x^4}$
+
+\item $f(x) =\frac{5}{6x^5}$
+
+\item $f(x) = \sqrt{3}(x^3-x^2)$
+
+\item $f(x) = (2x^2+5)(4x-1)$ 
+
+\item $f(x) = (4x^2+3)^2$ 
+
+\item $f(x) = (2x^4-1)(5x^3+6x)$ 
+
+\item $f(x) = (x^3-2x+1)(2x^2+3x)$ 
+\end{enumerate}
+\end{multicols}
+
+\item Calcula las siguientes derivadas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $D_x\left[\frac{2x}{x+3}\right]$
+
+\item $D_x\left[\frac{x}{x-1}\right]$
+
+\item $D_x\left[\frac{x^2+2x+1}{x^2-2x+1}\right]$
+
+\item $D_x\left[\frac{x^2-a^2}{x^2+a^2}\right]$
+
+\item $D_x\left[\frac{4-3x-x^2}{x-2}\right]$
+
+\item $D_x\left[\frac{x^3-8}{x^3+8}\right]$
+
+\item $D_x\left[\frac{2x+1}{x+5}(3x-1)\right]$
+
+\item $D_x\left[\frac{x^3+1}{x^2+3}(x^2-2x^{-1}+1)\right]$
+
+\item $D_x\left[\frac{1}{6x^3}\right]$
+
+\item $D_x\left[x^5-\frac{1}{15x^5}\right]$
+
+\item $D_x\left[(2x^2+x+1)^3\right]$
+
+\item $D_x\left[(2x^2+3)(x-5)(3x+2)\right]$
+
+\item $D_x\left[(3x+2)^2(x^2-1)\right]$
+
+\item $D_x\left[(3x^3+x^{-3})(x+3)(x^2-5)\right]$
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las primeras tres derivadas del ejercicio 1 (sólo pares) 
+
+\item Calcule las primeras tres derivadas del ejercicio 2 (sólo impares) 
+\end{enumerate}
