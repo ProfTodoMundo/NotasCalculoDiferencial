@@ -1,0 +1,126 @@
+---
+title: "Cálculo Diferencial: SEGUNDA EVALUACION PARCIAL"
+author: "Carlos Ernesto Martinez"
+date: "2 de Octubre de 2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Segunda Evaluación Parcial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Segunda Evaluación Parcial}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+\begin{multicols}{2}
+
+Nombre: 
+
+
+Matr\'icula:
+
+
+Licenciatura:
+
+Hora de inicio:
+
+Hora de t\'ermino:
+\end{multicols}
+
+
+**Resuelve los siguientes ejercicios**\footnote{Si la gente no cree que las matemáticas son simples, es solo porque no se dan cuenta de lo complicado que es la vida. - \textbf{John von Neumann}}
+
+\begin{enumerate}
+
+\item Para las siguientes funciones determina su dominio, imagen y gráfica
+
+\begin{enumerate}
+\begin{multicols}{3}
+
+\item $f(x) = 2x + 3${\tiny{\textbf{ (1 pto.)}}}
+  
+\item $f(x) = x^2 - 4x + 5${\tiny{\textbf{ (1.5 pto.)}}}
+
+\item $f(x) = \frac{3}{x + 2}${\tiny{\textbf{ (1.5 ptos.)}}}
+
+\item $f(x) = \frac{x - 1}{x + 2}${\tiny{\textbf{ (1.5 ptos.)}}}
+
+\item $f(x) = |5x - 3|${\tiny{\textbf{ (1 pto.)}}}
+
+\end{multicols}
+
+\end{enumerate}
+
+\item Para las siguientes funciones determina su dominio, imagen y gráfica
+\begin{enumerate}
+\begin{multicols}{3}
+
+\item $f(x) = \sqrt{x + 3}${\tiny{\textbf{ (1.5 ptos.)}}}
+ 
+\item $f(x) = \sqrt{x^2 + 4x + 3}${\tiny{\textbf{ (2 ptos.)}}}
+ 
+\item $f(x) = \frac{x^2 - 4}{x - 2}${\tiny{\textbf{ (2 ptos.)}}}
+
+\item $f(x) = \frac{2x^2 + 4x + 2}{3x + 3}${\tiny{\textbf{ (2.5 ptos.)}}}
+
+\end{multicols} 
+
+\end{enumerate}
+
+\item Realiza las operaciones de funciones indicadas
+\begin{enumerate}
+
+\item \textbf{Suma:}$f_1(x) = 2x + 3$ y $f_2(x) = x^2 + 2x + 1$: $\left(f_{1}+f_{2}\right)\left(x\right)${\tiny{\textbf{ (2 ptos.)}}}
+
+\item \textbf{Resta:} $f_{16}(x) = 4x^2 - 6x + 2$ y $f_9(x) = 2x^2 - 3x + 5$: $\left(f_{16}+f_{9}\right)\left(x\right)${\tiny{\textbf{ (2 ptos.)}}}
+
+\item \textbf{multiplicación:}$f_7(x) = \sqrt{-x + 5}$ y $f_{18}(x) = \sqrt{-3x - 4}$: $\left(f_{7}\times f_{18}\right)\left(x\right)${\tiny{\textbf{ (2 ptos.)}}}
+
+\item \textbf{División: }$f_8(x) = \sqrt{4x^2 - 6x + 2}$ y $f_4(x) = \sqrt{2x + 6}$: $\left(\frac{f_{8}}{f_{4}}\right)\left(x\right)${\tiny{\textbf{ (2 ptos.)}}}
+
+\end{enumerate}
+
+\item Realiza las siguientes composiciones de funciones
+\begin{enumerate}
+\item $f_1(x) = 9x - 7$ y $f_4(x) = \sqrt{2x + 8}$: $f_1(f_{4}(x))$ {\tiny{\textbf{ (2.5 ptos.)}}}
+
+\item $f_7(x) = |3x - 1|$ y $f_2(x) = -x^2 + 2x + 3$:  $f_{2}(f_{7}(x))$ {\tiny{\textbf{ (2.5 ptos.)}}}
+
+\item $f_6(x) = \sqrt{\frac{6x^2 + 4x + 9}{2x + 1}}$ y $f_1(x) = 2x + 3$:  $f_{6}(f_{1}(x))$ {\tiny{\textbf{ (2.5 ptos.)}}}
+\end{enumerate}
+
+\end{enumerate}
+\medskip
+
+\medskip
+
+
+\begin{center}
+\textbf{La suma total de puntos a considerar es de 10.}
+\end{center}
+
+
+
+
+
+
+
+  
+
+
