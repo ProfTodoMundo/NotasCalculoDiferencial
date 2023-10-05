@@ -1,0 +1,63 @@
+---
+title: "Cálculo Diferencial: Ejercicios de Derivadas (Segunda Parte)"
+author: "Carlos Ernesto Martinez"
+date: "28 de Septiembre de 2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Ejercicios de Derivadas (Segunda Parte)}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Ejercicios de Derivadas (Segunda Parte)}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+\begin{enumerate}
+
+\item Calcula las siguientes derivadas de los órdenes indicados:
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $D^4[\frac{3}{x+2}]$
+
+\item $D^3[\sqrt{4-2x}]$
+
+\item $D^3[\frac{2}{\sqrt{x}}]$
+
+\item $D^4[\frac{4}{3x^2+2}]$
+
+\item $D^5[-1\frac{1}{5}x^{-5}+\frac{1}{7}x^3]$
+
+\item $D^5[\frac{1}{x^2}+\frac{2}{3x^4}]$
+
+\item $D^2[\frac{\sqrt{2}}{3}(x^3-x^9)]$
+
+\item $D^3[\frac{x^3-8}{x^3+8}]$
+
+\item $D^2[\frac{7x+6}{4x+7}\left(\frac{3x}{2}+1\right)]$
+
+\item $D^5[\frac{\sqrt{5}}{5}\left(x^5-2x^4+3x^4-4x^2+5x-\frac{1}{x}\right)]$
+
+\end{enumerate}
+\end{multicols}
+
+
+\end{enumerate}
+
+
+

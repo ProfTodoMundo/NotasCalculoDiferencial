@@ -14,8 +14,8 @@ header-includes:
   - \pagestyle{fancy}
   - \fancyhf{}
   - \fancyfoot[C]{\thepage}
-  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el curso de Cálculo Diferencial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
-  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el curso de Cálculo Diferencial}\fi}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Ejercicios para clase (Derivadas)}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Ejercicios para clase (Derivadas)}\fi}
   - \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
   - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
   - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-# Derivadas
+\section{Derivadas elementales}
 
 \begin{enumerate}
 
@@ -118,4 +118,89 @@ knitr::opts_chunk$set(echo = TRUE)
 \item Calcule las primeras tres derivadas del ejercicio 1 (sólo pares) 
 
 \item Calcule las primeras tres derivadas del ejercicio 2 (sólo impares) 
+\end{enumerate}
+
+\newpage
+
+\section{Derivadas de Funciones Trigonométricas}
+
+Calcula las siguientes derivadas trigonométricas recordar que
+\begin{multicols}{2}
+\begin{enumerate}
+\item $D_x(\tan x)= \sec^2x$
+
+\item $D_x(\cot x)=-\csc^2x$
+
+\item $D_x(\sec x)=\sec x\tan x$
+\item $D_x(\csc x)=-\csc x\cot x$
+\end{enumerate}
+\end{multicols}
+
+\begin{enumerate}
+\item Calcula las siguientes derivadas
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $f\left(x\right)=x^2\sin x$
+
+
+\item $f\left(x\right)=\frac{\sin x}{1-2\cos x}$, encontrar $f^{1}\left(x\right)$
+
+\item $\frac{d^3}{dx^3}\left(2\sin x+3\cos x-x^3\right)$
+
+\item $f\left(x\right)=\tan x \sec x$
+
+
+\item $f\left(x\right)=3\sin x$
+
+
+\item $f\left(x\right)=4\sec -3\csc x$
+
+
+\item $f\left(x\right)=5x\sin x+2\cos x$
+
+
+\item $f\left(x\right)=\frac{2}{3}\sin x\cos x$
+
+
+\item $f\left(x\right)=x^2\sin x+2x\cos x$
+
+
+\item $f\left(x\right)=x^2\cos x+2x\sin x-4\cos x$
+
+
+\item $f\left(x\right)=x^3-x^2\cos x+3x\sin x+2\cos x$
+
+
+\item $f\left(x\right)=3\sec x \tan x$
+
+\end{enumerate}
+\end{multicols}
+
+
+\item Realice las operaciones indicadas
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $D_x[\frac{2\cos x}{x+1}]$
+
+\item $D_x[\frac{\sin x}{1-\cos x}]$
+
+\item $D_x[\frac{\tan x}{\cos x-4}]$
+
+\item $D_x[\frac{x+4}{\cos x}]$
+
+\item $D_x[\frac{\sin x-1}{\cos x+1}]$
+
+\item $D_x[(x-\sin x)(x+\cos x)]$
+
+\item $D_x[(x^2+\cos x)(2x-\sin x)]$
+
+\item $D_x[\frac{\tan x +1}{\tan x-2}]$
+\end{enumerate}
+\end{multicols}
+
+
 \end{enumerate}
