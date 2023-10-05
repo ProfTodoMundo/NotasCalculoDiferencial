@@ -1894,6 +1894,1251 @@ Realiza las siguientes composiciones
 Para descargar la tarea dar [click aquí](Tarea2.pdf)
 
 # 4. Límite de Funciones
+
+
+
+1. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 2}\frac{x^2 - 1}{x-1}$
+    b. $lim_{x\to -3}\frac{2x+5}{x+3}$
+    c. $lim_{x\to 1}\frac{3x^2 - 4x - 3}{x-1}$
+    d. $lim_{x\to 0}\frac{2x^2 + 3x}{x}$
+    e. $lim_{x\to -1}\frac{x^3 - 1}{x^2 - 1}$
+    f. $lim_{x\to 3}\frac{x^2 + 2x - 3}{x-3}$
+    g. $lim_{x\to -2}\frac{3x+4}{x+2}$
+    h. $lim_{x\to 2}\frac{x^3 - 2x^2 - x + 2}{x-2}$
+    i. $lim_{x\to -4}\frac{2x^2 - 9x - 5}{x+4}$
+
+2. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 3}\frac{x}{x-3}$
+    b. $lim_{x\to -2}\frac{x^2}{x+2}$
+    c. $lim_{x\to 1}\frac{2x}{x-1}$
+    d. $lim_{x\to -1}\frac{x^3}{x+1}$
+    e. $lim_{x\to 5}\frac{4x}{x-5}$
+    f. $lim_{x\to 0}\frac{x}{x-0}$
+    g. $lim_{x\to 4}\frac{x^2}{x-4}$
+    h. $lim_{x\to 2}\frac{3x}{x-2}$
+    i. $lim_{x\to -3}\frac{x^3}{x+3}$
+
+3. Resolver los siguientes lìmites
+
+    a. $lim_{x\to -2}\frac{3x}{4-x^2}$
+    
+    b. $lim_{x\to 1}\frac{x}{5-x^2}$
+    
+    c. $lim_{x\to 0}\frac{2x}{3-x^2}$
+    
+    d. $lim_{x\to -1}\frac{5x}{4-x^2}$
+    
+    e. $lim_{x\to 2}\frac{x}{x^2-5}$
+    
+    f. $lim_{x\to 3}\frac{4x}{5-x^2}$
+    
+    g. $lim_{x\to -1}\frac{2x}{x^2-9}$
+    
+    h. $lim_{x\to 0}\frac{3x}{x^2+1}$
+    
+    i. $lim_{x\to -1}\frac{6x}{x^2-4}$
+
+4. Resolver los siguientes lìmites
+
+
+    a. $lim_{x\to -1}\frac{x+3}{x^2-1}$
+    
+    b. $lim_{x\to 2}\frac{x+4}{x^2-4}$
+    
+    c. $lim_{x\to 4}\frac{x+1}{x^2-16}$
+    
+    d. $lim_{x\to 2}\frac{x+5}{x^2-4}$
+    
+    e. $lim_{x\to 6}\frac{x+6}{x^2-36}$
+    
+    f. $lim_{x\to 5}\frac{x+4}{x^2-25}$
+    
+    g. $lim_{x\to 3}\frac{x+2}{x^2-9}$
+    
+    h. $lim_{x\to 8}\frac{x+5}{x^2-64}$
+    
+    i. $lim_{x\to 9}\frac{x+6}{x^2-81}$
+
+
+5. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 2}\frac{\sqrt{4+x^2}}{x}$
+    
+    b. $lim_{x\to 1}\frac{\sqrt{1+x^2}}{x}$
+    
+    c. $lim_{x\to 0}\frac{\sqrt{3+x^2}}{x}$
+    
+    d. $lim_{x\to -1}\frac{\sqrt{2+x^2}}{x}$
+    
+    e. $lim_{x\to 4}\frac{\sqrt{5+x^2}}{x}$
+    
+    f. $lim_{x\to 3}\frac{\sqrt{9+x^2}}{x}$
+    
+    g. $lim_{x\to 1}\frac{\sqrt{1+x^2}}{x}$
+    
+    h. $lim_{x\to 0}\frac{\sqrt{16+x^2}}{x}$
+    
+    i. $lim_{x\to -2}\frac{\sqrt{4+x^2}}{x}$
+
+6. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 2}\frac{\sqrt{x^2-4}}{x-2}$
+    
+    b. $lim_{x\to 4}\frac{\sqrt{x^2-16}}{x-4}$
+    
+    c. $lim_{x\to 1}\frac{\sqrt{x^2-1}}{x-1}$
+    
+    d. $lim_{x\to 5}\frac{\sqrt{x^2-25}}{x-5}$
+    
+    e. $lim_{x\to -2}\frac{\sqrt{x^2-4}}{x+2}$
+    
+    f. $lim_{x\to 3}\frac{\sqrt{x^2-9}}{x-3}$
+    
+    g. $lim_{x\to 4}\frac{\sqrt{x^2-16}}{x-4}$
+    
+    h. $lim_{x\to 1}\frac{\sqrt{x^2-1}}{x-1}$
+    
+    i. $lim_{x\to 5}\frac{\sqrt{x^2-25}}{x-5}$
+
+
+7. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 0}\left(\frac{1}{x^2}-\frac{1}{x^3}\right)$
+    
+    b. $lim_{x\to 0}\left(\frac{1}{x}-\frac{1}{x^3}\right)$
+    
+    c. $lim_{x\to 0}\left(\frac{1}{x^2}-\frac{1}{x^4}\right)$
+    
+    d. $lim_{x\to 0}\left(\frac{1}{x}-\frac{1}{x^4}\right)$
+    
+    e. $lim_{x\to 0}\left(\frac{1}{x^3}-\frac{1}{x^4}\right)$
+    
+    f. $lim_{x\to 0}\left(\frac{1}{x}-\frac{1}{x^2}\right)$
+    
+    g. $lim_{x\to 0}\left(\frac{1}{x^2}-\frac{1}{x^4}\right)$
+    
+    h. $lim_{x\to 0}\left(\frac{1}{x}-\frac{1}{x^4}\right)$
+    
+    i. $lim_{x\to 0}\left(\frac{1}{x^3}-\frac{1}{x^4}\right)$
+
+
+8. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 0}\frac{3x^2-2x^3}{4x^3+x^2}$
+    
+    b. $lim_{x\to 0}\frac{x^3-2x^2}{3x^4-5x^2}$
+    
+    c. $lim_{x\to 0}\frac{x^4-4x^3}{5x^5-2x^2}$
+    
+    d. $lim_{x\to 0}\frac{6x^3-5x^4}{x^2-3x^5}$
+    
+    e. $lim_{x\to 0}\frac{x^3-6x^4}{2x^5+4x^2}$
+    
+    f. $lim_{x\to 0}\frac{x^3-2x^4}{3x^5-5x^2}$
+    
+    g. $lim_{x\to 0}\frac{x^4-4x^5}{5x^6-2x^3}$
+    
+    h. $lim_{x\to 0}\frac{6x^3-5x^4}{x^2-3x^6}$
+    
+    i. $lim_{x\to 0}\frac{x^4-6x^5}{2x^6+4x^3}$
+
+
+9. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 2}\left(\frac{1}{x}-\frac{3}{x^2-4}\right)$
+    
+    b. $lim_{x\to 3}\left(\frac{2}{x+1}-\frac{4}{x^2-9}\right)$
+    
+    c. $lim_{x\to 1}\left(\frac{5}{x-2}-\frac{2}{x^2-1}\right)$
+    
+    d. $lim_{x\to -2}\left(\frac{1}{x+2}-\frac{2}{x^2-1}\right)$
+    
+    e. $lim_{x\to -1}\left(\frac{4}{x+1}-\frac{1}{x^2-4}\right)$
+    
+    f. $lim_{x\to -3}\left(\frac{2}{x+1}-\frac{4}{x^2-9}\right)$
+    
+    g. $lim_{x\to 2}\left(\frac{5}{x-2}-\frac{2}{x^2-1}\right)$
+    
+    h. $lim_{x\to -2}\left(\frac{1}{x+2}-\frac{2}{x^2-1}\right)$
+    
+    i. $lim_{x\to -1}\left(\frac{4}{x+1}-\frac{1}{x^2-4}\right)$
+
+
+10. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 1}\frac{x^3+5x^2+6x}{x^2-3x+2}$
+    
+    b. $lim_{x\to 3}\frac{x^3+8x^2+12x}{x^2-4x+3}$
+    
+    c. $lim_{x\to 5}\frac{x^3+4x^2+3x}{x^2-2x-15}$
+    
+    d. $lim_{x\to 2}\frac{x^3+10x^2+25x}{x^2-5x+6}$
+    
+    e. $lim_{x\to 1}\frac{x^3+7x^2+10x}{x^2-3x+2}$
+    
+    f. $lim_{x\to 3}\frac{x^3+8x^2+12x}{x^2-4x+3}$
+    
+    g. $lim_{x\to -3}\frac{x^3+4x^2+3x}{x^2-2x-15}$
+    
+    h. $lim_{x\to 2}\frac{x^3+10x^2+25x}{x^2-5x+6}$
+    
+    i. $lim_{x\to 2}\frac{x^3+7x^2+10x}{x^2-3x+2}$
+
+11. Resolver los siguientes lìmites
+
+    a. $lim_{x\to -5}\frac{3}{x^2+7x+10}$
+    
+    b. $lim_{x\to 3}\frac{2}{x^2-6x+9}$
+    
+    c. $lim_{x\to -4}\frac{4}{x^2+9x+20}$
+    
+    d. $lim_{x\to 3}\frac{6}{x^2-0x+21}$
+    
+    e. $lim_{x\to -5}\frac{7}{x^2+5x}$
+    
+    f. $lim_{x\to 3}\frac{4}{x^2+4x-21}$
+    
+    g. $lim_{x\to 9}\frac{2}{x^2+8x-9}$
+    
+    h. $lim_{x\to 3}\frac{6}{x^2+8x-15}$
+    
+    i. $lim_{x\to 0}\frac{7}{x^2+3x}$
+    
+
+12. Resolver los siguientes lìmites
+
+
+    a. $lim_{x\to 4}\frac{\sqrt{x}-3}{x-4}$
+    
+    b. $lim_{x\to 2}\frac{\sqrt{x}-2}{x-4}$
+    
+    c. $lim_{x\to 4}\frac{\sqrt{x}-2}{x^2-16}$
+    
+    d. $lim_{x\to 1}\frac{\sqrt{x}+1}{x^2-1}$
+    
+    e. $lim_{x\to 4}\frac{\sqrt{x}+2}{x^3-64}$
+    
+    f. $lim_{x\to 4}\frac{\sqrt{x}-2}{x-4}$
+    
+    g. $lim_{x\to 4}\frac{\sqrt{x}-2}{x^2-16}$
+    
+    h. $lim_{x\to 4}\frac{\sqrt{x}+1}{x^2-12x+32}$
+    
+    i. $lim_{x\to 4}\frac{\sqrt{x}+2}{x^2-64}$
+    
+
+13. Resolver los siguientes lìmites
+
+    a. $lim_{x\to -2}\frac{x^2+6x+9}{x+2}$
+    
+    b. $lim_{x\to 1}\frac{x^2+3x+2}{x-1}$
+    
+    c. $lim_{x\to -1}\frac{x^2+5x+6}{x+1}$
+    
+    d. $lim_{x\to -4}\frac{x^2+2x+1}{x+4}$
+    
+    e. $lim_{x\to -2}\frac{x^2+7x+12}{x+2}$
+    
+    f. $lim_{x\to 1}\frac{x^2+3x+2}{x-1}$
+    
+    g. $lim_{x\to -1}\frac{x^2+5x+6}{x+1}$
+    
+    h. $lim_{x\to -4}\frac{x^2+2x+1}{x+4}$
+    
+    i. $lim_{x\to -2}\frac{x^2+7x+12}{x+2}$
+
+
+14. Resolver los siguientes lìmites
+
+    
+    a. $lim_{x\to 16}\frac{x-11}{\sqrt{x}-4}$
+    
+    b. $lim_{x\to 4}\frac{x-8}{\sqrt{x}-2}$
+    
+    c. $lim_{x\to 1}\frac{x-10}{\sqrt{x}+1}$
+    
+    d. $lim_{x\to 1}\frac{x-7}{\sqrt{x}+4}$
+    
+    e. $lim_{x\to 25}\frac{x-12}{\sqrt{x}-5}$
+    
+    f. $lim_{x\to 4}\frac{x-8}{\sqrt{x}-2}$
+    
+    g. $lim_{x\to 1}\frac{x-10}{\sqrt{x}+1}$
+    
+    h. $lim_{x\to 9}\frac{x-7}{\sqrt{x}+4}$
+    
+    i. $lim_{x\to 25}\frac{x-12}{\sqrt{x}-5}$
+    
+
+15. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 5}\frac{x-4}{\sqrt{x-4}-1}$
+    
+    b. $lim_{x\to 15}\frac{x-6}{\sqrt{x-6}-3}$
+    
+    c. $lim_{x\to 3}\frac{x-3}{\sqrt{x-3}}$
+    
+    d. $lim_{x\to 23}\frac{x-7}{\sqrt{x-7}-4}$
+    
+    e. $lim_{x\to 4}\frac{x-2}{\sqrt{x-2}-1}$
+    
+    f. $lim_{x\to 15}\frac{x-6}{\sqrt{x-6}-3}$
+    
+    g. $lim_{x\to 3}\frac{x-3}{\sqrt{x-3}}$
+    
+    h. $lim_{x\to 23}\frac{x-7}{\sqrt{x-7}-4}$
+    
+    i. $lim_{x\to 3}\frac{x-2}{\sqrt{x-2}-1}$
+
+
+16. Resolver los siguientes lìmites
+
+
+    a. $lim_{x\to 1}\frac{\sqrt{x+5}-2}{x-1}$
+    
+    b. $lim_{x\to 2}\frac{\sqrt{x+3}-4}{x-2}$
+    
+    c. $lim_{x\to 11}\frac{\sqrt{x+2}-5}{x-11}$
+    
+    d. $lim_{x\to 7}\frac{\sqrt{x+6}-1}{x-7}$
+    
+    e. $lim_{x\to 4}\frac{\sqrt{x+1}-6}{x-4}$
+    
+    f. $lim_{x\to 6}\frac{\sqrt{x+3}-4}{x-6}$
+    
+    g. $lim_{x\to 12}\frac{\sqrt{x+2}-5}{x-12}$
+    
+    h. $lim_{x\to 3}\frac{\sqrt{x+6}-1}{x-3}$
+    
+    i. $lim_{x\to 5}\frac{\sqrt{x+1}-6}{x-5}$
+
+17. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 5}\frac{x+2}{x-1}$
+    
+    b. $lim_{x\to -3}\frac{2x+5}{x+3}$
+    
+    c. $lim_{x\to 1}\frac{3x^2 - 4x - 3}{x-1}$
+    
+    d. $lim_{x\to 0}\frac{2x^2 + 3x}{x}$
+    
+    e. $lim_{x\to -1}\frac{x^3 - 1}{x^2 - 1}$
+    
+    f. $lim_{x\to 2}\frac{x^2 + 2x - 3}{x-2}$
+    
+    g. $lim_{x\to -4}\frac{3x+4}{x+4}$
+    
+    h. $lim_{x\to 2}\frac{4x^2 - 5x - 6}{x-2}$
+    
+    i. $lim_{x\to 0}\frac{5x^2 + 6x}{x}$
+    
+    j. $lim_{x\to 1}\frac{x^3 - 3x^2 + 2x}{x-1}$
+    
+
+## Limites (segunda parte)
+
+1. Resolver los siguientes lìmites
+
+    a. $lim_{x\to 2}\frac{x^2 - 1}{x-1}$
+    
+    b. $lim_{x\to -3}\frac{2x+5}{x+3}$
+    
+    c. $lim_{x\to 1}\frac{3x^2 - 4x - 3}{x-1}$
+    
+    d. $lim_{x\to 0}\frac{2x^2 + 3x}{x}$
+    
+    e. $lim_{x\to -1}\frac{x^3 - 1}{x^2 - 1}$
+    
+    f. $lim_{x\to 3}\frac{x^2 + 2x - 3}{x-3}$
+    
+    g. $lim_{x\to -2}\frac{3x+4}{x+2}$
+    
+    h. $lim_{x\to 2}\frac{x^3 - 2x^2 - x + 2}{x-2}$
+    
+    i. $lim_{x\to -4}\frac{2x^2 - 9x - 5}{x+4}$
+
+2. Resolver los siguientes lìmites
+
+
+    a. $lim_{x\to 3}\frac{x}{x-3}$
+    
+    b. $lim_{x\to -2}\frac{x^2}{x+2}$
+    
+    c. $lim_{x\to 1}\frac{2x}{x-1}$
+    
+    d. $lim_{x\to -1}\frac{x^3}{x+1}$
+    
+    e. $lim_{x\to 5}\frac{4x}{x-5}$
+    
+    f. $lim_{x\to 0}\frac{x}{x-0}$
+    
+    g. $lim_{x\to 4}\frac{x^2}{x-4}$
+    
+    h. $lim_{x\to 2}\frac{3x}{x-2}$
+    
+    i. $lim_{x\to -3}\frac{x^3}{x+3}$
+
+3. Resolver los siguientes lìmites
+
+
+$lim_{x\to -2}\frac{3x}{4-x^2}$
+
+$lim_{x\to 1}\frac{x}{5-x^2}$
+
+$lim_{x\to 0}\frac{2x}{3-x^2}$
+
+$lim_{x\to -1}\frac{5x}{4-x^2}$
+
+$lim_{x\to 2}\frac{x}{x^2-5}$
+
+$lim_{x\to 3}\frac{4x}{5-x^2}$
+
+$lim_{x\to -1}\frac{2x}{x^2-9}$
+
+$lim_{x\to 0}\frac{3x}{x^2+1}$
+
+$lim_{x\to -1}\frac{6x}{x^2-4}$
+
+
+4. Resolver los siguientes lìmites
+
+$lim_{x\to -1}\frac{x+3}{x^2-1}$
+
+$lim_{x\to 2}\frac{x+4}{x^2-4}$
+
+$lim_{x\to 4}\frac{x+1}{x^2-16}$
+
+$lim_{x\to 2}\frac{x+5}{x^2-4}$
+
+$lim_{x\to 6}\frac{x+6}{x^2-36}$
+
+$lim_{x\to 5}\frac{x+4}{x^2-25}$
+
+$lim_{x\to 3}\frac{x+2}{x^2-9}$
+
+$lim_{x\to 8}\frac{x+5}{x^2-64}$
+
+$lim_{x\to 9}\frac{x+6}{x^2-81}$
+
+
+
+5. Resolver los siguientes lìmites
+
+
+$lim_{x\to 2}\frac{\sqrt{4+x^2}}{x}$
+
+$lim_{x\to 1}\frac{\sqrt{1+x^2}}{x}$
+
+$lim_{x\to 0}\frac{\sqrt{3+x^2}}{x}$
+
+$lim_{x\to -1}\frac{\sqrt{2+x^2}}{x}$
+
+$lim_{x\to 4}\frac{\sqrt{5+x^2}}{x}$
+
+$lim_{x\to 3}\frac{\sqrt{9+x^2}}{x}$
+
+$lim_{x\to 1}\frac{\sqrt{1+x^2}}{x}$
+
+$lim_{x\to 0}\frac{\sqrt{16+x^2}}{x}$
+
+$lim_{x\to -2}\frac{\sqrt{4+x^2}}{x}$
+
+
+6. Resolver los siguientes lìmites
+
+$lim_{x\to 2}\frac{\sqrt{x^2-4}}{x-2}$
+
+$lim_{x\to 4}\frac{\sqrt{x^2-16}}{x-4}$
+
+$lim_{x\to 1}\frac{\sqrt{x^2-1}}{x-1}$
+
+$lim_{x\to 5}\frac{\sqrt{x^2-25}}{x-5}$
+
+$lim_{x\to -2}\frac{\sqrt{x^2-4}}{x+2}$
+
+$lim_{x\to 3}\frac{\sqrt{x^2-9}}{x-3}$
+
+$lim_{x\to 4}\frac{\sqrt{x^2-16}}{x-4}$
+
+$lim_{x\to 1}\frac{\sqrt{x^2-1}}{x-1}$
+
+$lim_{x\to 5}\frac{\sqrt{x^2-25}}{x-5}$
+
+
+
+7. Resolver los siguientes lìmites
+
+$lim_{x\to 0}\left(\frac{1}{x^2}-\frac{1}{x^3}\right)$
+
+$lim_{x\to 0}\left(\frac{1}{x}-\frac{1}{x^3}\right)$
+
+$lim_{x\to 0}\left(\frac{1}{x^2}-\frac{1}{x^4}\right)$
+
+$lim_{x\to 0}\left(\frac{1}{x}-\frac{1}{x^4}\right)$
+
+$lim_{x\to 0}\left(\frac{1}{x^3}-\frac{1}{x^4}\right)$
+
+$lim_{x\to 0}\left(\frac{1}{x}-\frac{1}{x^2}\right)$
+
+$lim_{x\to 0}\left(\frac{1}{x^2}-\frac{1}{x^4}\right)$
+
+$lim_{x\to 0}\left(\frac{1}{x}-\frac{1}{x^4}\right)$
+
+$lim_{x\to 0}\left(\frac{1}{x^3}-\frac{1}{x^4}\right)$
+
+
+8. Resolver los siguientes lìmites
+
+
+$lim_{x\to 0}\frac{3x^2-2x^3}{4x^3+x^2}$
+
+$lim_{x\to 0}\frac{x^3-2x^2}{3x^4-5x^2}$
+
+$lim_{x\to 0}\frac{x^4-4x^3}{5x^5-2x^2}$
+
+$lim_{x\to 0}\frac{6x^3-5x^4}{x^2-3x^5}$
+
+$lim_{x\to 0}\frac{x^3-6x^4}{2x^5+4x^2}$
+
+$lim_{x\to 0}\frac{x^3-2x^4}{3x^5-5x^2}$
+
+$lim_{x\to 0}\frac{x^4-4x^5}{5x^6-2x^3}$
+
+$lim_{x\to 0}\frac{6x^3-5x^4}{x^2-3x^6}$
+
+$lim_{x\to 0}\frac{x^4-6x^5}{2x^6+4x^3}$
+
+
+9. Resolver los siguientes lìmites
+
+
+$lim_{x\to 2}\left(\frac{1}{x}-\frac{3}{x^2-4}\right)$
+
+$lim_{x\to 3}\left(\frac{2}{x+1}-\frac{4}{x^2-9}\right)$
+
+$lim_{x\to 1}\left(\frac{5}{x-2}-\frac{2}{x^2-1}\right)$
+
+$lim_{x\to -2}\left(\frac{1}{x+2}-\frac{2}{x^2-1}\right)$
+
+$lim_{x\to -1}\left(\frac{4}{x+1}-\frac{1}{x^2-4}\right)$
+
+$lim_{x\to -3}\left(\frac{2}{x+1}-\frac{4}{x^2-9}\right)$
+
+$lim_{x\to 2}\left(\frac{5}{x-2}-\frac{2}{x^2-1}\right)$
+
+$lim_{x\to -2}\left(\frac{1}{x+2}-\frac{2}{x^2-1}\right)$
+
+$lim_{x\to -1}\left(\frac{4}{x+1}-\frac{1}{x^2-4}\right)$
+
+
+10. Resolver los siguientes lìmites
+
+$lim_{x\to 1}\frac{x^3+5x^2+6x}{x^2-3x+2}$
+
+$lim_{x\to 3}\frac{x^3+8x^2+12x}{x^2-4x+3}$
+
+$lim_{x\to 5}\frac{x^3+4x^2+3x}{x^2-2x-15}$
+
+$lim_{x\to 2}\frac{x^3+10x^2+25x}{x^2-5x+6}$
+
+$lim_{x\to 1}\frac{x^3+7x^2+10x}{x^2-3x+2}$
+
+$lim_{x\to 3}\frac{x^3+8x^2+12x}{x^2-4x+3}$
+
+$lim_{x\to -3}\frac{x^3+4x^2+3x}{x^2-2x-15}$
+
+$lim_{x\to 2}\frac{x^3+10x^2+25x}{x^2-5x+6}$
+
+$lim_{x\to 2}\frac{x^3+7x^2+10x}{x^2-3x+2}$
+
+
+11. Resolver los siguientes lìmites
+
+
+
+$lim_{x\to -5}\frac{3}{x^2+7x+10}$
+
+$lim_{x\to 3}\frac{2}{x^2-6x+9}$
+
+$lim_{x\to -4}\frac{4}{x^2+9x+20}$
+
+$lim_{x\to 3}\frac{6}{x^2-0x+21}$
+
+$lim_{x\to -5}\frac{7}{x^2+5x}$
+
+$lim_{x\to 3}\frac{4}{x^2+4x-21}$
+
+$lim_{x\to 9}\frac{2}{x^2+8x-9}$
+
+$lim_{x\to 3}\frac{6}{x^2+8x-15}$
+
+$lim_{x\to 0}\frac{7}{x^2+3x}$
+
+
+12. Resolver los siguientes lìmites
+
+
+
+$lim_{x\to 4}\frac{\sqrt{x}-3}{x-4}$
+
+$lim_{x\to 2}\frac{\sqrt{x}-2}{x-4}$
+
+$lim_{x\to 4}\frac{\sqrt{x}-2}{x^2-16}$
+
+$lim_{x\to 1}\frac{\sqrt{x}+1}{x^2-1}$
+
+$lim_{x\to 4}\frac{\sqrt{x}+2}{x^3-64}$
+
+$lim_{x\to 4}\frac{\sqrt{x}-2}{x-4}$
+
+$lim_{x\to 4}\frac{\sqrt{x}-2}{x^2-16}$
+
+$lim_{x\to 4}\frac{\sqrt{x}+1}{x^2-12x+32}$
+
+$lim_{x\to 4}\frac{\sqrt{x}+2}{x^2-64}$
+
+
+
+13. Resolver los siguientes lìmites
+
+
+$lim_{x\to -2}\frac{x^2+6x+9}{x+2}$
+
+$lim_{x\to 1}\frac{x^2+3x+2}{x-1}$
+
+$lim_{x\to -1}\frac{x^2+5x+6}{x+1}$
+
+$lim_{x\to -4}\frac{x^2+2x+1}{x+4}$
+
+$lim_{x\to -2}\frac{x^2+7x+12}{x+2}$
+
+$lim_{x\to 1}\frac{x^2+3x+2}{x-1}$
+
+$lim_{x\to -1}\frac{x^2+5x+6}{x+1}$
+
+$lim_{x\to -4}\frac{x^2+2x+1}{x+4}$
+
+$lim_{x\to -2}\frac{x^2+7x+12}{x+2}$
+
+
+
+14. Resolver los siguientes lìmites
+
+
+$lim_{x\to 16}\frac{x-11}{\sqrt{x}-4}$
+
+$lim_{x\to 4}\frac{x-8}{\sqrt{x}-2}$
+
+$lim_{x\to 1}\frac{x-10}{\sqrt{x}+1}$
+
+$lim_{x\to 1}\frac{x-7}{\sqrt{x}+4}$
+
+$lim_{x\to 25}\frac{x-12}{\sqrt{x}-5}$
+
+$lim_{x\to 4}\frac{x-8}{\sqrt{x}-2}$
+
+$lim_{x\to 1}\frac{x-10}{\sqrt{x}+1}$
+
+$lim_{x\to 9}\frac{x-7}{\sqrt{x}+4}$
+
+$lim_{x\to 25}\frac{x-12}{\sqrt{x}-5}$
+
+
+15. Resolver los siguientes lìmites
+
+
+$lim_{x\to 5}\frac{x-4}{\sqrt{x-4}-1}$
+
+$lim_{x\to 15}\frac{x-6}{\sqrt{x-6}-3}$
+
+$lim_{x\to 3}\frac{x-3}{\sqrt{x-3}}$
+
+$lim_{x\to 23}\frac{x-7}{\sqrt{x-7}-4}$
+
+$lim_{x\to 4}\frac{x-2}{\sqrt{x-2}-1}$
+
+$lim_{x\to 15}\frac{x-6}{\sqrt{x-6}-3}$
+
+$lim_{x\to 3}\frac{x-3}{\sqrt{x-3}}$
+
+$lim_{x\to 23}\frac{x-7}{\sqrt{x-7}-4}$
+
+$lim_{x\to 3}\frac{x-2}{\sqrt{x-2}-1}$
+
+
+
+16. Resolver los siguientes lìmites
+
+
+$lim_{x\to 1}\frac{\sqrt{x+5}-2}{x-1}$
+
+$lim_{x\to 2}\frac{\sqrt{x+3}-4}{x-2}$
+
+$lim_{x\to 11}\frac{\sqrt{x+2}-5}{x-11}$
+
+$lim_{x\to 7}\frac{\sqrt{x+6}-1}{x-7}$
+
+$lim_{x\to 4}\frac{\sqrt{x+1}-6}{x-4}$
+
+$lim_{x\to 6}\frac{\sqrt{x+3}-4}{x-6}$
+
+$lim_{x\to 12}\frac{\sqrt{x+2}-5}{x-12}$
+
+$lim_{x\to 3}\frac{\sqrt{x+6}-1}{x-3}$
+
+$lim_{x\to 5}\frac{\sqrt{x+1}-6}{x-5}$
+
+
+17. Resolver los siguientes lìmites
+
+
+$lim_{x\to 5}\frac{x+2}{x-1}$
+
+$lim_{x\to -3}\frac{2x+5}{x+3}$
+
+$lim_{x\to 1}\frac{3x^2 - 4x - 3}{x-1}$
+
+$lim_{x\to 0}\frac{2x^2 + 3x}{x}$
+
+$lim_{x\to -1}\frac{x^3 - 1}{x^2 - 1}$
+
+$lim_{x\to 2}\frac{x^2 + 2x - 3}{x-2}$
+
+$lim_{x\to -4}\frac{3x+4}{x+4}$
+
+$lim_{x\to 2}\frac{4x^2 - 5x - 6}{x-2}$
+
+$lim_{x\to 0}\frac{5x^2 + 6x}{x}$
+
+$lim_{x\to 1}\frac{x^3 - 3x^2 + 2x}{x-1}$
+
+
+
+
+## Limites de funciones trigonométricas
+
+1. Calcula los siguientes límites
+
+
+    a. $lim_{x \to 0} \frac{\sin(3x)}{2x}$
+    
+    b. $lim_{x \to 0} \frac{\sin(2x)}{x}$
+    
+    c. $lim_{x \to 0} \frac{\sin(5x)}{4x}$
+
+    
+2. Calcula los siguientes límites
+    
+
+    a. $lim_{x \to 0} \frac{\sin(5x)}{\sin(4x)}$
+    
+    b. $lim_{x \to 0} \frac{\sin(2x)}{\sin(3x)}$
+    
+    c. $lim_{x \to 0} \frac{\sin(6x)}{\sin(2x)}$
+    
+    d. $lim_{x \to 0} \frac{\sin(8x)}{\sin(6x)}$
+    
+    e. $lim_{x \to 0} \frac{\sin(7x)}{\sin(5x)}$
+
+
+
+3. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{3x^2}{\sin^2 2x}$
+    
+    b. $lim_{x \to 0} \frac{4x^2}{\sin^2 3x}$
+    
+    c. $lim_{x \to 0} \frac{2x^2}{\sin^2 4x}$
+
+
+4. Calcula los siguientes límites
+
+
+    a. $lim_{x \to 0} \frac{\sin^3 4x}{3x^2}$
+    
+    b. $lim_{x \to 0} \frac{\sin^4 3x}{2x^3}$
+    
+    c. $lim_{x \to 0} \frac{\sin^6 2x}{x^5}$
+
+
+5. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{1 - \cos 3x}{2x}$
+    
+    b. $lim_{x \to 0} \frac{1 - \cos 4x}{3x}$
+    
+    c. $lim_{x \to 0} \frac{1 - \cos 2x}{x}$
+    
+    d. $lim_{x \to 0} \frac{1 - \cos 5x}{4x}$
+    
+    e. $lim_{x \to 0} \frac{1 - \cos 7x}{6x}$
+
+
+
+
+6. Calcula los siguientes límites
+
+
+
+    a. $lim_{x \to 0} \frac{4x^2}{1-\sin^2 \frac{1}{3}x}$
+    
+    b. $lim_{x \to 0} \frac{2x^2}{1-\cos^2 2x}$
+    
+    c. $lim_{x \to 0} \frac{5x^2}{1-\sin^2 \frac{1}{4}x}$
+
+
+
+
+7. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{1-\cos 4x}{\sin 5x}$
+    
+    b. $lim_{x \to 0} \frac{1-\cos 3x}{\sin 4x}$
+    
+    c. $lim_{x \to 0} \frac{1-\cos 5x}{\sin 6x}$
+    
+    d. $lim_{x \to 0} \frac{1-\cos 6x}{\sin 7x}$
+    
+    e. $lim_{x \to 0} \frac{1-\cos 7x}{\sin 8x}$
+    
+
+
+8. Calcula los siguientes límites
+
+
+    a. $lim_{x \to 0} \frac{\tan 3x}{7x}$
+    
+    b. $lim_{x \to 0} \frac{\tan 4x}{3x}$
+    
+    c. $lim_{x \to 0} \frac{\tan 5x}{2x}$
+
+
+
+
+
+9. Calcula los siguientes límites
+
+
+    a. $lim_{x \to 0} \frac{1-\cos 3x}{1+\sin 4x}$
+    
+    b. $lim_{x \to 0} \frac{1-\cos 4x}{1+\sin 5x}$
+    
+    c. $lim_{x \to 0} \frac{1-\cos 5x}{1+\sin 6x}$
+    
+    d. $lim_{x \to 0} \frac{1-\cos 6x}{1+\sin 7x}$
+    
+    e. $lim_{x \to 0} \frac{1-\cos 7x}{1+\sin 8x}$
+    
+
+
+
+10. Calcula los siguientes límites
+
+
+    a. $lim_{x \to 0} \frac{1-\cos^2 4x}{6x^2}$
+    
+    b. $lim_{x \to 0} \frac{1-\cos^2 3x}{5x^2}$
+    
+    c. $lim_{x \to 0} \frac{1-\cos^2 6x}{8x^2}$
+    
+    d. $lim_{x \to 0} \frac{1-\cos^2 2x}{4x^2}$
+    
+    e. $lim_{x \to 0} \frac{1-\cos^2 7x}{9x^2}$
+
+
+
+
+11. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{\tan^3 8x}{5x^3}$
+    
+    b. $lim_{x \to 0} \frac{\tan^5 7x}{4x^5}$
+    
+    c. $lim_{x \to 0} \frac{\tan^2 6x}{3x^2}$
+    
+    
+
+
+
+12. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{4x^2 + 3x}{\sin 6x}$
+    
+    b. $lim_{x \to 0} \frac{5x^2 + x}{\sin 7x}$
+    
+    c. $lim_{x \to 0} \frac{2x^2 + 4x}{\sin 4x}$
+    
+    d. $lim_{x \to 0} \frac{6x^2 + 5x}{\sin 8x}$
+    
+    e. $lim_{x \to 0} \frac{7x^2 + 3x}{\sin 9x}$
+
+
+
+13. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{\sin 3x}{4x^2+7x}$
+    
+    b. $lim_{x \to 0} \frac{\sin 2x}{3x^2+5x}$
+    
+    c. $lim_{x \to 0} \frac{\sin 5x}{6x^2+8x}$
+    
+    d. $lim_{x \to 0} \frac{\sin 6x}{7x^2+10x}$
+    
+    e. $lim_{x \to 0} \frac{\sin 7x}{8x^2+12x}$
+
+
+
+## Limites de funciones trigonométricas (reducida)
+ 
+1. Calcula los siguientes límites
+
+
+    a. $lim_{x \to 0} \frac{\sin(3x)}{2x}$
+    
+    b. $lim_{x \to 0} \frac{\sin(2x)}{x}$
+    
+    c. $lim_{x \to 0} \frac{\sin(5x)}{4x}$
+
+    
+    
+    
+2. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{\sin(5x)}{\sin(4x)}$
+    
+    b. $lim_{x \to 0} \frac{\sin(2x)}{\sin(3x)}$
+    
+    c. $lim_{x \to 0} \frac{\sin(6x)}{\sin(2x)}$
+
+
+
+3. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{3x^2}{\sin^2 2x}$
+    
+    b. $lim_{x \to 0} \frac{4x^2}{\sin^2 3x}$
+    
+    c. $lim_{x \to 0} \frac{2x^2}{\sin^2 4x}$
+
+
+
+
+4. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{\sin^3 4x}{3x^2}$
+    
+    b. $lim_{x \to 0} \frac{\sin^4 3x}{2x^3}$
+    
+    c. $lim_{x \to 0} \frac{\sin^6 2x}{x^5}$
+
+
+
+
+5. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{1 - \cos 3x}{2x}$
+    
+    b. $lim_{x \to 0} \frac{1 - \cos 4x}{3x}$
+    
+    c. $lim_{x \to 0} \frac{1 - \cos 2x}{x}$
+
+
+
+
+
+6. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{4x^2}{1-\sin^2 \frac{1}{3}x}$
+    
+    b. $lim_{x \to 0} \frac{2x^2}{1-\cos^2 2x}$
+    
+    c. $lim_{x \to 0} \frac{5x^2}{1-\sin^2 \frac{1}{4}x}$
+
+
+
+
+7. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{1-\cos 4x}{\sin 5x}$
+    
+    b. $lim_{x \to 0} \frac{1-\cos 3x}{\sin 4x}$
+    
+    c. $lim_{x \to 0} \frac{1-\cos 5x}{\sin 6x}$
+    
+
+
+
+8. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{\tan 3x}{7x}$
+    
+    b. $lim_{x \to 0} \frac{\tan 4x}{3x}$
+    
+    c. $lim_{x \to 0} \frac{\tan 5x}{2x}$
+
+
+
+
+
+9. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{1-\cos 3x}{1+\sin 4x}$
+    
+    b. $lim_{x \to 0} \frac{1-\cos 4x}{1+\sin 5x}$
+    
+    c. $lim_{x \to 0} \frac{1-\cos 5x}{1+\sin 6x}$
+
+
+
+10. Calcula los siguientes límites
+
+
+    a. $lim_{x \to 0} \frac{1-\cos^2 4x}{6x^2}$
+    
+    b. $lim_{x \to 0} \frac{1-\cos^2 3x}{5x^2}$
+    
+    c. $lim_{x \to 0} \frac{1-\cos^2 6x}{8x^2}$
+
+
+
+
+
+12. Calcula los siguientes límites
+
+    a. $lim_{x \to 0} \frac{\tan^3 8x}{5x^3}$
+    
+    b. $lim_{x \to 0} \frac{\tan^5 7x}{4x^5}$
+    
+    c. $lim_{x \to 0} \frac{\tan^2 6x}{3x^2}$
+
+
+13. Calcula los siguientes límites
+
+    
+    a. $lim_{x \to 0} \frac{4x^2 + 3x}{\sin 6x}$
+    
+    b. $lim_{x \to 0} \frac{5x^2 + x}{\sin 7x}$
+    
+    c. $lim_{x \to 0} \frac{2x^2 + 4x}{\sin 4x}$
+
+
+
+
+14. Calcula los siguientes límites
+
+
+    
+    a. $lim_{x \to 0} \frac{\sin 3x}{4x^2+7x}$
+    
+    b. $lim_{x \to 0} \frac{\sin 2x}{3x^2+5x}$
+    
+    c. $lim_{x \to 0} \frac{\sin 5x}{6x^2+8x}$
+
+
+
+
+
+# 5. Derivadas
+
+## Derivadas elementales
+
+
+
+1. Calcula las siguientes derivadas
+
+
+    $f(x) = 8x^7$
+    
+    $f(x) = 5x^6$
+    
+    $f(x) =7x^4-2x^3+8x+5$
+    
+    $f(x) =\frac{2x^3-4}{x^2 +1}$
+    
+    
+    $f(x) =\frac{3}{x^5}$
+    
+    $f(x) =\frac{1}{x^3}$
+    
+    $f(x) =7x^5-5$
+    
+    $f(x) =\frac{1}{8}x^8-x^4$
+    
+    
+    $f(x) =\frac{1}{4}x^4-\frac{1}{2}x^2$
+    
+    $f(x) =\frac{4}{3}\pi x^3$
+    
+    
+    $f(x) =x^2+3x+\frac{1}{x^2}$
+    
+    $f(x) =\frac{x^3}{3}+\frac{3}{x^3}$
+    
+    
+    $f(x) =\frac{3}{x^2}+\frac{5}{x^4}$
+    
+    $f(x) =\frac{5}{6x^5}$
+    
+    $f(x) = \sqrt{3}(x^3-x^2)$
+    
+    $f(x) = (2x^2+5)(4x-1)$ 
+    
+    $f(x) = (4x^2+3)^2$ 
+    
+    $f(x) = (2x^4-1)(5x^3+6x)$ 
+    
+    $f(x) = (x^3-2x+1)(2x^2+3x)$ 
+
+
+2. Calcula las siguientes derivadas
+
+
+    
+    $D_x\left[\frac{2x}{x+3}\right]$
+    
+    $D_x\left[\frac{x}{x-1}\right]$
+    
+    $D_x\left[\frac{x^2+2x+1}{x^2-2x+1}\right]$
+    
+    $D_x\left[\frac{x^2-a^2}{x^2+a^2}\right]$
+    
+    $D_x\left[\frac{4-3x-x^2}{x-2}\right]$
+    
+    $D_x\left[\frac{x^3-8}{x^3+8}\right]$
+    
+    $D_x\left[\frac{2x+1}{x+5}(3x-1)\right]$
+    
+    $D_x\left[\frac{x^3+1}{x^2+3}(x^2-2x^{-1}+1)\right]$
+    
+    $D_x\left[\frac{1}{6x^3}\right]$
+    
+    $D_x\left[x^5-\frac{1}{15x^5}\right]$
+    
+    $D_x\left[(2x^2+x+1)^3\right]$
+    
+    $D_x\left[(2x^2+3)(x-5)(3x+2)\right]$
+    
+    $D_x\left[(3x+2)^2(x^2-1)\right]$
+    
+    $D_x\left[(3x^3+x^{-3})(x+3)(x^2-5)\right]$
+
+
+
+3. Calcule las primeras tres derivadas del ejercicio 1 (sólo pares) 
+
+4. Calcule las primeras tres derivadas del ejercicio 2 (sólo impares) 
+
+
+## Derivadas de Funciones Trigonométricas
+
+1. Calcula las siguientes derivadas trigonométricas recordar que
+
+
+    $D_x(\tan x)= \sec^2x$
+    
+    $D_x(\cot x)=-\csc^2x$
+    
+    $D_x(\sec x)=\sec x\tan x$
+    $D_x(\csc x)=-\csc x\cot x$
+
+
+
+2. Calcula las siguientes derivadas
+
+
+    $f\left(x\right)=x^2\sin x$
+    
+    
+    $f\left(x\right)=\frac{\sin x}{1-2\cos x}$, encontrar $f^{1}\left(x\right)$
+    
+    $\frac{d^3}{dx^3}\left(2\sin x+3\cos x-x^3\right)$
+    
+    $f\left(x\right)=\tan x \sec x$
+    
+    
+    $f\left(x\right)=3\sin x$
+    
+    
+    $f\left(x\right)=4\sec -3\csc x$
+    
+    
+    $f\left(x\right)=5x\sin x+2\cos x$
+    
+    
+    $f\left(x\right)=\frac{2}{3}\sin x\cos x$
+    
+    
+    $f\left(x\right)=x^2\sin x+2x\cos x$
+    
+    
+    $f\left(x\right)=x^2\cos x+2x\sin x-4\cos x$
+    
+    
+    $f\left(x\right)=x^3-x^2\cos x+3x\sin x+2\cos x$
+    
+    
+    $f\left(x\right)=3\sec x \tan x$
+    
+
+
+3. Realice las operaciones indicadas
+
+
+    $D_x[\frac{2\cos x}{x+1}]$
+    
+    $D_x[\frac{\sin x}{1-\cos x}]$
+    
+    $D_x[\frac{\tan x}{\cos x-4}]$
+    
+    $D_x[\frac{x+4}{\cos x}]$
+    
+    $D_x[\frac{\sin x-1}{\cos x+1}]$
+    
+    $D_x[(x-\sin x)(x+\cos x)]$
+    
+    $D_x[(x^2+\cos x)(2x-\sin x)]$
+    
+    $D_x[\frac{\tan x +1}{\tan x-2}]$
+    
+
+
+4. Calcula las siguientes derivadas de los órdenes indicados:
+
+
+    
+    $D^4[\frac{3}{x+2}]$
+    
+    $D^3[\sqrt{4-2x}]$
+    
+    $D^3[\frac{2}{\sqrt{x}}]$
+    
+    $D^4[\frac{4}{3x^2+2}]$
+    
+    $D^5[-1\frac{1}{5}x^{-5}+\frac{1}{7}x^3]$
+    
+    $D^5[\frac{1}{x^2}+\frac{2}{3x^4}]$
+    
+    $D^2[\frac{\sqrt{2}}{3}(x^3-x^9)]$
+    
+    $D^3[\frac{x^3-8}{x^3+8}]$
+    
+    $D^2[\frac{7x+6}{4x+7}\left(\frac{3x}{2}+1\right)]$
+    
+    $D^5[\frac{\sqrt{5}}{5}\left(x^5-2x^4+3x^4-4x^2+5x-\frac{1}{x}\right)]$
+    
+
+
+
+
+
+
+
+
+
+
 # Anexo 1. Evaluaciones y Tareas
 ## A.  Tarea 1
 
