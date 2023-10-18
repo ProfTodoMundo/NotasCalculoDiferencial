@@ -1,0 +1,62 @@
+---
+title: "Cálculo Diferencial: Ejercicios de Derivadas (Regla de la Cadena-Segunda Parte)"
+author: "Carlos Ernesto Martinez"
+date: "13 de Octubre de 2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Ejercicios de Derivadas (Regla de la Cadena-Segunda Parte)}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Ejercicios de Derivadas (Regla de la Cadena-Segunda Parte)}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+\begin{enumerate}
+
+\item Calcula las siguientes derivadas:
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item  $f(x) = 4\sqrt[3]{x^2}$
+\item  $f(x) = \sqrt{4\sin^2x+9\cos^2 x}$
+\item  $f(x) = \frac{1}{\sqrt{25-y^2}}$
+\item  $f(x) = 4x^{1/2}+5x^{-1/2}$
+\item  $f(x) = \sqrt{4x^2-1}$
+\item  $f(x) = (5-2x^2)^{-1/2}$
+\end{enumerate}
+\end{multicols}
+
+\item Calcula las siguientes derivadas:
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $f(x) = 2\cos\sqrt{x}]$
+\item  $f(x) = 4\sec\sqrt{x}$
+\item  $f(x) = \cot\sqrt{3x}$
+\item  $f(x) = \sqrt{3\sin x}$
+\item  $f(x) = \sqrt{\frac{\sin x}{1-\sin x}}$
+\item  $f(x) = \sqrt{\frac{\cos x-1}{\sin x}}$
+\end{enumerate}
+\end{multicols}
+
+
+\end{enumerate}
+
+

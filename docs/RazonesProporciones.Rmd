@@ -1,0 +1,640 @@
+---
+title: "Taller de Matemáticas del CHyCS: Razones y Proporciones"
+author:
+  - name: "Carlos E. Martinez-Rodríguez"
+    affiliation: "Universidad Autónoma de la Ciudad de México (UACM)"
+    email: "carlos.martinez@uacm.edu.mx"
+date: "2023-10-17"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    code_folding: show
+    css: styles.css
+    theme: united
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Razones y Proporciones
+
+## Cálculo de Porcentajes
+
+  
+### Ciencias Sociales
+
+  1. Si en una encuesta el 75% de los participantes prefieren el cine como forma de entretenimiento, ¿cuántos de los 200 encuestados eligieron el cine?
+
+  2. Un país aumentó su población de 5 millones a 6.2 millones en una década. ¿Cuál fue el porcentaje de aumento?
+  
+  3. En una elección, un candidato obtuvo el 45% de los votos totales. Si hubo 120,000 votos en total, ¿cuántos votos recibió el candidato?
+
+  4. Si el salario de alguien aumenta en un 20% y ahora gana $2,400 al mes, ¿cuál era su salario anterior?
+
+  5. El precio de un producto se redujo en un 15%. Si originalmente costaba $80, ¿cuánto cuesta ahora?
+
+  6. Si un restaurante obtiene el 30% de sus ingresos de la venta de bebidas, y sus ingresos totales son $10,000 en un mes, ¿cuánto dinero proviene de las bebidas?
+  
+  7. Un estudiante respondió correctamente el 80% de las preguntas en un examen de 50 preguntas. ¿Cuántas preguntas respondió correctamente?
+
+  8. En una empresa, el 25% de los empleados son gerentes. Si hay 120 empleados en total, ¿cuántos son gerentes?
+
+  9. Un museo tuvo un aumento del 10% en el número de visitantes el año pasado. Si recibieron 50,000 visitantes este año, ¿cuántos visitantes recibieron el año anterior?
+
+  10. Si una tienda ofrece un descuento del 15% en todos los productos, y un cliente compra un artículo de $60, ¿cuánto pagará después del descuento?
+
+  11. En una encuesta, el 60% de los participantes prefiere el transporte público. Si encuestaron a 500 personas, ¿cuántas eligieron el transporte público?
+
+  12. Una empresa aumentó sus ventas de $1 millón a $1.5 millones. ¿Cuál fue el aumento porcentual en las ventas?
+
+  13. Si un político obtiene el 35% de los votos en una elección con 10,000 votos emitidos, ¿cuántos votos recibió?
+
+  14. Un equipo de fútbol ganó el 70% de sus partidos esta temporada. Si jugaron 20 partidos, ¿cuántos ganaron?
+
+  15. Si un artículo tiene un precio original de $120 y se vende con un descuento del 25%, ¿cuál es el precio de venta?
+
+### Creación Literaria
+
+
+  1. Un escritor quiere dividir su novela de 100,000 palabras en tres partes. La primera parte debería ocupar el 30% del total de palabras, la segunda el 40% y la tercera el 30%. ¿Cuántas palabras tiene cada parte?
+
+  2. En un diálogo entre dos personajes, el escritor quiere que cada uno hable por igual. Si el diálogo tiene 500 palabras en total y un personaje ya ha hablado el 60%, ¿cuántas palabras le quedan por decir para lograr una conversación equitativa?
+
+  3. En una historia, un evento importante ocupa el 20% del tiempo total de la trama. Si la historia abarca un período de un año, ¿cuántos meses están dedicados a ese evento?
+
+  4. En una narración, un personaje pasa por una serie de emociones. Si inicialmente está enojado al 80%, luego se calma al 30%, se pone triste al 10%, y finalmente se vuelve feliz al 60%, ¿cuál es el cambio neto en su estado emocional?
+
+  5. Un dramaturgo quiere dividir su obra en tres actos y asegurarse de que cada acto tenga aproximadamente el mismo número de escenas. Si el primer acto tiene 5 escenas y el tercer acto tiene 8 escenas, ¿cuántas escenas debería tener el segundo acto?
+
+  6. Un autor quiere que cada capítulo de su libro tenga aproximadamente la misma longitud en términos de páginas. Si el primer capítulo tiene 20 páginas y el tercer capítulo tiene 15 páginas, ¿cuántas páginas debería tener el segundo capítulo para equilibrar la longitud?
+
+  7. Una novela consta de 30 capítulos. El escritor quiere que los primeros tres capítulos representen el 10% de la novela y los últimos tres capítulos el 15%. ¿Cuántos capítulos deberían estar en el resto de la novela para cumplir con esta distribución?
+
+
+  8. En una historia de viajes en el tiempo, un personaje pasa el 40% de la trama en el pasado, el 30% en el presente y el 30% en el futuro. Si la historia tiene 200 páginas, ¿cuántas páginas se dedican a cada período de tiempo?
+
+  9. Un personaje se prepara para dar un discurso de 500 palabras. Quiere que el 60% del discurso se centre en su pasado, el 20% en el presente y el 20% en el futuro. ¿Cuántas palabras debería dedicar a cada período de tiempo?
+
+  10. Un escritor quiere narrar un día en la vida de su protagonista. Si el personaje duerme el 30% del tiempo, trabaja el 20%, y el resto se divide entre actividades sociales, ejercicio y tiempo personal, ¿cuánto tiempo dedica a cada actividad?
+
+
+### Comunicación y Cultura
+
+  1. Un programa de radio tiene una duración total de 60 minutos. Si el 25% del tiempo se dedica a anuncios comerciales, el 20% a noticias, el 30% a música y el resto a entrevistas, ¿cuántos minutos se dedican a las entrevistas?
+
+  2. Un conferencista tiene que dar un discurso de 1000 palabras sobre la cultura de un país. Si quiere que el 40% del discurso se centre en la música, el 30% en la gastronomía y el 30% en la historia, ¿cuántas palabras debe dedicar a cada tema?
+
+  3. Un programa de televisión comienza con una audiencia de 2 millones de espectadores. A lo largo del programa, el 15% de la audiencia se retira, pero luego se suma un 10% de nuevos espectadores. ¿Cuál es la audiencia total al final del programa?
+
+  4. En una biblioteca, el 25% de los libros son novelas, el 15% son ensayos, el 20% son poesía y el resto son cuentos cortos. Si hay un total de 400 libros, ¿cuántos son cuentos cortos?
+
+  5. En la primera página de un periódico, el 40% del espacio se dedica a noticias internacionales, el 20% a noticias nacionales, el 30% a noticias locales y el resto a anuncios publicitarios. Si la primera página tiene espacio para 500 palabras, ¿cuántas palabras se dedican a noticias nacionales?
+
+  6. En un festival de cine, el 35% de las películas son documentales, el 25% son dramas, el 20% son comedias y el resto son películas de ciencia ficción. Si hay un total de 40 películas en el festival, ¿cuántas son de ciencia ficción?
+
+  7. En un documental sobre la diversidad lingüística, inicialmente, el 60% del documental se presenta en inglés y el 40% en otros idiomas. A medida que avanza el documental, el porcentaje de otros idiomas aumenta al 50%. ¿Cuál es el cambio porcentual en el uso de otros idiomas?
+
+  8. En un museo, el 30% de los visitantes son niños, el 45% son adultos y el resto son personas mayores. Si el museo recibe un total de 600 visitantes en un día, ¿cuántos son adultos?
+
+  9. Un canal de televisión emite el 25% de su programación en la mañana, el 30% en la tarde y el 45% en la noche. Si emite un total de 12 programas al día, ¿cuántos programas se transmiten en la tarde?
+
+  10. En un podcast cultural, el 20% del tiempo se dedica a la música, el 15% a la literatura, el 30% a la historia y el resto a entrevistas con artistas. Si el podcast tiene una duración total de 60 minutos, ¿cuántos minutos se dedican a entrevistas con artistas?
+
+### Ciencia Política y Administración Urbana
+
+
+  1. En el presupuesto de una ciudad, el 35% se destina a servicios públicos, el 20% a educación, el 25% a seguridad y el resto a otros gastos. Si el presupuesto total es de $1,000,000, ¿cuánto se asigna a otros gastos?
+
+  2. En una elección, el 60% de los votantes registrados participaron inicialmente. Después de una campaña de concienciación, la participación aumentó al 75%. ¿Cuál fue el cambio porcentual en la participación electoral?
+
+  3. En un parlamento, el 40% de los escaños son para el partido A, el 30% para el partido B, el 20% para el partido C y el resto para partidos minoritarios. Si hay un total de 200 escaños, ¿cuántos corresponden a partidos minoritarios?
+
+  4. En un plan de desarrollo urbano, el 25% de los recursos se destinan a infraestructura vial, el 15% a parques y áreas verdes, el 30% a viviendas y el resto a servicios públicos. Si el presupuesto total es de $5,000,000, ¿cuánto se asigna a servicios públicos?
+
+  5. La aprobación de un alcalde ha pasado del 45% al 60% en el último año. ¿Cuál fue el cambio porcentual en su nivel de aprobación?
+
+  6. En una elección municipal, el candidato A obtuvo el 40% de los votos, el candidato B el 30% y el candidato C el 25%. ¿Cuál es la diferencia porcentual entre el candidato A y el candidato C?
+
+  7. En un plan de zonificación urbana, el 35% del espacio se asigna a zonas residenciales, el 20% a zonas comerciales, el 15% a zonas industriales y el resto a zonas verdes. Si el área total es de 100 acres, ¿cuántos acres se destinan a zonas verdes?
+
+  8. El gobierno asigna el 50% de sus fondos para programas sociales, el 30% para programas de infraestructura y el 20% para administración. Si el presupuesto total es de $10,000,000, ¿cuánto se asigna a programas de infraestructura?
+
+  9. En un consejo municipal, inicialmente, el 25% de los miembros son mujeres. Después de las elecciones, el porcentaje de mujeres aumenta al 40%. ¿Cuál fue el cambio porcentual en la representación femenina?
+
+  10. En un plan de desarrollo urbano, el 30% de los recursos se destinan a la mejora del transporte público, el 25% a la revitalización del centro histórico, el 20% a proyectos de energía renovable y el resto a proyectos educativos. Si el presupuesto total es de $8,000,000, ¿cuánto se asigna a proyectos educativos?
+
+### Filosofía e Historia de las Ideas
+
+  1. En un curso de filosofía, el 30% del tiempo se dedica al estudio del pensamiento existencialista, el 20% al racionalismo, el 25% al empirismo y el resto a otras corrientes. Si el curso dura 10 semanas, ¿cuántas semanas se dedican a otras corrientes?
+
+  2. En un estudio histórico, el 40% del análisis se enfoca en la Edad Media, el 30% en la Edad Moderna, el 20% en la Edad Antigua y el resto en otras épocas. Si el estudio abarca 500 páginas, ¿cuántas páginas se dedican a otras épocas?
+
+  3. La influencia de un filósofo en la filosofía contemporánea ha pasado del 10% al 30% en los últimos años. ¿Cuál fue el cambio porcentual en su nivel de influencia?
+
+  4. En una enciclopedia filosófica, el 25% de los artículos se centran en ética, el 20% en epistemología, el 30% en metafísica y el resto en otros temas. Si hay un total de 1000 artículos, ¿cuántos se centran en otros temas?
+
+  5. En una antología de filosofía, el 35% de los ensayos son de autores del siglo XIX, el 25% del siglo XVIII, el 20% del siglo XX y el resto de otros siglos. Si hay un total de 40 ensayos en la antología, ¿cuántos son de otros siglos?
+
+  6. En un debate filosófico, el 50% del tiempo se dedica al realismo, el 15% al idealismo, el 20% al pragmatismo y el resto a otras corrientes. Si el debate dura 2 horas, ¿cuánto tiempo se dedica a otras corrientes?
+
+  7. En una línea de tiempo filosófica, el 30% de los pensadores son de la antigüedad, el 25% de la Edad Media, el 20% de la Edad Moderna y el resto de otras épocas. Si hay un total de 50 pensadores en la línea de tiempo, ¿cuántos son de otras épocas?
+
+  8. En un simposio filosófico, el 40% del evento se centra en el pensamiento fenomenológico, el 25% en el marxismo, el 20% en la filosofía analítica y el resto en otras corrientes. Si el simposio dura 3 días, ¿cuántos días se dedican a otras corrientes?
+
+  9. La popularidad de un filósofo ha pasado del 15% al 5% en el último año. ¿Cuál fue el cambio porcentual en su nivel de popularidad?
+
+  10. En un manual de filosofía, el 30% de las páginas se dedican a la lógica, el 25% a la moral, el 20% a la estética y el resto a otros temas filosóficos. Si el manual tiene un total de 200 páginas, ¿cuántas páginas se dedican a otros temas?
+
+## Proporciones directas
+
+**Resuelve la siguiente lista de ejercicios**
+  
+  1. Si una ciudad tiene una población de 500,000 habitantes y el 60% de ellos son adultos, ¿cuántos adultos hay en la ciudad?
+
+  2. En un país, el 20% de la población posee el 80% de la riqueza. Si la población total es de 50 millones de personas, ¿cuántas personas poseen la mayor parte de la riqueza?
+  
+  3. En una ciudad, 3,000 personas están desempleadas de una población de 25,000. ¿Cuál es la tasa de desempleo en términos porcentuales?
+  
+  4. Si en una elección votaron 800,000 personas de una población total de 1,200,000, ¿cuál fue la tasa de participación electoral?
+  
+  5. En una conferencia, hay 300 hombres y 500 mujeres. ¿Cuál es la proporción de hombres a mujeres en la conferencia?
+  
+  6. Un artículo cuesta $50 y su precio se incrementa en un 20%. ¿Cuál es el nuevo precio del artículo?
+  
+  7. Si un artículo con un precio original de $80 se vende con un descuento del 25%, ¿cuál es el precio de venta?
+  
+  8. En una ciudad, la población ha aumentado de 50,000 a 60,000 en 5 años. ¿Cuál es la tasa de crecimiento anual en términos porcentuales?
+  
+  9. En una escuela, hay 240 estudiantes de primaria y 180 estudiantes de secundaria. ¿Cuál es la proporción de estudiantes de primaria a secundaria?
+  
+  10. En una encuesta, el 75% de las personas aprueba una política gubernamental. Si se encuestaron 800 personas, ¿cuántas aprobaron la política?
+  
+  11. En una región, el 40% de la población es de origen hispano, el 30% es afroamericano y el resto es de otros grupos étnicos. Si la población total es de 1 millón, ¿cuántos son afroamericanos?
+  
+  12. En una elección, 4,000 personas votaron por el candidato A, mientras que 3,000 votaron por el candidato B. ¿Cuál es la proporción de votos para el candidato A en relación con el total de votos emitidos?
+  
+  13. En una escuela secundaria, 150 estudiantes se graduaron de un total de 200 estudiantes en el último año. ¿Cuál es el porcentaje de graduación?
+  
+  14. En una ciudad, el 60% de la población es de religión cristiana, el 20% es de religión musulmana y el 20% es de otras religiones. Si la población es de 500,000, ¿cuántos son de religión musulmana?
+  
+  15. En una década, una ciudad pasó de tener una población urbana del 65% al 75%. ¿Cuál fue el cambio en la población urbana en términos absolutos?
+  
+### Creación Literaria
+  
+  1. Si un escritor revisa el 10% de las palabras en su primer borrador y encuentra errores en el 5% de las palabras revisadas, ¿cuántas palabras tienen errores?
+  
+  2. En un libro de 200 páginas, si el 25% son introducción y el 60% son capítulos principales, ¿cuántas páginas están dedicadas a la introducción y los capítulos principales?
+  
+  3. En una novela, el 70% de los personajes son hombres y el resto son mujeres. Si hay un total de 20 personajes, ¿cuántos son mujeres?
+  
+  4. Si el diálogo ocupa el 15% de una historia de 2,000 palabras, ¿cuántas palabras son de diálogo?
+  
+  5. En un cuento, el 40% del texto se dedica a descripciones. Si el cuento tiene 800 palabras en total, ¿cuántas palabras son descripciones?
+  
+  6. Un poema originalmente tiene 24 líneas. Si se decide reducirlo en un 20%, ¿cuántas líneas tendrá después de la reducción?
+  
+  7. En un ensayo de 1,000 palabras, el 10% se compone de citas de otros autores. ¿Cuántas palabras son citas?
+  
+  8. En una antología de cuentos, el 30% son de ciencia ficción, el 40% son de drama y el resto son de terror. Si hay un total de 20 cuentos en la antología, ¿cuántos son de terror?
+  
+  9. Si un autor ha completado el 80% de su novela de 300 páginas, ¿cuántas páginas le faltan por escribir?
+  
+  10. En un libro de poesía, el 50% de los poemas son sonetos y el resto son haikus. Si hay un total de 16 poemas en el libro, ¿cuántos son haikus?
+
+### Comunicación y Cultura
+
+  1. Programación de Radio: En una estación de radio, el 40% del tiempo se dedica a la música, el 30% a los anuncios y el resto a programas hablados. Si la estación transmite durante 24 horas al día, ¿cuántas horas se dedican a programas hablados?
+  
+  2. En un cine, el 25% de las películas son dramas, el 20% son comedias y el resto son de otros géneros. Si hay un total de 30 películas en exhibición, ¿cuántas son de otros géneros?
+  
+  3. Si el 60% de los jóvenes entre 18 y 24 años utilizan las redes sociales a diario y hay 500,000 jóvenes en esa categoría de edad en una ciudad, ¿cuántos de ellos usan las redes sociales a diario?
+  
+  4. En una encuesta, el 35% de los participantes dijo que aún lee periódicos impresos regularmente. Si se encuestaron 800 personas, ¿cuántos dijeron que leen periódicos impresos regularmente?
+  
+  5. En una guía de programación de televisión, el 40% de los programas son programas de noticias, el 25% son programas de entretenimiento y el resto son programas deportivos. Si hay un total de 50 programas en la guía, ¿cuántos son programas deportivos?
+  
+  6. En una estación de radio internacional, el 70% del tiempo se dedica a la transmisión en lenguas extranjeras. Si la estación transmite 12 horas al día, ¿cuántas horas se utilizan para transmitir en lenguas extranjeras?
+  
+  7. Si el 15% de la población asiste regularmente a eventos culturales como conciertos y exposiciones, y la población total de una ciudad es de 500,000 habitantes, ¿cuántas personas asisten regularmente a estos eventos?
+  
+  8. En un quiosco de revistas, el 50% de las revistas son de moda, el 30% son de deportes y el resto son de tecnología. Si hay un total de 40 revistas en el quiosco, ¿cuántas son de tecnología?
+  
+  9. En una biblioteca, el 60% de los libros están en inglés, el 20% en español y el resto en otros idiomas. Si la biblioteca tiene un total de 5,000 libros, ¿cuántos están en otros idiomas?
+  
+  10. Si un programa de televisión tiene una audiencia de 2 millones de espectadores y el 15% son adultos jóvenes (18-24 años), ¿cuántos adultos jóvenes están viendo el programa?
+  
+### Ciencia Política y Administración Urbana
+ 
+  1. En una elección municipal, el 40% de los votantes registrados emitió su voto. Si hay 50,000 votantes registrados, ¿cuántas personas votaron?
+  
+  2. Si en un concejo municipal de 10 miembros, el 70% tiene menos de 45 años, ¿cuántos miembros tienen menos de 45 años?
+  
+  3. En un parlamento compuesto por 100 miembros, si el 60% son hombres, ¿cuántas mujeres forman parte del parlamento?
+  
+  4. Si un gobierno local gasta el 30% de su presupuesto en educación, el 25% en salud y el resto en otros sectores, y su presupuesto es de $1 millón, ¿cuánto se gasta en otros sectores?
+  
+  5. En una elección, si el 45% de los votantes eligió al partido A y el 35% eligió al partido B, ¿cuál es la proporción de votantes que eligió al partido B en relación con el partido A?
+  
+  6. Si el 50% de los ingresos de un gobierno municipal proviene de impuestos sobre la propiedad, el 30% de impuestos sobre la renta y el resto de otras fuentes, y el ingreso total es de $5 millones, ¿cuánto proviene de otras fuentes?
+  
+  7. En una encuesta, el 55% de los encuestados aprueba la gestión del alcalde. Si se encuestaron 1,000 personas, ¿cuántas aprueban al alcalde?
+  
+  8. Si un gobierno estatal asigna el 40% de su presupuesto a proyectos de infraestructura, el 30% a servicios públicos y el resto a otras áreas, y el presupuesto total es de $10 millones, ¿cuánto se asigna a servicios públicos?
+  
+  9. Si en un país el 75% de la población vive en áreas urbanas y la población total es de 20 millones, ¿cuántas personas viven en zonas urbanas?
+  
+  10. Si un gobierno local gasta el 20% de su presupuesto en seguridad pública y el 15% en transporte, ¿cuál es la proporción del gasto en seguridad pública en relación con el transporte?
+  
+### Filosofía e Historia de las Ideas
+
+  1. Distribución de Filósofos por Época: Si en un libro de historia de la filosofía se mencionan 20 filósofos antiguos, 15 filósofos medievales y 25 filósofos modernos, ¿cuál es la proporción de filósofos medievales en relación con los filósofos antiguos?
+  
+  2. Ética vs. Metafísica: Si un curso de filosofía se divide en un 40% de ética y un 60% de metafísica, ¿cuánto tiempo se dedica a la ética en relación con la metafísica?
+  
+  3. Si en un estudio sobre las escuelas filosóficas de la antigua Grecia se mencionan 8 escuelas, y 2 de ellas son epicúreas, ¿cuál es la proporción de escuelas epicúreas en relación con el total?
+  
+  4. En la historia de la filosofía, se considera que el movimiento del Renacimiento marcó un cambio significativo. Si se estudian 500 años de filosofía y los primeros 200 años son anteriores al Renacimiento, ¿qué porcentaje del período total representa la filosofía pre-renacentista?
+  
+  5. Si en un libro sobre filosofía contemporánea se mencionan 30% de filósofos analíticos y 70% de filósofos continentales, ¿cuántos filósofos analíticos se mencionan si en total se citan 20 filósofos?
+  
+  6. Si un autor argumenta que la filosofía de Immanuel Kant influyó en el 80% de las corrientes filosóficas del siglo XIX, ¿cuántas corrientes filosóficas se ven influenciadas por Kant si se mencionan 10 corrientes en total?
+  
+  7. Si en un tratado filosófico de 100 páginas, el 30% del contenido se dedica a la epistemología y el resto a la ética, ¿cuántas páginas se dedican a la epistemología?
+  
+  8. Si se considera que el 50% de los filósofos del siglo XX fueron existencialistas, y se mencionan 12 filósofos del siglo XX en un libro, ¿cuántos de ellos fueron existencialistas?
+  
+  9. Si se estudia un movimiento intelectual y se mencionan 5 pensadores, de los cuales 3 son precursores y 2 son seguidores, ¿cuál es la proporción de precursores en relación con los seguidores?
+  
+  10. Si se considera que las ideas filosóficas de un autor evolucionaron a lo largo de su vida, y se dividen sus escritos en un 30% de ideas tempranas y un 70% de ideas posteriores, ¿cuántas páginas se dedican a las ideas tempranas si un libro sobre su filosofía tiene 200 páginas?
+  
+
+## Proporciones Inversas  
+  
+### Ciencias Sociales
+
+  1. Si una fábrica puede producir 60 unidades de un producto en 4 horas, ¿cuántas unidades podrá producir en 6 horas?
+
+  2. Si un coche viaja a una velocidad constante y tarda 5 horas en recorrer 300 km, ¿cuánto tiempo tomará recorrer la misma distancia a una velocidad de 60 km/h?
+
+  3. Si 10 trabajadores pueden completar un proyecto en 8 días, ¿cuántos días tomará completar el proyecto si solo 5 trabajadores están disponibles?
+
+  4. Si un equipo de fútbol consta de 11 jugadores y un equipo de baloncesto consta de 5 jugadores, ¿cuántos jugadores habría en un equipo mixto de fútbol y baloncesto con un total de 48 jugadores si se mantuviera la misma proporción?
+
+  5. Si un estudiante estudia 4 horas al día y obtiene una calificación del 90%, pero reduce su tiempo de estudio a 2 horas al día, ¿cuál será su calificación si mantiene el mismo nivel de rendimiento?
+
+  6. Si una planta de energía puede generar 500 megavatios de electricidad con 4 turbinas en funcionamiento, ¿cuántas turbinas se necesitan para generar la misma cantidad de electricidad si la demanda se duplica?
+
+  7. Si un mensaje de correo electrónico tarda 10 segundos en llegar a su destino en una red de comunicación, ¿cuánto tiempo tomará si se duplica la distancia entre el emisor y el receptor?
+
+  8. Si un conductor normalmente tarda 30 minutos en llegar al trabajo por la mañana, pero en días de tráfico intenso tarda 45 minutos, ¿cuánto más tiempo tarda en los días de tráfico intenso en comparación con los días sin tráfico?
+
+  9. Si un grupo de 8 personas puede discutir un tema en 1 hora, ¿cuánto tiempo tomará discutir el mismo tema si el grupo se reduce a 4 personas?
+
+  10. Si una inversión de $5,000 genera un beneficio mensual de $500, ¿cuál sería el beneficio mensual si la inversión se reduce a $2,000?
+
+  11. Si la distancia entre dos personas es inversamente proporcional a la calidad de su comunicación, ¿qué sucede con la calidad de la comunicación cuando la distancia entre ellas se reduce a la mitad?
+
+  12. Si un agricultor riega sus cultivos con 10,000 litros de agua y obtiene una cosecha de 100 toneladas de maíz, ¿cuánta agua se necesitaría para obtener una cosecha de 150 toneladas de maíz manteniendo la misma proporción?
+
+  13. Si un equipo de trabajo de 6 personas puede completar un proyecto en 8 semanas, ¿cuánto tiempo tomaría completar el mismo proyecto si se duplica el tamaño del equipo?
+
+  14. Si una empresa invierte $5,000 en publicidad y logra $10,000 en ventas, ¿cuánto tendría que invertir en publicidad para lograr $15,000 en ventas si la relación se mantiene constante?
+
+  15. Si 15 estudiantes pueden completar un libro de texto en 3 semanas, ¿cuántos estudiantes se necesitarían para completar el mismo libro en 2 semanas manteniendo la misma proporción?
+
+### Creación Literaria
+
+  1. Si un autor puede escribir una novela en 6 meses y necesita 3 meses para editarla, ¿cuánto tiempo tomaría escribir y editar la novela si se realizan ambos procesos simultáneamente?
+
+  2. Si un traductor puede traducir 10 páginas de un libro en 1 hora, ¿cuánto tiempo tomará traducir 30 páginas del mismo libro?
+
+  3. Si un guionista puede producir 20 páginas de un guión en 2 días, ¿cuántos días le llevará producir 60 páginas del guión?
+
+  4. Si un estudiante puede leer y analizar un libro de 300 páginas en 5 días, ¿cuántos días le tomará leer y analizar un libro de 600 páginas?
+
+  5. Si un poeta puede escribir 5 poemas en 1 semana, ¿cuántas semanas le tomará escribir 20 poemas?
+
+  6. Si un escritor puede revisar 4 cuentos en 2 días, ¿cuántos días le tomará revisar 12 cuentos?
+
+  7. Si un autor puede escribir un capítulo de su novela en 2 días, ¿cuántos días le llevará escribir 8 capítulos?
+
+  8. Si un corrector de pruebas puede corregir 30 páginas de errores de gramática en 3 horas, ¿cuántas horas le tomará corregir 90 páginas?
+
+  9. Si un dramaturgo puede escribir 10 páginas de diálogo en 1 día, ¿cuántos días le llevará escribir 30 páginas de diálogo?
+
+  10. Si un editor puede editar 15 páginas de una novela en 2 horas, ¿cuántas horas le tomará editar 45 páginas de la misma novela?
+
+### Comunicación y Cultura
+
+  1. Si un estudio de cine puede producir una película en 8 meses con un equipo de 50 personas, ¿cuánto tiempo tomaría producir la misma película con un equipo de 100 personas?
+
+  2. Si un museo exhibe una colección de arte durante 3 meses y desea exhibirla durante 6 meses, ¿cuánto tiempo debería reducirse la exposición diaria?
+
+  3. Si un canal de televisión dedica 2 horas al día a programas de noticias y 4 horas a programas de entretenimiento, ¿cuánto tiempo debería reducirse la programación de entretenimiento para duplicar el tiempo de noticias?
+
+  4. Si una biblioteca tiene un 70% de su espacio dedicado a libros y un 30% a zonas de lectura, ¿cuánto espacio adicional se necesita para zonas de lectura si se duplica el espacio para libros?
+
+  5. Si una emisora de radio dedica 60 minutos de cada hora a la música y el resto a anuncios y charlas, ¿cuántos minutos de música se escucharán si se aumenta la duración de los anuncios y charlas?
+
+  6. Si un traductor puede traducir los subtítulos de una película de 90 minutos en 2 horas, ¿cuántas horas le tomará traducir los subtítulos de una película de 120 minutos?
+
+  7. Si un teatro tiene un aforo del 80% de su capacidad total y puede recibir a 500 personas, ¿cuántas personas podrían asistir si se llena al 100% de su capacidad?
+
+  8. Si una exposición de arte dura 4 horas y un 60% del tiempo se dedica a pinturas y el resto a esculturas, ¿cuántas horas se dedican a esculturas?
+
+  9. Si un teatro opera durante 5 horas al día para funciones de tarde y noche, ¿cuánto tiempo debería reducirse el horario si solo se realizan funciones de tarde?
+
+  10. Si una serie de televisión puede producir 12 episodios en 6 meses, ¿cuánto tiempo tomaría producir 8 episodios si se mantiene el mismo ritmo de producción?
+
+### Ciencia Política y Administración Urbana
+
+  1. Si una unidad de policía puede responder a una llamada de emergencia en 5 minutos con 4 oficiales disponibles, ¿cuántos minutos tomará responder si se asignan 8 oficiales a la misma llamada?
+
+  2. Si un municipio recauda $1 millón en impuestos con una tasa impositiva del 2%, ¿cuánto tendría que aumentarse la tasa impositiva para recaudar $1.5 millones?
+
+  3. Si una ciudad con 50,000 habitantes tiene 200 oficiales de policía y registra 500 delitos al año, ¿cuántos oficiales adicionales se necesitarían para mantener la misma proporción de oficiales por cada 1,000 habitantes si los delitos aumentan a 750 al año?
+
+  4. Si un gobierno local destina el 30% de su presupuesto a programas de educación y el 20% a programas de salud, ¿cuánto porcentaje del presupuesto se dedica a otros programas si el presupuesto total es de $10 millones?
+
+  5. Si un ciudadano espera en promedio 20 minutos en una fila de una oficina gubernamental con 4 ventanillas abiertas, ¿cuántos minutos esperaría si solo hay 2 ventanillas abiertas?
+
+  6. Si una ciudad tiene una tasa de desempleo del 10% y ofrece programas de capacitación a 500 desempleados, ¿cuántos programas adicionales se necesitarían para mantener la misma proporción si el número de desempleados aumenta a 750?
+
+  7. Si un parque de la ciudad se divide en un 60% de áreas verdes y un 40% de áreas pavimentadas, ¿cuánto espacio adicional se necesita para áreas pavimentadas si se duplica el tamaño del parque?
+
+  8. Si en una elección el 60% de los votantes registrados participan, y hay 1,000 votantes registrados en total, ¿cuántos votantes adicionales se necesitarían para aumentar la tasa de participación al 70%?
+
+  9. Si un gobierno estatal asigna el 40% de su presupuesto a proyectos de infraestructura y el 25% a proyectos de vivienda, ¿cuánto porcentaje del presupuesto se dedica a otros proyectos si el presupuesto total es de $15 millones?
+
+  10. Si un concejo municipal consta de 10 miembros y sirve a una población de 50,000 habitantes, ¿cuántos miembros debería tener el concejo si la población se duplica a 100,000 habitantes manteniendo la misma proporción de representación?
+
+### Filosofía e Historia de las Ideas
+
+  1. Si un estudiante puede leer un libro de filosofía de 300 páginas en 10 días, ¿cuántos días le tomará leer un libro de 600 páginas del mismo autor?
+
+  2. Si una institución filosófica asigna el 40% de su presupuesto a la investigación y el 20% a la enseñanza, ¿cuánto porcentaje del presupuesto se dedica a otros fines si el presupuesto total es de $1 millón?
+
+  3. Si un filósofo puede escribir un ensayo de 10,000 palabras en 5 días, ¿cuántos días le tomará escribir un ensayo de 20,000 palabras?
+
+  4. Si en un movimiento intelectual del siglo XIX se mencionan 10 filósofos principales y 30 seguidores, ¿cuál es la proporción de seguidores en relación con los filósofos principales?
+
+  5. Si un curso de filosofía se divide en un 60% de tiempo dedicado a la ética y un 40% a la lógica, ¿cuánto tiempo se dedica a la lógica si la duración total del curso es de 12 semanas?
+
+  6. Si un filósofo del siglo XVIII influyó en el 70% de las corrientes filosóficas posteriores, ¿cuántas corrientes filosóficas se vieron influenciadas si se mencionan 10 corrientes en total?
+
+  7. Si un autor puede escribir 20 páginas de su libro en 2 días, ¿cuántos días le tomará escribir las 200 páginas completas del libro?
+
+  8. Si en una obra sobre la filosofía antigua se mencionan 5 filósofos estoicos y 15 filósofos epicúreos, ¿cuál es la proporción de filósofos estoicos en relación con los epicúreos?
+
+  9. Si en un curso de historia de la filosofía se dedican 9 semanas a la filosofía antigua y 6 semanas a la filosofía moderna, ¿cuántas semanas se dedican a la filosofía moderna si el curso dura en total 15 semanas?
+
+  10. Si en una investigación filosófica de 10,000 palabras se incluyen 20 citas de otros autores, ¿cuántas citas se incluirían si la investigación se duplica a 20,000 palabras?
+
+## Regla de tres directa
+### Ciencias Sociales
+
+  1. Si 5 camiones pueden transportar 200 toneladas de carga en total, ¿cuántas toneladas pueden transportar 8 camiones?
+
+  2. Si 10 trabajadores pueden construir un muro en 15 días, ¿cuántos días se necesitan para que 5 trabajadores construyan el mismo muro?
+
+  3. Si 20 estudiantes pueden leer un libro en 8 días, ¿cuántos estudiantes se necesitan para leer el mismo libro en 4 días?
+
+  4. Si 3 litros de pintura pueden cubrir 15 metros cuadrados de pared, ¿cuántos litros de pintura se necesitan para cubrir una pared de 45 metros cuadrados?
+
+  5. Si un coche viaja a una velocidad de 100 km/h, ¿cuántos kilómetros recorrerá en 2 horas?
+
+  6. Si 4 bolsas de café cuestan $32, ¿cuánto costarán 7 bolsas de café?
+
+  7. Si un estudiante estudia durante 6 horas y obtiene una calificación del 75%, ¿cuántas horas debe estudiar para obtener una calificación del 90% en el mismo examen?
+
+  8. Si un grifo puede llenar una piscina en 24 horas, ¿cuántas horas tomará llenar la misma piscina con dos grifos trabajando juntos?
+
+  9. Si un agricultor riega sus cultivos con 25,000 litros de agua y obtiene una cosecha de 500 toneladas de maíz, ¿cuántos litros de agua se necesitarían para obtener una cosecha de 750 toneladas de maíz manteniendo la misma proporción?
+
+  10. Si una tienda vende 150 camisetas en un día, ¿cuántos días tomará vender 450 camisetas al mismo ritmo de ventas?
+
+  11. Si 6 máquinas pueden producir 240 piezas en un día, ¿cuántas máquinas se necesitan para producir 600 piezas en el mismo día?
+
+  12. Si un libro tiene 400 páginas y un lector puede leer 20 páginas en una hora, ¿cuántas horas le tomará al lector terminar el libro?
+
+  13. Si una empresa puede completar un proyecto en 12 semanas con un equipo de 8 empleados, ¿cuántas semanas tomará completar el mismo proyecto con un equipo de 6 empleados?
+
+  14 Si un trabajador puede ensamblar 30 dispositivos electrónicos en 5 horas, ¿cuántas horas le tomará ensamblar 90 dispositivos electrónicos?
+
+  15. Si una tienda de ropa vende 80 pantalones en una semana, ¿cuántas semanas tomará vender 240 pantalones al mismo ritmo de ventas?
+
+### Creación Literaria
+
+  1. Si un autor escribe 2 páginas por día, ¿cuántos días le tomará escribir un libro de 200 páginas?
+
+  2. Si un poeta escribe 5 poemas al mes, ¿cuántos poemas habrá escrito en un año?
+
+  3. Si un escritor puede escribir 1,000 palabras por hora, ¿cuántas palabras habrá escrito en 4 horas?
+
+  4. Si un traductor puede traducir 10 páginas de un libro en 2 horas, ¿cuánto tiempo tomará traducir 30 páginas del mismo libro?
+
+  5. Si un autor escribe 500 palabras por día, ¿cuántos días le tomará escribir una novela de 50,000 palabras?
+
+  6. Si un guionista escribe 15 páginas de diálogo en una semana, ¿cuánto tiempo le tomará escribir 60 páginas de diálogo?
+
+  7. Si un novelista escribe 3,000 palabras por día, ¿cuántos días le tomará completar una novela de 90,000 palabras?
+
+  8. Si un escritor escribe 1 capítulo de su libro en 2 días, ¿cuántos días le llevará escribir 10 capítulos?
+
+  9. Si un autor escribe 4 páginas por hora, ¿cuántas horas le tomará escribir un ensayo de 20 páginas?
+
+  10. Si un dramaturgo escribe 10 minutos de diálogo por día, ¿cuántos días le tomará escribir un guión de 2 horas de duración?
+
+
+### Comunicación y Cultura
+
+  1. Si un editor puede editar 20 páginas de un libro en 3 horas, ¿cuántas horas le tomará editar un libro completo de 300 páginas?
+
+  2. Si una película tiene una duración de 120 minutos y se transmite en televisión con anuncios publicitarios que ocupan el 20% del tiempo, ¿cuántos minutos se destinan a anuncios?
+
+  3. Si un músico puede componer una canción en 4 días, ¿cuántas canciones podrá componer en un mes?
+
+  4. Si una radio transmite música durante 90 minutos y programas de noticias durante 30 minutos, ¿cuánto tiempo en total dedica a la programación de noticias en una hora?
+
+  5. Si un teatro ofrece una función de 2 horas de duración y el 25% del tiempo se dedica a intermedios y anuncios, ¿cuántos minutos corresponden a intermedios y anuncios?
+
+  6. Si un programa de televisión tiene una duración de 45 minutos y se emiten 15 minutos de comerciales, ¿cuál es la proporción de tiempo destinada a los comerciales?
+
+  7. Si un autor escribe 2 artículos por semana y desea escribir 50 artículos en total, ¿cuántas semanas le tomará alcanzar su objetivo?
+
+  8. Si una revista tiene un total de 100 páginas y dedica el 30% de su contenido a publicidad, ¿cuántas páginas se destinan a publicidad en la revista?
+
+  9. Si un locutor de radio presenta un programa de 2 horas de duración y dedica 30 minutos a entrevistas, ¿cuántos minutos restantes tiene para presentar música y otros segmentos?
+
+  10. Si una estación de televisión transmite 5 episodios de una serie en una semana y desea completar una temporada de 20 episodios, ¿cuántas semanas tomará transmitir toda la temporada?
+  
+### Ciencia Política y Administración Urbana
+
+  1. Si un alcalde puede visitar 5 barrios en un día, ¿cuántos barrios visitará en una semana laboral de 5 días?
+
+  2. Si un municipio con 30,000 habitantes tiene 6 concejales, ¿cuántos concejales tendría un municipio con 60,000 habitantes manteniendo la misma proporción?
+
+  3. Si un plan de desarrollo urbano se extiende por 5 años y se asignan $10 millones para proyectos de infraestructura, ¿cuánto se asignaría anualmente?
+
+  4. Si un partido político obtiene el 15% de los votos en una elección y se eligen 30 legisladores en total, ¿cuántos legisladores del partido serán elegidos?
+
+  5. Si un programa de viviendas sociales destina el 40% de sus recursos a la construcción de viviendas y el 60% a programas de apoyo social, ¿cuánto porcentaje de los recursos se destina en total a estos programas?
+
+  6. Si un comité de planificación urbana aprueba el desarrollo de 100 edificios residenciales en un año, ¿cuántos edificios aprobaría en 4 años si se mantiene la misma tasa de aprobación?
+
+  7. Si un gobierno municipal dedica el 25% de su presupuesto a servicios de salud y el 15% a servicios de transporte público, ¿cuánto porcentaje del presupuesto se destina a otros servicios si el presupuesto total es de $20 millones?
+
+  8. Si un candidato político recibe el 40% de los votos en una elección y se emiten 10,000 votos en total, ¿cuántos votos recibirá el candidato?
+
+  9. Si un ayuntamiento tiene 12 miembros en su consejo municipal y el 30% de ellos son mujeres, ¿cuántos miembros del consejo son mujeres?
+
+  10. Si un plan de desarrollo urbano se propone reducir la tasa de desempleo del 10% al 5% en 5 años, ¿cuál es el objetivo anual de reducción de desempleo?
+
+### Filosofía e Historia de las Ideas
+
+  1. Si un filósofo puede escribir 5 páginas de su obra en 2 horas, ¿cuántas horas le tomará escribir las 50 páginas completas del libro?
+
+  2. Si un autor puede escribir 1,000 palabras por día, ¿cuántos días le tomará escribir un libro de 100,000 palabras?
+
+  3. Si un filósofo puede leer 20 páginas de un libro en 1 hora, ¿cuántas horas le tomará leer un libro de 400 páginas?
+
+  4. Si un movimiento intelectual del siglo XIX cuenta con 8 figuras clave y 16 seguidores, ¿cuál es la relación entre figuras clave y seguidores en este movimiento?
+
+  5. Si una conferencia filosófica dura 3 días y se dedican 12 horas a conferencias y 4 horas a debates por día, ¿cuántas horas en total se dedican a debates durante la conferencia?
+
+  6. Si un libro de filosofía tiene 500 páginas y un lector puede leer 50 páginas en una hora, ¿cuántas horas le tomará al lector terminar el libro?
+
+  7. Si un pensador influyente del siglo XVIII ha dejado huella en el 60% de las corrientes filosóficas posteriores, ¿cuántas corrientes filosóficas se vieron influenciadas si se mencionan 12 corrientes en total?
+
+  8. Si un curso de filosofía se divide en 10 semanas de duración, y 4 de esas semanas se dedican a la filosofía antigua, ¿cuántas semanas se dedican a otras áreas de la filosofía?
+
+  9. Si un libro de historia de las ideas tiene 400 páginas y se dedican 100 páginas a un período específico, ¿cuál es el porcentaje del libro dedicado a ese período?
+
+  10. Si un autor puede escribir 1 ensayo de 2,000 palabras en 5 horas, ¿cuántas horas le tomará escribir 5 ensayos similares?
+
+
+## Regla de tres inversa
+### Ciencias Sociales
+
+  1. Si 5 trabajadores pueden construir una casa en 20 días, ¿cuántos trabajadores se necesitan para construir la misma casa en 10 días?
+
+  2. Si 12 estudiantes pueden limpiar un parque en 6 horas, ¿cuántos estudiantes se necesitan para hacerlo en 3 horas?
+
+  3. Si una fábrica produce 600 unidades de un producto en 8 horas, ¿cuántas horas se necesitan para producir 300 unidades del mismo producto?
+
+  4. Si 3 maestros pueden evaluar 120 exámenes en 2 días, ¿cuántos maestros se necesitan para evaluar 240 exámenes en 1 día?
+
+  5. Si un coche recorre 240 km en 4 horas, ¿cuántos kilómetros recorrerá en 6 horas a la misma velocidad?
+
+  6. Si 8 trabajadores pueden cosechar un campo en 5 días, ¿cuántos días se necesitan para cosecharlo si solo trabajan 4 personas?
+
+  7. Si 15 estudiantes pueden leer un libro en 10 días, ¿cuántos días les tomará a 10 estudiantes leer el mismo libro?
+
+  8. Si un camión puede transportar 800 kg de carga en 2 horas, ¿cuántos kilogramos de carga puede transportar en 5 horas?
+
+  9. Si 6 trabajadores pueden construir un edificio en 30 días, ¿cuántos trabajadores se necesitan para construir el mismo edificio en 15 días?
+
+  10. Si un restaurante puede servir a 60 comensales en 2 horas, ¿cuántos comensales puede atender en 4 horas?
+
+  11. Si un agricultor puede plantar 200 árboles en un día, ¿cuántos árboles puede plantar en medio día?
+
+  12. Si 4 profesionales pueden analizar 80 casos en una semana, ¿cuántos casos pueden analizar en 2 semanas?
+
+  13. Si 10 obreros pueden pintar una pared en 6 horas, ¿cuántas horas se necesitan para que 5 obreros pinten la misma pared?
+
+  14. Si un grupo de estudiantes puede limpiar un parque en 4 horas, ¿cuántos grupos iguales de estudiantes se necesitan para hacerlo en 1 hora?
+
+  15. Si una organización puede procesar 500 solicitudes en 8 días, ¿cuántos días se necesitan para procesar 250 solicitudes con la misma velocidad?
+  
+### Creación Literaria
+
+  1. Si un autor puede escribir una novela de 300 páginas en 3 meses, ¿cuánto tiempo le tomará escribir una novela de 500 páginas?
+
+  2. Si un escritor escribe 5 páginas de poesía en una hora, ¿cuántas horas necesitará para escribir 20 páginas de poesía?
+
+  3. Si una historia corta tiene una extensión de 15 páginas y un autor quiere dividirla en tres partes iguales, ¿cuántas páginas tendrá cada parte?
+
+  4. Si un autor escribe 2.000 palabras por día, ¿cuántos días le tomará completar una novela de 100.000 palabras?
+
+  5. Si un guionista puede escribir un guion de 90 minutos en 3 semanas, ¿cuánto tiempo le llevará escribir un guion de 120 minutos?
+
+  6. Si un poema tiene 24 versos y un poeta quiere dividirlo en tres estrofas de igual longitud, ¿cuántos versos tendrá cada estrofa?
+
+  7. Si un autor escribe una serie de libros y cada uno tiene un promedio de 400 páginas, y quiere que todos tengan la misma extensión, ¿cuántas páginas debe tener el último libro si los otros tres tienen 350, 420 y 380 páginas, respectivamente?
+
+  8. Si un escritor escribe 10 páginas por día y quiere completar una novela de 200 páginas, ¿cuántos días le tomará?
+
+  9. Si un ensayo tiene una longitud de 2.500 palabras y se divide en cinco secciones de igual longitud, ¿cuántas palabras tendrá cada sección?
+
+  10. Si un autor quiere escribir una serie de cuentos cortos y cada uno debe tener una longitud de 15 páginas, ¿cuántos cuentos podrá escribir si tiene tiempo para escribir un total de 90 páginas en una semana?
+
+### Comunicación y Cultura
+
+  1. Si un documental de 60 minutos se edita a una velocidad de 15 minutos de edición por cada 5 minutos de metraje original, ¿cuánto tiempo se necesitará para editar un documental de 120 minutos?
+
+  2. Si un libro de 300 páginas se imprime en 20 horas, ¿cuánto tiempo tomará imprimir un libro de 450 páginas, manteniendo la misma velocidad de impresión?
+
+  3. Si un sitio web recibe 500 visitas en una hora, ¿cuántas visitas recibirá en 4 horas si el tráfico se mantiene constante?
+
+  4. Si una radio emite una canción de 4 minutos cada 15 minutos, ¿cuántas canciones emitirá en una hora?
+
+  5. Si un periódico tiene una tirada de 10,000 copias diarias y necesita imprimir una edición especial de 30,000 copias, ¿cuántos días necesitará para imprimir esa cantidad si mantiene su ritmo de impresión diario?
+
+  6. Si un programa de televisión tiene una audiencia de 2 millones de espectadores en su primera temporada y desea duplicar su audiencia para la segunda temporada, ¿cuántos espectadores necesita atraer?
+
+  7. Si un museo recibe 200 visitantes en un día, ¿cuántos visitantes espera recibir en una semana si abre todos los días?
+
+  8. Si una película de 90 minutos se proyecta en un festival de cine y se decide acelerar la velocidad de proyección al 20% para ahorrar tiempo, ¿cuánto tiempo durará la proyección?
+
+  9. Si un libro de 250 páginas se traduce al español a un ritmo de 10 páginas por día, ¿cuántos días tomará completar la traducción?
+
+  10. Si una revista publica 12 ediciones al año y quiere aumentar su frecuencia de publicación a 18 ediciones al año, ¿cuántas ediciones adicionales debe publicar?
+  
+### Ciencia Política y Administración Urbana
+
+  1. Si un alcalde puede resolver 30 quejas ciudadanas al mes y quiere reducir el tiempo de respuesta a la mitad, ¿cuántas quejas podrá resolver al mes con el nuevo tiempo de respuesta?
+
+  2. Si un municipio tiene un presupuesto anual de $500,000 y desea incrementarlo en un 20% para el próximo año, ¿cuál será el presupuesto total para el próximo año?
+
+  3. Si un concejo municipal tiene 10 miembros y necesita aprobar una nueva ley con al menos el 70% de votos a favor, ¿cuántos votos a favor se requieren para aprobarla?
+
+  4. Si un político necesita recolectar 1,000 firmas para postularse como candidato independiente y ya ha recolectado el 40% de las firmas, ¿cuántas firmas le faltan por recolectar?
+
+  5. Si una ciudad con una población de 200,000 habitantes elige a 5 concejales para su gobierno local, ¿cuántos habitantes representará cada concejal?
+
+  6. Si un plan de desarrollo urbano estipula que el 15% del espacio de la ciudad se destinará a zonas verdes, y la ciudad tiene un área total de 200 km², ¿cuántos kilómetros cuadrados se destinarán a zonas verdes?
+
+  7. Si un político tiene una tasa de aprobación del 60% en una encuesta de opinión y su tasa de desaprobación es del 25%, ¿cuál es el porcentaje de personas que no ha tomado una posición clara?
+
+  8. Si un municipio necesita construir 10 kilómetros de nuevas vías para aliviar el tráfico y ya ha construido el 30% de ellas, ¿cuántos kilómetros más debe construir?
+
+  9. Si un proyecto de ley es aprobado por el 80% de los votos en el Congreso y el Congreso tiene 400 miembros, ¿cuántos votos a favor obtuvo el proyecto de ley?
+
+  10. Si un concejo municipal debe designar a tres comités de trabajo y tiene 15 miembros en total, ¿cuántos concejales serán asignados a cada comité si se quiere mantener una distribución equitativa?
+
+### Filosofía e Historia de las Ideas
+
+  1. Si un filósofo puede leer un libro de 400 páginas en una semana y desea leer un libro de 200 páginas, ¿cuánto tiempo le llevará?
+
+  2. Si un tratado filosófico escrito en el siglo XVIII tiene una longitud de 600 páginas y un estudiante quiere leerlo en un mes, ¿cuántas páginas debe leer por día?
+
+  3. Si un autor escribe un ensayo de 2,000 palabras en una hora, ¿cuánto tiempo tomará para escribir un ensayo de 5,000 palabras?
+
+  4. Si un filósofo puede analizar un concepto en profundidad en 3 horas y quiere analizar tres conceptos diferentes, ¿cuánto tiempo tomará en total?
+
+  5. Si un historiador investiga un período de la historia durante 6 meses y quiere ampliar su investigación a un período de 2 años, ¿cuánto tiempo adicional necesita para completar su investigación?
+
+  6. Si un pensador desea estudiar las obras completas de un filósofo que constan de 10 volúmenes y ya ha leído 4 de ellos, ¿cuántos volúmenes le faltan por leer?
+
+  7. Si un estudiante se propone leer 5 libros sobre filosofía en un año y ya ha leído 2, ¿cuántos libros le faltan por leer?
+
+  8. Si una conferencia filosófica dura 3 días y un asistente solo puede asistir durante 2 días, ¿cuántos días de la conferencia se perderá?
+
+  9. Si un filósofo quiere explorar 3 teorías éticas diferentes en su investigación y ya ha investigado una de ellas durante 2 meses, ¿cuánto tiempo necesita dedicar a las otras dos teorías para mantener el mismo ritmo de investigación?
+
+  10. Si un libro de filosofía contiene 12 capítulos y un lector desea completarlo en 4 semanas, ¿cuántos capítulos debe leer cada semana para lograrlo?
+

@@ -1,0 +1,128 @@
+---
+title: "Cálculo Diferencial: TERCERA EVALUACION PARCIAL"
+author: "Carlos Ernesto Martinez"
+date: "17 de Octubre de 2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Tercera Evaluación Parcial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Tercera Evaluación Parcial}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+\begin{multicols}{2}
+
+Nombre: 
+
+
+Matr\'icula:
+
+
+Licenciatura:
+
+Hora de inicio:
+
+Hora de t\'ermino:
+\end{multicols}
+
+
+**Resuelve los siguientes ejercicios**\footnote{Si la gente no cree que las matemáticas son simples, es solo porque no se dan cuenta de lo complicado que es la vida. - \textbf{John von Neumann}}
+
+\begin{enumerate}
+
+\item Determina los siguientes limites
+\begin{multicols}{2}
+\begin{enumerate}
+
+
+\item $\lim_{x\to 0}\frac{2x^2 + 3x}{x}${\tiny{\textbf{ (1 pto.)}}}
+
+\item $\lim_{x\to -2}\frac{x^2}{x+2}${\tiny{\textbf{ (1 pto.)}}}
+
+\item $\lim_{x\to -2}\frac{3x}{4-x^2}${\tiny{\textbf{ (1.5 ptos.)}}}
+\item $\lim_{x\to -1}\frac{2x}{x^2-9}${\tiny{\textbf{ (1 pto.)}}}
+
+\item $\lim_{x\to 3}\frac{x+2}{x^2-9}${\tiny{\textbf{ (1 pto.)}}}
+\item $\lim_{x\to 4}\frac{\sqrt{5+x^2}}{x}${\tiny{\textbf{ (1 pto.)}}}
+
+\item $\lim_{x\to 3}\frac{\sqrt{x^2-9}}{x-3}${\tiny{\textbf{ (1.5 ptos.)}}}
+\item $\lim_{x\to 0}\frac{x^3-2x^4}{3x^5-5x^2}${\tiny{\textbf{ (1.5 pto.)}}}
+
+\item $\lim_{x\to 2}\frac{x^3+10x^2+25x}{x^2-5x+6}${\tiny{\textbf{ (1.5 ptos.)}}}
+\item $\lim_{x\to 2}\frac{\sqrt{x}-2}{x-4}${\tiny{\textbf{ (1.5 ptos.)}}}
+\item $\lim_{x\to 5}\frac{4x}{x-5}${\tiny{\textbf{ (1.5 ptos.)}}}
+\item $\lim_{x\to 3}\frac{\sqrt{9+x^2}}{x}${\tiny{\textbf{ (1 pto.)}}}
+\item $\lim_{x\to 2}\frac{4x^2 - 5x - 6}{x-2}${\tiny{\textbf{ (1.5 ptos.)}}}
+
+\item $\lim_{x\to 0}\frac{5x^2 + 6x}{x}${\tiny{\textbf{ (1 pto.)}}}
+
+\end{enumerate}
+\end{multicols}
+
+
+
+\item Calcula los siguientes limites
+\begin{multicols}{3}
+\begin{enumerate}
+
+\item  $ \lim_{{x \to 0}} \frac{\sin(2x)}{x} $ {\tiny{\textbf{ (2 ptos.)}}}
+
+\item  $ \lim_{{x \to 0}} \frac{\sin(6x)}{\sin(2x)} ${\tiny{\textbf{ (2 ptos.)}}}
+
+\item  $\lim_{{x \to 0}} \frac{4x^2}{\sin^2 3x}${\tiny{\textbf{ (2 ptos.)}}}
+
+\item $\lim_{{x \to 0}} \frac{\sin^4 3x}{2x^3}${\tiny{\textbf{ (2 ptos.)}}}
+
+\item $\lim_{{x \to 0}} \frac{1 - \cos 3x}{2x}${\tiny{\textbf{ (2 ptos.)}}}
+
+
+\item  $\lim_{{x \to 0}} \frac{2x^2}{1-\cos^2 2x}${\tiny{\textbf{ (2 ptos.)}}}
+
+\item  $\lim_{{x \to 0}} \frac{1-\cos 5x}{\sin 6x}${\tiny{\textbf{ (2 ptos.)}}}
+
+\item  $\lim_{{x \to 0}} \frac{\tan 3x}{7x}${\tiny{\textbf{ (2 ptos.)}}}
+
+\item  $\lim_{{x \to 0}} \frac{1-\cos 3x}{1+\sin 4x}${\tiny{\textbf{ (2 ptos.)}}}
+
+\item  $\lim_{{x \to 0}} \frac{1-\cos^2 6x}{8x^2}${\tiny{\textbf{ (2 ptos.)}}}
+
+\item  $\lim_{{x \to 0}} \frac{\tan^3 8x}{5x^3}${\tiny{\textbf{ (2 ptos.)}}}
+ 
+\item  $\lim_{{x \to 0}} \frac{4x^2 + 3x}{\sin 6x}${\tiny{\textbf{ (2 ptos.)}}}
+
+\item  $\lim_{{x \to 0}} \frac{\sin 6x}{7x^2+10x}${\tiny{\textbf{ (2 ptos.)}}}
+
+\end{enumerate}
+
+\end{multicols}
+
+
+
+
+\end{enumerate}
+
+
+\begin{center}
+\textbf{La suma total de puntos a considerar es de 10.}
+\end{center}
+
+
+
