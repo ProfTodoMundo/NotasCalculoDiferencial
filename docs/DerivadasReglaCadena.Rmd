@@ -102,20 +102,6 @@ knitr::opts_chunk$set(echo = TRUE)
 \end{enumerate}
 \end{multicols}
 
-\item Calcula las siguientes derivadas:
-
-\begin{multicols}{2}
-\begin{enumerate}
-
-\item $f(x) = [(5x^3 + 2x^2 - 4x + 3)^5(x^3 - 2x^2 + 2x)^5]$
-\item  $f(x) = [(3x^3 + 4x^2 - 2x + 1)^5(x^3 - x^2 + 2x)^5]$
-\item  $f(x) = [(6x^3 - x^2 + 2x + 2)^5(x^3 + 2x^2 - 3x + 4)^5]$
-\item  $f(x) = [(4x^3 - x^2 - 3x + 2)^5(x^3 - 4x^2 + 3x + 1)^5]$
-\item  $f(x) = [(2x^3 + 3x^2 - 2x + 5)^5(x^3 - 2x^2 - x + 2)^5]$
-\item  $f(x) = [(5x^3 - x^2 + 2x - 1)^5(x^3 - x^2 + 3x - 2)^5]$
-
-\end{enumerate}
-\end{multicols}
 
 
 \end{enumerate}

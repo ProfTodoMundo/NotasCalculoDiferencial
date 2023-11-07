@@ -1,0 +1,476 @@
+---
+title: "Cálculo Diferencial: Aplicaciones de la Derivada - Primera parte"
+author: "Carlos Ernesto Martinez"
+date: "07 de Noviembre de 2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Aplicaciones de la Derivada Implícita}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Aplicaciones de la Derivada Implícita}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+\textbf{Definición de Valores Extremos:}
+
+Un valor extremo de una función es un valor máximo o mínimo de la función dentro de un cierto intervalo. Formalmente, se dice que $f(x)$ tiene un \textit{valor máximo} en $x = c$ si para todo $x$ en algún intervalo abierto que contiene a $c$, se cumple que $f(x) \leq f(c)$. De manera similar, $f(x)$ tiene un \textit{valor mínimo} en $x = c$ si para todo $x$ en algún intervalo abierto que contiene a $c$, se cumple que $f(x) \geq f(c)$.
+
+
+\textbf{Definición de Puntos Críticos:}
+
+Un punto crítico de una función $f(x)$ es un valor de $x$ en el dominio de la función donde la derivada de $f(x)$ es igual a cero o no está definida, es decir, donde $f'(x) = 0$ o $f'(x)$ no existe. Los puntos críticos pueden ser máximos, mínimos o puntos de inflexión, y son importantes para el análisis de la función.
+
+
+
+\begin{enumerate}
+\item Encuentre los valores extremos y puntos críticos
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $f(x) = 3x^4 - 5x^3 + 2x^2 + 8x + 1$
+
+\item $f(x) = -2x^5 + 4x^3 - 7x^2 + 3x - 6$
+
+\item $f(x) = 5x^2 - 2x^6 + 9x - 10$
+
+\item $f(x) = x^3 - 4x^5 + 6x^2 - 5x + 3$
+
+\item $f(x) = 2x^6 - 9x^4 + 7x^3 + 10x - 12$
+\end{enumerate}
+\end{multicols}
+
+\item Encuentre los valores extremos y puntos críticos
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $f(x) = (x+3)^4(4-x)^2$
+
+\item $f(x) = (2x-1)^5(6+x)^3$
+
+\item $f(x) = (x-5)^2(3+x)^6$
+
+\item $f(x) = (4x+2)^3(7-x)^4$
+
+\item $f(x) = (-x+1)^2(8+x)^5$
+
+\end{enumerate}
+\end{multicols}
+
+\item Encuentre los valores extremos y puntos críticos
+\begin{multicols}{2}
+\begin{enumerate}
+\item $f(x) = \sqrt{2x^2+4x-3}$
+
+\item $f(x) = \sqrt{5x^2+7x+2}$
+
+\item $f(x) = \sqrt{4x^2+2x-5}$
+
+\item $f(x) = \sqrt{x^2-3x+1}$
+
+\item $f(x) = \sqrt{6x^2-8x+3}$
+
+\end{enumerate}
+\end{multicols}
+
+\item Encuentre los valores extremos y puntos críticos
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item  $f(x) = \frac{3x^3+5x^2+6x-3}{x^2-x-1}$
+
+\item  $f(x) = \frac{2x^3-6x^2+4x-2}{x^2-x-1}$
+
+\item  $f(x) = \frac{5x^3-3x^2+7x+2}{x^2-x-1}$
+
+\item  $f(x) = \frac{6x^3+4x^2-6x+3}{x^2-x-1}$
+
+\item  $f(x) = \frac{x^3-7x^2+3x-2}{x^2-x-1}$
+
+\end{enumerate}
+\end{multicols}
+
+\item Encuentre los valores extremos y puntos críticos
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item $f(x) = \cos^2(3x-2)$
+
+\item $f(x) = \tan^2(4x-1)$
+
+\item $f(x) = \sec^2(2x+2)$
+
+\item $f(x) = \csc^2(3x-4)$
+
+\item $f(x) = \cot^2(5x-3)$
+
+\end{enumerate}
+\end{multicols}
+
+
+\end{enumerate}
+
+\section{Teoremas Importantes}
+
+
+\textbf{Teorema de Rolle}\medskip
+
+Dada una función $f(x)$ que es continua en el intervalo cerrado $[a, b]$ y derivable en el intervalo abierto $(a, b)$, si $f(a) = f(b)$, entonces existe al menos un número $c$ en el intervalo abierto $(a, b)$ tal que $f'(c) = 0$.
+
+\begin{enumerate}
+
+\item Demuestra que la función $f(x) = x^2 - 4x + 3$ tiene al menos una raíz en el intervalo $[1, 3]$.
+
+\textbf{Solución:} Para aplicar el Teorema de Rolle, primero verificamos que $f(x)$ sea continua en $[1, 3]$ y derivable en $(1, 3)$. Ambas condiciones se cumplen. Luego, observamos que $f(1) = 1^2 - 4 \cdot 1 + 3 = 0$ y $f(3) = 3^2 - 4 \cdot 3 + 3 = 0$, lo que significa que $f(1) = f(3)$. Por lo tanto, según el Teorema de Rolle, existe al menos un número $c$ en el intervalo $(1, 3)$ donde $f'(c) = 0$, lo que implica que hay al menos una raíz en ese intervalo.
+
+\item Encuentra un valor de $c$ en el intervalo $[0, 2]$ para la función $f(x) = e^x - 1$ tal que $f'(c) = 1$.
+
+\textbf{Solución:} La función $f(x) = e^x - 1$ es continua en $[0, 2]$ y derivable en $(0, 2)$. Además, $f(0) = e^0 - 1 = 0$ y $f(2) = e^2 - 1 \approx 6.39$. Como $f(0) \neq f(2)$, podemos aplicar el Teorema de Rolle. Según el teorema, existe al menos un número $c$ en el intervalo $(0, 2)$ donde $f'(c) = \frac{f(2) - f(0)}{2 - 0} = \frac{6.39}{2} \approx 3.195$.
+
+\item Muestra que la función $f(x) = \sin x$ tiene al menos un valor $c$ en el intervalo $\left[0, \frac{\pi}{2}\right]$ donde $f'(c) = \frac{1}{2}$.
+
+\textbf{Solución:} La función $f(x) = \sin x$ es continua en $\left[0, \frac{\pi}{2}\right]$ y derivable en $(0, \frac{\pi}{2})$. Observamos que $f(0) = \sin(0) = 0$ y $f\left(\frac{\pi}{2}\right) = \sin\left(\frac{\pi}{2}\right) = 1$. Como $f(0) \neq f\left(\frac{\pi}{2}\right)$, aplicamos el Teorema de Rolle. Según el teorema, existe al menos un número $c$ en el intervalo $\left(0, \frac{\pi}{2}\right)$ donde $f'(c) = \frac{f\left(\frac{\pi}{2}\right) - f(0)}{\frac{\pi}{2} - 0} = \frac{1}{\frac{\pi}{2}} = \frac{2}{\pi} \approx 0.6366$.
+
+\item Encuentra un número $c$ en el intervalo $[1, 5]$ para la función $f(x) = \frac{1}{x}$ tal que $f'(c) = -\frac{1}{9}$.
+
+\textbf{Solución:} La función $f(x) = \frac{1}{x}$ es continua en $[1, 5]$ y derivable en $(1, 5)$. Notamos que $f(1) = \frac{1}{1} = 1$ y $f(5) = \frac{1}{5} = 0.2$. Dado que $f(1) \neq f(5)$, podemos aplicar el Teorema de Rolle. Según el teorema, existe al menos un número $c$ en el intervalo $(1, 5)$ donde $f'(c) = \frac{f(5) - f(1)}{5 - 1} = \frac{0.2 - 1}{4} = -\frac{0.8}{4} = -\frac{1}{5} = -0.2$.
+
+\item Demuestra que la función $f(x) = \sqrt{x}$ tiene al menos una raíz en el intervalo $[0, 1]$.
+
+\textbf{Solución:} La función $f(x) = \sqrt{x}$ es continua en $[0, 1]$ y derivable en $(0, 1)$. Además, $f(0) = \sqrt{0} = 0$ y $f(1) = \sqrt{1} = 1$, lo que significa que $f(0) \neq f(1)$. Por lo tanto, aplicamos el Teorema de Rolle, que garantiza que existe al menos un número $c$ en el intervalo $(0, 1)$ donde $f'(c) = 0$, lo que implica que hay al menos una raíz en ese intervalo.
+\end{enumerate}
+
+
+\textbf{Teorema del Valor Medio}\medskip
+
+Dada una función $f(x)$ que es continua en el intervalo cerrado $[a, b]$ y derivable en el intervalo abierto $(a, b)$, entonces existe al menos un número $c$ en el intervalo abierto $(a, b)$ tal que:
+
+$$f'(c) = \frac{f(b) - f(a)}{b - a}.$$
+
+\begin{enumerate}
+\item Demuestra que la función $f(x) = x^2 - 4x + 3$ cumple con las condiciones del TVM en el intervalo $[1, 3]$ y encuentra el valor de $c$ que satisface el teorema.
+
+\textbf{Solución:} La función $f(x) = x^2 - 4x + 3$ es continua en $[1, 3]$ y derivable en $(1, 3)$. Usando el TVM, tenemos:
+\[\frac{f(3) - f(1)}{3 - 1} = \frac{3^2 - 4 \cdot 3 + 3 - (1^2 - 4 \cdot 1 + 3)}{3 - 1} = \frac{6 - (-2)}{2} = 4.\]
+Por lo tanto, existe al menos un número $c$ en el intervalo $(1, 3)$ donde $f'(c) = 4$.
+
+\item Encuentra un valor de $c$ en el intervalo $[0, 2]$ para la función $f(x) = e^x - 1$ que satisface el TVM.
+
+\textbf{Solución:} La función $f(x) = e^x - 1$ es continua en $[0, 2]$ y derivable en $(0, 2)$. Usando el TVM, tenemos:
+\[f'(c) = \frac{f(2) - f(0)}{2 - 0} = \frac{e^2 - 1 - (e^0 - 1)}{2} = \frac{e^2 - e^0}{2} = \frac{e^2 - 1}{2}.\]
+Entonces, existe al menos un número $c$ en el intervalo $(0, 2)$ donde $f'(c) = \frac{e^2 - 1}{2}$.
+
+\item Muestra que la función $f(x) = \sin x$ cumple con las condiciones del TVM en el intervalo $\left[0, \frac{\pi}{2}\right]$ y encuentra el valor de $c$ que satisface el teorema.
+
+\textbf{Solución:} La función $f(x) = \sin x$ es continua en $\left[0, \frac{\pi}{2}\right]$ y derivable en $(0, \frac{\pi}{2})$. Usando el TVM, tenemos:
+\[f'(c) = \frac{f\left(\frac{\pi}{2}\right) - f(0)}{\frac{\pi}{2} - 0} = \frac{\sin\left(\frac{\pi}{2}\right) - \sin(0)}{\frac{\pi}{2}} = \frac{1}{\frac{\pi}{2}} = \frac{2}{\pi}.\]
+Por lo tanto, existe al menos un número $c$ en el intervalo $(0, \frac{\pi}{2})$ donde $f'(c) = \frac{2}{\pi}$.
+
+\item Encuentra un número $c$ en el intervalo $[1, 5]$ para la función $f(x) = \frac{1}{x}$ que satisface el TVM.
+
+\textbf{Solución:} La función $f(x) = \frac{1}{x}$ es continua en $[1, 5]$ y derivable en $(1, 5)$. Usando el TVM, tenemos:
+\[f'(c) = \frac{f(5) - f(1)}{5 - 1} = \frac{\frac{1}{5} - 1}{4} = -\frac{4}{5}.\]
+Por lo tanto, existe al menos un número $c$ en el intervalo $(1, 5)$ donde $f'(c) = -\frac{4}{5}$.
+
+\item Demuestra que la función $f(x) = \sqrt{x}$ cumple con las condiciones del TVM en el intervalo $[0, 1]$ y encuentra el valor de $c$ que satisface el teorema.
+
+\textbf{Solución:} La función $f(x) = \sqrt{x}$ es continua en $[0, 1]$ y derivable en $(0, 1)$. Usando el TVM, tenemos:
+\[f'(c) = \frac{f(1) - f(0)}{1 - 0} = \frac{\sqrt{1} - \sqrt{0}}{1} = 1.\]
+Por lo tanto, existe al menos un número $c$ en el intervalo $(0, 1)$ donde $f'(c) = 1$.
+
+\end{enumerate}
+
+\section{Criterio de la Primera Derivada}
+
+\textbf{Función Creciente y Función Decreciente}\medskip
+
+Una función $f(x)$ se considera creciente en un intervalo $(a, b)$ si, para cualquier par de números $x_1$ y $x_2$ en ese intervalo, si $x_1 < x_2$, entonces $f(x_1) \leq f(x_2)$. 
+
+Una función $f(x)$ se considera decreciente en un intervalo $(a, b)$ si, para cualquier par de números $x_1$ y $x_2$ en ese intervalo, si $x_1 < x_2$, entonces $f(x_1) \geq f(x_2)$.
+
+\textbf{Criterio de la Primera Derivada}\medskip
+
+Sea $f(x)$ una función definida en un intervalo abierto $(a, b)$:
+
+\begin{enumerate}
+
+\item Si $f'(x) > 0$ para todo $x$ en $(a, b)$, entonces la función $f(x)$ es creciente en $(a, b)$.
+
+\item Si $f'(x) < 0$ para todo $x$ en $(a, b)$, entonces la función $f(x)$ es decreciente en $(a, b)$.
+
+\item Si $f'(x) = 0$ para todo $x$ en $(a, b)$, entonces la función $f(x)$ es constante en $(a, b)$.
+
+\item Si $f'(x)$ cambia de positivo a negativo en $x = c$, entonces $c$ es un máximo relativo de $f(x)$.
+
+\item Si $f'(x)$ cambia de negativo a positivo en $x = c$, entonces $c$ es un mínimo relativo de $f(x)$.
+
+\item Si $f'(x)$ no cambia de signo en $x = c$, entonces $c$ es un punto de inflexión o una meseta en $f(x)$.
+
+\end{enumerate}
+
+\subsection{Ejercicios}
+
+\begin{enumerate}
+\item Para las siguientes funciones aplica el criterio de la primera derivada: 
+\begin{multicols}{2}
+\begin{enumerate}
+\item $f(x) = x^3 - 3x^2 - 4x + 12$.
+
+\item $f(x) = 2x^3 - 6x^2 + 4x$.
+
+\item  $f(x) = 4x^3 - 12x^2 + 9x$.
+
+\item  $f(x) = x^4 - 4x^3 + 4x^2 + 2$.
+
+\item  $f(x) = 3x^4 - 8x^3 + 6x^2 - 2x$.
+
+\item  $f(x) = x^5 - 5x^4 + 10x^3 - 10x^2 + 5x$.
+\end{enumerate}
+\end{multicols}
+
+
+\item Aplica el criterio de la primera derivada para las siguientes funciones
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $f(x) = 2x\sqrt{3-2x}$.
+
+\item $f(x) = -3x\sqrt{5+4x}$.
+
+\item $f(x) = 4x\sqrt{2-3x}$.
+
+\item $f(x) = -2x\sqrt{6-2x}$.
+
+\item $f(x) = 5x\sqrt{4+3x}$.
+
+\item $f(x) = -x\sqrt{1-4x}$.
+\end{enumerate}
+\end{multicols}
+
+\item Aplicar el criterio de la primera derivada para las funciones
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item  $f(x) = 3x^{1/2} + 7x^{1/3}$.
+
+\item $f(x) = -4x^{3/4} + 5x^{2/3}$.
+
+\item $f(x) = 2x^{3/5} + 6x^{1/4}$.
+
+\item $f(x) = -5x^{1/3} + 4x^{2/5}$.
+
+\item $f(x) = 8x^{1/4} + 2x^{1/6}$.
+
+\item $f(x) = -x^{5/7} + 3x^{1/2}$.
+\end{enumerate}
+\end{multicols}
+
+\item Aplicar el criterio de la primera derivada para las funciones
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $f(x) = \frac{3x + 4}{2x^2 - x - 1}$
+
+\item $f(x) = \frac{-2x - 1}{3x^2 + 2x + 5}$
+
+\item $f(x) = \frac{4x + 2}{5x^2 - 3x + 1}$
+
+\item $f(x) = \frac{x - 3}{-2x^2 + 4x - 5}$
+
+\item $f(x) = \frac{2x + 3}{x^2 + 5x + 2}$
+
+\item $f(x) = \frac{-x + 2}{3x^2 - 2x - 4}$
+\end{enumerate}
+\end{multicols}
+
+\item Aplica el criterio de la primera derivada a las siguientes funciones.
+\begin{multicols}{2}
+\begin{enumerate}
+\item  $f(x) = \frac{3}{2x + 1}$
+
+\item  $f(x) = \frac{-2}{3x - 4}$
+
+\item  $f(x) = \frac{4}{5x + 2}$
+
+\item  $f(x) = \frac{5}{-6x + 3}$
+
+\item  $f(x) = \frac{-1}{2x - 5}$
+
+\item  $f(x) = \frac{2}{4x + 1}$
+
+\end{enumerate}
+\end{multicols}
+
+
+\item Aplica el criterio de la primera derivada a las siguientes funciones
+\begin{multicols}{2}
+\begin{enumerate}
+  \item $f(x) = 3x^2 - 12x + 9$
+  
+  \item $g(x) = -2x^3 + 6x^2 - 12x + 1$
+  
+  \item Valores de $a$ para los cuales $h(x) = ax^2 - 4x + 7$ es creciente
+
+  \item $f(x) = 2x^3 - 6x^2 - 18x + 8$
+  \item $g(x) = x^4 - 4x^3 + 6x^2 - 3x + 2$ 
+  \item $h(x) = 4x^4 - 16x^3 + 12x^2$
+
+  \item $f(x) = x^5 - 5x^4 + 10x^3 - 10x^2 + 5x - 1$
+  
+  \item $g(x) = \frac{1}{x^3} - 3x^2 + 6x$ 
+  
+  \item Valores de $a$ para los cuales $h(x) = ae^{2x} - 4e^x$ es decreciente
+\end{enumerate}
+\end{multicols}
+
+\item Aplicar el criterio de la primera derivada para las funciones
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item  $f(x) = \frac{2x^2 + 5x + 1}{4x - 3}$
+
+  \item  $f(x) = \frac{-3x^2 + 7x - 2}{2x + 1}$
+
+  \item  $f(x) = \frac{5x^2 - 3x + 4}{-2x - 5}$
+
+  \item  $f(x) = \frac{4x^2 + 8x - 3}{3x + 2}$
+
+  \item  $f(x) = \frac{-x^2 - 2x + 6}{3x - 4}$
+
+  \item  $f(x) = \frac{3x^2 - 6x + 2}{-4x - 1}$
+
+\end{enumerate}
+\end{multicols}
+
+\
+
+\end{enumerate}
+
+\section{Criterio de la Segunda Derivada}
+
+\textbf{función cóncava hacia arriba}\medskip
+Una función $ f(x) $ es cóncava hacia arriba en el intervalo $ [a, b] $ si, para todos los $ x_1 $ y $ x_2 $ en ese intervalo y para cualquier $ t $ entre 0 y 1, se cumple:
+\[
+f(tx_1 + (1-t)x_2) \leq tf(x_1) + (1-t)f(x_2)
+\]
+
+
+\textbf{Función Cóncava hacia abajo}\medskip
+Una función $ f(x) $ es cóncava hacia abajo en el intervalo $ [a, b] $ si, para todos los $ x_1 $ y $ x_2 $ en ese intervalo y para cualquier $ t $ entre 0 y 1, se cumple:
+\[
+f(tx_1 + (1-t)x_2) \geq tf(x_1) + (1-t)f(x_2)
+\]
+
+\textbf{Teorema de la Segunda Derivada:} Sea $f(x)$ una función dos veces diferenciable en un intervalo $(a, b)$. Entonces, la función es:
+\begin{itemize}
+\item \textbf{Cóncava hacia arriba} en $(a, b)$ si y solo si $f''(x) > 0$ para todo $x$ en $(a, b)$.
+\item \textbf{Cóncava hacia abajo} en $(a, b)$ si y solo si $f''(x) < 0$ para todo $x$ en $(a, b)$.
+\end{itemize}
+
+
+
+\textbf{Definición de Punto de Inflexión:} Un punto $(x_0, y_0)$ en la gráfica de una función $f(x)$ se denomina \textit{punto de inflexión} si la función cambia de concavidad en ese punto. Es decir, $f(x)$ tiene un punto de inflexión en $(x_0, y_0)$ si y solo si $f''(x_0) = 0$, y el signo de $f''(x)$ cambia al pasar de $x < x_0$ a $x > x_0$.
+
+
+
+
+\textbf{Teorema del Criterio de la Segunda Derivada para Extremos Relativos:} Sea $f(x)$ una función dos veces diferenciable en un intervalo abierto que contiene $x = c$.
+
+Si $f'(c) = 0$ y $f''(c) > 0$, entonces $f(c)$ es un \textit{mínimo relativo} local en $x = c$.
+
+Si $f'(c) = 0$ y $f''(c) < 0$, entonces $f(c)$ es un \textit{máximo relativo} local en $x = c$.
+
+Es decir, si la primera derivada de la función es igual a cero en un punto crítico $c$ y la segunda derivada en ese punto es positiva, entonces ese punto crítico corresponde a un mínimo relativo. Si la segunda derivada en el punto crítico es negativa, entonces corresponde a un máximo relativo.
+
+
+
+\textbf{Ejercicios de Aplicación del Criterio de la Segunda Derivada:}
+\begin{enumerate}
+\item Aplica el criterio de la segunda derivada a las siguientes funciones.
+\begin{multicols}{2}
+\begin{enumerate}
+  \item $f(x) = x^3 - 6x^2 + 9x + 5$.
+  \item $g(x) = 4x^3 - 12x^2 + 6x + 2$.
+  \item $h(x) = 2x^4 - 8x^3 + 12x^2 - 6x + 1$.
+  \item $h(x) = x^4 - 4x^3 + 6x^2 - 6x + 3$.
+  \item $g(x) = x^5 - 5x^4 + 10x^3 - 8x^2 + 2x - 1$.
+  \item $f(x) = x^6 - 5x^5 + 3x^4 - 2x^3 + 7x^2 - 2x + 10$.
+  \item $h(x) = x^7 - 7x^6 + 12x^5 - 5x^4 + 3x^3 - 4x^2 + x - 8$.
+\end{enumerate}
+\end{multicols}
+
+
+\item Aplica el criterio de la segunda derivada a las siguientes funciones.
+\begin{multicols}{2}
+\begin{enumerate}
+\item $f(x) = -\frac{4}{2x - 11}$
+
+\item  $f(x) = \frac{6}{3x - 4}$
+
+\item  $f(x) = \frac{3}{-4x + 3}$
+
+\item  $f(x) = -\frac{7}{5x + 1}$
+
+\item  $f(x) = \frac{4}{-6x + 12}$
+
+\item  $f(x) = \frac{6}{8x - 7}$
+
+
+\end{enumerate}
+\end{multicols}
+
+\item Aplica el criterio de la segunda derivada a las siguientes funciones.
+\begin{multicols}{2}
+\begin{enumerate}
+
+  \item $f(x) = \frac{2x + 3}{3x^2 - 4x + 1}$
+
+  \item $f(x) = \frac{-3x - 2}{4x^2 + 5x + 1}$
+
+  \item $f(x) = \frac{4x + 1}{2x^2 - 7x - 3}$
+
+  \item $f(x) = \frac{5x - 2}{6x^2 + 3x - 1}$
+
+  \item $f(x) = \frac{-x - 3}{3x^2 + 2x + 5}$
+
+  \item $f(x) = \frac{2x + 5}{4x^2 - 6x - 2}$  
+  
+\end{enumerate}
+\end{multicols}
+
+\item Aplica el criterio de la segunda derivada a las siguientes funciones.
+\begin{multicols}{2}
+\begin{enumerate}
+  \item $f(x) = \frac{3x^2 - 4x + 2}{2x - 1}$
+  
+  \item $f(x) = \frac{-x^2 + 2x - 5}{3x + 4}$
+
+  \item $f(x) = \frac{4x^2 + 7x - 1}{5x - 2}$
+
+  \item $f(x) = \frac{2x^2 - 3x + 6}{-3x + 2}$
+
+  \item $f(x) = \frac{-x^2 - 4x + 3}{2x + 5}$
+
+  \item $f(x) = \frac{5x^2 + 6x - 2}{-4x - 3}$
+\end{enumerate}
+\end{multicols}
+\end{enumerate}
+
+
+\section{Aplicación de Máximos y Mínimos}
+

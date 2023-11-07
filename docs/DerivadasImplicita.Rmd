@@ -1,0 +1,185 @@
+---
+title: "Cálculo Diferencial: Ejercicios de Derivada Implícita"
+author: "Carlos Ernesto Martinez"
+date: "24 de Octubre de 2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Ejercicios de Derivada Implícita}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Ejercicios de Derivada Implícita}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+\begin{enumerate}
+\item Calcula las siguientes derivadas:\footnote{La única forma de aprender matemáticas es hacer matemáticas. – Paul Halmos}
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+\item  $3x^4y^2-7xy^3=4-8y$
+\item $x\cos y+y\cos x -1=0$
+\item $x^2+y^2=3xy$
+\item $4x^2-3y^2+6xy+2y=1$
+\item $x^3-3y^3+2xy-y^2+3y=0$
+\item $\frac{1}{x}+\frac{1}{y}=1$
+\item $\sqrt{x}+\sqrt{y}=4$
+\item $x^2+y^2=x^2y^2$
+\item $y=\cos(x-y)$
+\item $x\sin y+y\cos x=1$
+\item $2x^3+4x^2y-6xy^2+5y^3=2$
+\item $(2x+3y)^4=3y^4$
+\item $x=\sin(x+y)$
+\item $\cot xy + xy=0$
+\item $\cos(x+y)=y\sin x$
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las siguientes derivadas implícitas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $2x^3y^2 - 5xy^3 = 2 - 3y$
+\item $4x^5y^3 - 9xy^2 = 6 - 7y$
+\item $5x^3y^4 - 6xy^2 = 3 - 4y$
+\item $2x^6y^5 - 7xy^3 = 8 - 5y$
+\item $2x^4y^2 - 8xy^4 = 5 - 6y$
+\item $6x^6y^3 - 10xy^5 = 8 - 9y$
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las siguientes derivadas implícitas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $x\sin(y) + y\cos(x) - 2 = 0$
+\item $3x\tan(y) + 2y\cot(x) - 4 = 0$
+\item $2x\csc(y) - y\sec(x) + 1 = 0$
+\item $x\sec(y) + 2y\csc(x) - 3 = 0$
+\item $x\sin(y) + 5y\csc(x) - 2 = 0$
+\item $4x\cot(y) - 3y\tan(x) + 5 = 0$
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las siguientes derivadas implícitas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $2x^2 - 2y^2 + 4xy + y = 2$
+\item $5x^2 - 3y^2 + 6xy + 7y = 9$
+\item $5x^2 - 4y^2 + 8xy - 3y = 3$
+\item $3x^2 - 2y^2 + 2xy + 2y = 0$
+\item $6x^2 - 5y^2 + 9xy - 4y = 2$
+\item $x^2 - 2y^2 + 3xy - y = -1$
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las siguientes derivadas implícitas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $x^2 - 2y^2 + 3xy - y^2 + 2y - 1 = 0$
+\item $2x^4 - 3y^3 + 4xy - 2y^2 + 4y = 1$
+\item $4x^3 - 5y^4 + 2xy - 3y^2 + 2y + 1 = 0$
+\item $x^4 - 4y^2 + 2xy - 2y^2 + 3y - 2 = 0$
+\item $-2x^5 - 3y^3 + xy - 4y^2 + 2y - 1 = 0$
+\item $3x^2 - y^3 + 2xy - y^2 + 4y = 2$
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las siguientes derivadas implícitas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $y^2 = \cos(x - 2y)$
+\item $2y^3 = \cos(3x - 2y)$
+\item $x^2 + 2y = \sin(x - 3y)$
+\item $y^3 = \cos(2x - y^2)$
+\item $3y^4 = 3\cos(5x - 3y^2)$
+\item $x^3 - 4y^2 = \tan(x - 2y)$
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las siguientes derivadas implícitas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $2x\sin(2y) + 3y\cos(x) = 2$
+\item $4x\cos(3y) + y\tan(2x) = 3$
+\item $x\sec(y) - 2y\csc(x) = 1$
+\item $5x\tan(4y) + 6y\cot(x) = 4$
+\item $3x\cos(2y) - 7y\sin(x) = 5$
+\item $7x\cos(3y) - 4y\sin(2x) = 5$
+
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las siguientes derivadas implícitas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $(2x - 3y)^3 = 3y^3$
+\item $(x + 2y)^5 = 4y^5$
+\item $(3x - 2y)^4 = 5y^4$
+\item $(2x - 3y)^2 = 6y^2$
+\item $(x - y)^3 = y^4$
+\item $(x - 2y)^6 = 7y^6$
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las siguientes derivadas implícitas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sin(x+y) = x\cos(y)$
+\item $\tan(x+y) = 2y\cot(x)$
+\item $\csc(2x+y) = 3y\sec(x)$
+\item $\sec(x-y) = y\sin(x)$
+\item $\cos(x-2y) = 4y\sin(2x)$
+\item $\sec(3x+2y) = 5y\csc(3x)$
+
+\end{enumerate}
+\end{multicols}
+
+
+\item Calcule las siguientes derivadas implícitas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $\sqrt{2x} + \sqrt{6y} - 3 + \sqrt{4xy} = 5$
+\item $\sqrt{5x} + \sqrt{8y} - 4 + \sqrt{3xy} = 6$
+\item $\sqrt{3x} + \sqrt{5y} - 5 + \sqrt{5xy} = 7$
+\item $\sqrt{5x} + \sqrt{2y} - 6 + \sqrt{xy} = 8$
+\item $\sqrt{x} + \sqrt{y} - 3 + \sqrt{4xy} = 8$
+\item $\sqrt{7x} + \sqrt{3y} - 7 + \sqrt{8xy} = 9$
+
+\end{enumerate}
+\end{multicols}
+
+
+\end{enumerate}
+
+

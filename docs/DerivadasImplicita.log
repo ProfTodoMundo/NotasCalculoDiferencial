@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.7)  19 OCT 2023 08:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.7)  24 OCT 2023 08:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**DerivadasReglaCadenaPt2.tex
-(./DerivadasReglaCadenaPt2.tex
+**DerivadasImplicita.tex
+(./DerivadasImplicita.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base
 /article.cls
@@ -454,33 +454,33 @@ less on input line 76.
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
 \l__pdf_internal_box=\box98
-) (./DerivadasReglaCadenaPt2.aux)
-\openout1 = `DerivadasReglaCadenaPt2.aux'.
+) (./DerivadasImplicita.aux)
+\openout1 = `DerivadasImplicita.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Info: Redefining \microtypecontext on input line 83.
-Package microtype Info: Applying patch `item' on input line 83.
-Package microtype Info: Applying patch `toc' on input line 83.
-Package microtype Info: Applying patch `eqnum' on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Info: Redefining \microtypecontext on input line 82.
+Package microtype Info: Applying patch `item' on input line 82.
+Package microtype Info: Applying patch `toc' on input line 82.
+Package microtype Info: Applying patch `eqnum' on input line 82.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 83.
+Package microtype Warning: Unable to apply patch `footnote' on input line 82.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -488,7 +488,7 @@ Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 83.
+LaTeX Info: Redefining \showhyphens on input line 82.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -496,7 +496,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 82.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -506,12 +506,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count299
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
-(./DerivadasReglaCadenaPt2.out) (./DerivadasReglaCadenaPt2.out)
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
+(./DerivadasImplicita.out) (./DerivadasImplicita.out)
 \@outlinefile=\write3
-\openout3 = `DerivadasReglaCadenaPt2.out'.
+\openout3 = `DerivadasImplicita.out'.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -534,7 +534,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package ragged2e Info: ABD: executing \RaggedRight on input line 83.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 82.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -570,39 +570,39 @@ Package ragged2e Info: ABD: executing \RaggedRight on input line 83.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
-5.
+4.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-5.
+4.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-85.
+84.
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-85.
+84.
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 85.
+(Font)              <12> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 85.
+(Font)              <8> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 85.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+(Font)              <6> on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -610,45 +610,42 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 87.
+(Font)              <10> on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 87.
+(Font)              <7> on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 87.
+(Font)              <5> on input line 86.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./DerivadasReglaCadenaPt2
-.aux)
-Package rerunfilecheck Info: File `DerivadasReglaCadenaPt2.out' has not changed
-.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./DerivadasImplicita.
+aux)
+Package rerunfilecheck Info: File `DerivadasImplicita.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13013 strings out of 478287
- 208090 string characters out of 5849290
- 553681 words of memory out of 5000000
- 30906 multiletter control sequences out of 15000+600000
- 513508 words of font info for 89 fonts, out of 8000000 for 9000
+ 13073 strings out of 478287
+ 208519 string characters out of 5849290
+ 556386 words of memory out of 5000000
+ 30911 multiletter control sequences out of 15000+600000
+ 522554 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,63p,1020b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,1015b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvip
 s/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb>
-Output written on DerivadasReglaCadenaPt2.pdf (1 page, 194591 bytes).
+re/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/l
+mmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmri9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on DerivadasImplicita.pdf (2 pages, 183551 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 38 named destinations out of 1000 (max. 500000)
- 24577 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 28673 words of extra memory for PDF output out of 29859 (max. 10000000)
 

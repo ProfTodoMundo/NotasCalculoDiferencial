@@ -1,0 +1,149 @@
+---
+title: "Cálculo Diferencial: SEGUNDA EVALUACION PARCIAL"
+author: "Carlos Ernesto Martinez"
+date: "31 de Octubre de 2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Segunda Evaluación Parcial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Segunda Evaluación Parcial}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+\begin{multicols}{2}
+
+Nombre: 
+
+
+Matr\'icula:
+
+
+Licenciatura:
+
+Hora de inicio:
+
+Hora de t\'ermino:
+\end{multicols}
+
+
+**Resuelve los siguientes ejercicios**\footnote{Si la gente no cree que las matemáticas son simples, es solo porque no se dan cuenta de lo complicado que es la vida. - \textbf{John von Neumann}}
+
+
+
+\begin{enumerate}
+
+\item Calcula las siguientes derivadas utilizando la definición de límite:
+
+\begin{enumerate}
+
+\item $f(x) = 3x^2 + 6x + 2${\textbf{ (1.5 ptos.)}}
+
+\end{enumerate}
+
+
+\item Calcula la recta tangente a la función en el punto dado
+
+\begin{enumerate}
+
+\item $y= 4x^{2}+2x$, $P=\left(2,20\right)${\textbf{ (1.5 ptos.)}}
+
+\end{enumerate}
+
+\item Calcule las siguientes derivadas
+\begin{multicols}{2}
+\begin{enumerate}
+\item $f(x) = 4x^8+6x^6-4x^4+2x^2-x+10${\textbf{ (1 pto.)}}
+\item $f(x) = \frac{1}{4}x^4-\frac{1}{2}x^2${\textbf{ (1 pto.)}}
+\item $h(x) = (6x^3 + 4x^2)(2x^5 - x^4)${\textbf{ (2 ptos.)}}
+\item $k(x) = \frac{1}{9}x^9 - \frac{1}{2}x^7${\textbf{ (1 pto.)}}
+
+\item $m(x) = x^2 - \frac{4}{x} - \frac{1}{x^5}${\textbf{ (1 pto.)}}
+
+
+\item $m(x) = \frac{5}{x^5} - \frac{3}{5x^7} ${\textbf{ (1.5 ptos.)}}
+
+\item $h(x) = \frac{\sqrt{4}}{3}(x^5 - x^4)${\textbf{ (1 pto.)}}
+
+\end{enumerate}
+\end{multicols}
+
+\item Calcule las siguientes derivadas
+\begin{multicols}{2}
+\begin{enumerate}
+\item $f(x) = (x^3-2x+1)(2x^2+3x)$ {\textbf{ (2 ptos.)}}
+\item $k(x) = \frac{2x^2 - 4x - 8}{6x - 8}${\textbf{ (2 ptos.)}}
+
+\item $k(x) = \frac{12x-1}{7x+2}(3x+4)${\textbf{ (2.5 ptos.)}}
+
+\end{enumerate}
+
+\end{multicols}
+\item Calcula las siguientes derivadas
+
+\begin{multicols}{2}
+\begin{enumerate}
+\item $D_x\left[\frac{4-3x-x^2}{x-2}\right]${\textbf{ (2 ptos.)}}
+
+\item $D_x\left[(3x+2)^2(x^2-1)\right]${\textbf{ (2 ptos.)}}
+
+
+\end{enumerate}
+\end{multicols}
+
+
+\item Calcula las siguientes derivadas de los órdenes indicados:
+
+\begin{multicols}{2}
+\begin{enumerate}
+
+
+\item $D^2[\sqrt{4-2x}]${\textbf{ (2.5 ptos.)}}
+
+\item $D^3[\frac{2}{\sqrt{x}}]${\textbf{ (2.5 ptos.)}}
+
+\item $D^5[\frac{1}{x^2}+\frac{2}{3x^4}]${\textbf{ (2.5 ptos.)}}
+
+\item $D^2[(x^3+8)(x^3-x^9)]${\textbf{ (3 ptos.)}}
+
+\end{enumerate}
+\end{multicols}
+
+
+\end{enumerate}
+
+\medskip
+
+\medskip
+
+
+\begin{center}
+\textbf{La suma total de puntos a considerar es de 10.}
+\end{center}
+
+
+
+
+
+
+
+  
+
+
